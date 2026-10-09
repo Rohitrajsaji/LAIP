@@ -1,0 +1,66 @@
+{
+  "schema_version": "0.1.0",
+  "profile": "RFC8785-JCS-safe-integers",
+  "cases": [
+    {
+      "name": "unicode_key_order",
+      "input": {
+        "": "BMP",
+        "😀": "supplementary"
+      },
+      "canonical_utf8": "{\"😀\":\"supplementary\",\"\":\"BMP\"}",
+      "sha256": "f79bef10ad849628d81fa16c5d92fc0a882fcbc6bd677cff0ca54a8987078157"
+    },
+    {
+      "name": "decimal_precision",
+      "input": {
+        "amount": {
+          "decimal": "123.40"
+        }
+      },
+      "canonical_utf8": "{\"amount\":{\"decimal\":\"123.40\"}}",
+      "sha256": "cce8080a529f08904b297ea3c5448dc82a4d63fe1a631130c417be35c1b93bb8"
+    },
+    {
+      "name": "large_integer",
+      "input": {
+        "count": {
+          "integer": "18446744073709551615"
+        }
+      },
+      "canonical_utf8": "{\"count\":{\"integer\":\"18446744073709551615\"}}",
+      "sha256": "01a35d9bbb6d2a673cc5ffea6b06d41c312ca48dc7cd329e9fdf9d359c4ae40e"
+    },
+    {
+      "name": "safe_integer",
+      "input": {
+        "n": 9007199254740991
+      },
+      "canonical_utf8": "{\"n\":9007199254740991}",
+      "sha256": "e1da48c6a6089f06ecb4e0a2259e658e3786b2420f52baccdf929ec6460d7b41"
+    },
+    {
+      "name": "identity_nfc",
+      "input": {
+        "system_namespace": "synthetic:unicode",
+        "kind": "Procedure",
+        "qualified_identity": [
+          "LIB",
+          "CAFÉ"
+        ]
+      },
+      "canonical_utf8": "{\"kind\":\"Procedure\",\"qualified_identity\":[\"LIB\",\"CAFÉ\"],\"system_namespace\":\"synthetic:unicode\"}",
+      "sha256": "17e0f038470897aef1725b747e3213065d437a3aa42c5ab4887821c7b08ec22a"
+    }
+  ],
+  "reject_cases": [
+    {
+      "name": "fractional_number",
+      "input": 1.25
+    },
+    {
+      "name": "unsafe_integer",
+      "input": 9007199254740992
+    }
+  ]
+}

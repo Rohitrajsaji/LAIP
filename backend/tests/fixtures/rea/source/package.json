@@ -1,0 +1,1 @@
+{"name":"laip-rea-synthetic","private":true,"type":"module","scripts":{"prepare":"node ./src/never-run.mjs"}}

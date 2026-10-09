@@ -1,0 +1,125 @@
+name: laip-scaffold
+services:
+  database:
+    image: pgvector/pgvector:0.8.7-pg16@sha256:7b822b0aac60967beb1ea5e576b8602c94c300a157d187f385ae3e0da199b90a
+    environment:
+      POSTGRES_DB: laip
+      POSTGRES_USER: laip
+      POSTGRES_PASSWORD_FILE: /run/secrets/database_password
+    secrets: [database_password]
+    volumes: [database_data:/var/lib/postgresql/data]
+    networks: [private]
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -U laip -d laip"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+
+  migrate:
+    image: laip-backend:0.1.0
+    build: ./backend
+    command: [python, -m, laip.bootstrap]
+    environment:
+      LAIP_MIGRATION_URL_FILE: /run/secrets/database_url
+      LAIP_RUNTIME_PASSWORD_FILE: /run/secrets/runtime_password
+    secrets: [database_url, runtime_password]
+    networks: [private]
+    depends_on:
+      database: {condition: service_healthy}
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+
+  api:
+    image: laip-backend:0.1.0
+    build: ./backend
+    command: [uvicorn, laip.api:app, --host, 0.0.0.0, --port, "8000"]
+    environment: &backend_environment
+      LAIP_DATABASE_URL_FILE: /run/secrets/runtime_database_url
+      LAIP_SERVICE_TOKEN_FILE: /run/secrets/service_token
+      LAIP_ARTIFACT_ROOT: /var/lib/laip/artifacts
+      LAIP_AI_ENABLED: "false"
+      LAIP_EMBEDDINGS_ENABLED: "false"
+      LAIP_ANALYST_NAMESPACE: ${LAIP_ANALYST_NAMESPACE:-local:workspace}
+      LAIP_READ_NAMESPACE: ${LAIP_ANALYST_NAMESPACE:-local:workspace}
+    secrets: [runtime_database_url, service_token]
+    volumes: [artifacts:/var/lib/laip/artifacts]
+    networks: [private]
+    depends_on:
+      database: {condition: service_healthy}
+      migrate: {condition: service_completed_successfully}
+    healthcheck:
+      test: [CMD, python, -m, laip.healthcheck, api]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    restart: unless-stopped
+
+  worker:
+    image: laip-backend:0.1.0
+    build: ./backend
+    command: [python, -m, laip.worker]
+    environment: *backend_environment
+    secrets: [runtime_database_url, service_token]
+    volumes: [artifacts:/var/lib/laip/artifacts]
+    networks: [private]
+    depends_on:
+      api: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, python, -m, laip.healthcheck, worker]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    restart: unless-stopped
+
+  frontend:
+    build: ./web
+    environment:
+      LAIP_API_URL: http://api:8000
+      LAIP_SERVICE_TOKEN_FILE: /run/secrets/service_token
+      LAIP_AI_ENABLED: "false"
+      LAIP_EMBEDDINGS_ENABLED: "false"
+      NEXT_TELEMETRY_DISABLED: "1"
+    secrets: [service_token]
+    ports: ["127.0.0.1:${LAIP_WEB_PORT:-3000}:3000"]
+    networks: [private, ingress]
+    depends_on:
+      api: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/api/health/ready').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    restart: unless-stopped
+
+networks:
+  ingress:
+    driver: bridge
+  private:
+    internal: true
+volumes:
+  database_data:
+  artifacts:
+secrets:
+  database_password: {file: ./.local/database_password}
+  database_url: {file: ./.local/database_url}
+  service_token: {file: ./.local/service_token}
+  runtime_password: {file: ./.local/runtime_password}
+  runtime_database_url: {file: ./.local/runtime_database_url}

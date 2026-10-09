@@ -1,0 +1,2040 @@
+{
+  "origin_maps": [
+    {
+      "schema_version": "0.1.0",
+      "origin_map_id": "map_fixture_utf8",
+      "decoded_sha256": "c813ebf3c883dbd0cd6fecc90728a8804d52ec1b8fa4b8f1ec3523eefca85481",
+      "encoding": "UTF-8",
+      "lossy": false,
+      "newline_policy": "preserved",
+      "segments": [
+        {
+          "decoded_byte_start": 0,
+          "decoded_byte_end": 72,
+          "original_artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+          "raw_byte_start": 0,
+          "raw_byte_end": 72
+        }
+      ]
+    }
+  ],
+  "evidence_views": [
+    {
+      "schema_version": "0.1.0",
+      "evidence_id": "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250",
+      "record_sha256": "41d508f9fda490b4193f3384b12fc0eedb67971639eeecd38d43554867682f85",
+      "classification": "observed",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "source_locations": [
+        {
+          "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+          "start_line": 2,
+          "start_column": 1,
+          "end_line": 4,
+          "end_column": 7,
+          "byte_start": 8,
+          "byte_end": 71,
+          "coordinate_space": "decoded_unicode_codepoints",
+          "origin_map_id": "map_fixture_utf8"
+        }
+      ],
+      "display_excerpt": "**free;\nif CustomerBalance < 1000;\n  AccountStatus = 'INACTIVE';\nendif;\n",
+      "display_metadata": {
+        "predicate": "balance condition and assignment syntax"
+      },
+      "limitations": [],
+      "supporting_evidence_ids": [],
+      "masking_policy_version": "local-default-0.1.0",
+      "content_available": true,
+      "review": {
+        "status": "pending_review",
+        "review_id": "review_fixture_002",
+        "stale": false
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "evidence_id": "ev_1430904441b933c7a593b19e4a2f205b7c5270f5a5ba1e1515b6f51b89a82ebd",
+      "record_sha256": "113f5a01b76c3e833fe49abd6e65ab0fbf0c521c4cd73de4bf6adcbbad4602d0",
+      "classification": "inferred",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "source_locations": [
+        {
+          "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+          "start_line": 2,
+          "start_column": 1,
+          "end_line": 4,
+          "end_column": 7,
+          "byte_start": 8,
+          "byte_end": 71,
+          "coordinate_space": "decoded_unicode_codepoints",
+          "origin_map_id": "map_fixture_utf8"
+        }
+      ],
+      "display_excerpt": "**free;\nif CustomerBalance < 1000;\n  AccountStatus = 'INACTIVE';\nendif;\n",
+      "display_metadata": {
+        "predicate": "business interpretation of balance condition"
+      },
+      "limitations": [
+        "Source is static; execution is not observed."
+      ],
+      "supporting_evidence_ids": [
+        "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250"
+      ],
+      "masking_policy_version": "local-default-0.1.0",
+      "content_available": true,
+      "review": {
+        "status": "pending_review",
+        "review_id": null,
+        "stale": false
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "evidence_id": "ev_9408f86bf4d49927662c810ee05f79ca63293f70cecdbf3c00e0e681e96a7f16",
+      "record_sha256": "533963e8a9134d3a5d3da3eb2baea560dab08cbc5d72d1bfcdf5208006825397",
+      "classification": "unresolved",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "source_locations": [],
+      "display_excerpt": null,
+      "display_metadata": {
+        "predicate": "dynamic call target not supplied"
+      },
+      "limitations": [
+        "Synthetic metadata/source set omits call-target value."
+      ],
+      "supporting_evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ],
+      "masking_policy_version": "local-default-0.1.0",
+      "content_available": true,
+      "review": {
+        "status": "rejected",
+        "review_id": "review_fixture_003",
+        "stale": false
+      }
+    },
+    {
+      "schema_version": "0.1.0",
+      "evidence_id": "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac",
+      "record_sha256": "09a6fa0cd2cb0ae1809484251318c28a760381df02e81c63d3304928d9506889",
+      "classification": "observed",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "source_locations": [],
+      "display_excerpt": null,
+      "display_metadata": {
+        "application_memberships": [
+          {
+            "application": "customer-validation",
+            "object": "MYLIB/*PGM/VALIDATE"
+          }
+        ],
+        "calls": [
+          {
+            "expression": "programName",
+            "resolution": "dynamic"
+          },
+          {
+            "candidates": [
+              "MYLIB/*PGM/VALIDATE",
+              "OTHERLIB/*PGM/VALIDATE"
+            ],
+            "expression": "VALIDATE",
+            "resolution": "ambiguous"
+          }
+        ],
+        "inventory": [
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Synthetic customer demo",
+            "entity_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "System",
+              "qualified_identity": [
+                "synthetic:customer-demo"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Synthetic customer demo"
+            ],
+            "parent_id": null,
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Customer validation",
+            "entity_id": "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Application",
+              "qualified_identity": [
+                "customer-validation"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Customer validation"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "dialect": "fully_free",
+              "language": "RPGLE"
+            },
+            "display_name": "VALIDATE",
+            "entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Program",
+              "qualified_identity": [
+                "MYLIB",
+                "*PGM",
+                "VALIDATE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "VALIDATE"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "language": "RPGLE"
+            },
+            "display_name": "VALIDATE",
+            "entity_id": "ent_323bfc707b846d08c5a51f123faeb063c4cafba9013025c9755d09d765595aec",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Program",
+              "qualified_identity": [
+                "OTHERLIB",
+                "*PGM",
+                "VALIDATE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "VALIDATE"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "validateCustomer",
+            "entity_id": "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Procedure",
+              "qualified_identity": [
+                "MYLIB",
+                "*PGM",
+                "VALIDATE",
+                "validateCustomer"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "validateCustomer"
+            ],
+            "parent_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "VALIDATE",
+            "entity_id": "ent_e604a1a0421e6d531e4a11602c2a70dac32fd4876bddb6d239349c0adc17af5f",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "SourceMember",
+              "qualified_identity": [
+                "MYLIB",
+                "QRPGLESRC",
+                "VALIDATE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "VALIDATE"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Db2 for i",
+            "entity_id": "ent_5947718f1c9b06cf2f8cf05f514989a3fdee1aaa2b79fa057e11cc4694e541ae",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Database",
+              "qualified_identity": [
+                "DB2_FOR_I"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Db2 for i"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "object_type": "physical_file"
+            },
+            "display_name": "CUSTOMER",
+            "entity_id": "ent_f26df3a1df4b45021bc5155b10edfb382272307ac7de17f33cda26606b6fdbb9",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Table",
+              "qualified_identity": [
+                "MYLIB",
+                "*FILE",
+                "CUSTOMER"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTOMER"
+            ],
+            "parent_id": "ent_5947718f1c9b06cf2f8cf05f514989a3fdee1aaa2b79fa057e11cc4694e541ae",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "data_type": "decimal"
+            },
+            "display_name": "BALANCE",
+            "entity_id": "ent_03a8a5e9401bbe92838f59a0a466dd29ca713b83abd83534fbcc285455be1b2c",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Field",
+              "qualified_identity": [
+                "MYLIB",
+                "*FILE",
+                "CUSTOMER",
+                "CUSTREC",
+                "BALANCE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "BALANCE"
+            ],
+            "parent_id": "ent_f26df3a1df4b45021bc5155b10edfb382272307ac7de17f33cda26606b6fdbb9",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTSCR",
+            "entity_id": "ent_68f3040aa0a9f430257ef252e67ccb76b2f056d43daaaf09a065e84501536bea",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Screen",
+              "qualified_identity": [
+                "MYLIB",
+                "*FILE",
+                "CUSTDSP",
+                "CUSTSCR"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTSCR"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTMOD",
+            "entity_id": "ent_84facd25b949a47479afb490cd9bd9ab967c2e5211b366c1808052d7fd8c228b",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Module",
+              "qualified_identity": [
+                "MYLIB",
+                "*MODULE",
+                "CUSTMOD"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTMOD"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTSVC",
+            "entity_id": "ent_04714a2f4c69d8fed0c8455916f3d90578f3e5147754513b0934752a4d1365a7",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "ServiceProgram",
+              "qualified_identity": [
+                "MYLIB",
+                "*SRVPGM",
+                "CUSTSVC"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTSVC"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTJOB",
+            "entity_id": "ent_6926743f170906854425dfc949d7c08f90b3a5cb62d4e3fb0b7a8899f6456ac7",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Job",
+              "qualified_identity": [
+                "MYLIB",
+                "*JOBD",
+                "CUSTJOB"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTJOB"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Balance status determination",
+            "entity_id": "ent_4c3bd53614d2a7753bab62dc6c8a7eff4f4d86f8837332cd52ee3417d2f948d3",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "BusinessRule",
+              "qualified_identity": [
+                "MYLIB",
+                "*PGM",
+                "VALIDATE",
+                "balance-status"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Balance status determination"
+            ],
+            "parent_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Customer validation path",
+            "entity_id": "ent_752f73207239097dfcbaab9efd35b3c0cc940857cb13c08b6e40824a9e575be2",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Workflow",
+              "qualified_identity": [
+                "customer-validation",
+                "validate-path"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Customer validation path"
+            ],
+            "parent_id": "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          }
+        ],
+        "missing_includes": [
+          "MYLIB/QRPGLESRC/MISSING"
+        ],
+        "references": [
+          {
+            "from": "MYLIB/*PGM/VALIDATE",
+            "relationship": "READS",
+            "to": "MYLIB/*FILE/CUSTOMER"
+          }
+        ],
+        "source_associations": [
+          {
+            "member": "MYLIB/QRPGLESRC/VALIDATE",
+            "object": "MYLIB/*PGM/VALIDATE"
+          }
+        ]
+      },
+      "limitations": [
+        "Relations supplied by synthetic metadata; static metadata does not prove runtime execution."
+      ],
+      "supporting_evidence_ids": [],
+      "masking_policy_version": "local-default-0.1.0",
+      "content_available": true,
+      "review": {
+        "status": "pending_review",
+        "review_id": null,
+        "stale": false
+      }
+    }
+  ],
+  "schema_version": "0.1.0",
+  "synthetic": true,
+  "entities": [
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "System",
+        "qualified_identity": [
+          "synthetic:customer-demo"
+        ]
+      },
+      "display_name": "Synthetic customer demo",
+      "original_names": [
+        "Synthetic customer demo"
+      ],
+      "aliases": [],
+      "parent_id": null,
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Application",
+        "qualified_identity": [
+          "customer-validation"
+        ]
+      },
+      "display_name": "Customer validation",
+      "original_names": [
+        "Customer validation"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Program",
+        "qualified_identity": [
+          "MYLIB",
+          "*PGM",
+          "VALIDATE"
+        ]
+      },
+      "display_name": "VALIDATE",
+      "original_names": [
+        "VALIDATE"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "available",
+      "analysis_status": "analyzed",
+      "attributes": {
+        "language": "RPGLE",
+        "dialect": "fully_free"
+      },
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_323bfc707b846d08c5a51f123faeb063c4cafba9013025c9755d09d765595aec",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Program",
+        "qualified_identity": [
+          "OTHERLIB",
+          "*PGM",
+          "VALIDATE"
+        ]
+      },
+      "display_name": "VALIDATE",
+      "original_names": [
+        "VALIDATE"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {
+        "language": "RPGLE"
+      },
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Procedure",
+        "qualified_identity": [
+          "MYLIB",
+          "*PGM",
+          "VALIDATE",
+          "validateCustomer"
+        ]
+      },
+      "display_name": "validateCustomer",
+      "original_names": [
+        "validateCustomer"
+      ],
+      "aliases": [],
+      "parent_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "source_availability": "available",
+      "analysis_status": "analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_e604a1a0421e6d531e4a11602c2a70dac32fd4876bddb6d239349c0adc17af5f",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "SourceMember",
+        "qualified_identity": [
+          "MYLIB",
+          "QRPGLESRC",
+          "VALIDATE"
+        ]
+      },
+      "display_name": "VALIDATE",
+      "original_names": [
+        "VALIDATE"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "available",
+      "analysis_status": "analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_5947718f1c9b06cf2f8cf05f514989a3fdee1aaa2b79fa057e11cc4694e541ae",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Database",
+        "qualified_identity": [
+          "DB2_FOR_I"
+        ]
+      },
+      "display_name": "Db2 for i",
+      "original_names": [
+        "Db2 for i"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_f26df3a1df4b45021bc5155b10edfb382272307ac7de17f33cda26606b6fdbb9",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Table",
+        "qualified_identity": [
+          "MYLIB",
+          "*FILE",
+          "CUSTOMER"
+        ]
+      },
+      "display_name": "CUSTOMER",
+      "original_names": [
+        "CUSTOMER"
+      ],
+      "aliases": [],
+      "parent_id": "ent_5947718f1c9b06cf2f8cf05f514989a3fdee1aaa2b79fa057e11cc4694e541ae",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {
+        "object_type": "physical_file"
+      },
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_03a8a5e9401bbe92838f59a0a466dd29ca713b83abd83534fbcc285455be1b2c",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Field",
+        "qualified_identity": [
+          "MYLIB",
+          "*FILE",
+          "CUSTOMER",
+          "CUSTREC",
+          "BALANCE"
+        ]
+      },
+      "display_name": "BALANCE",
+      "original_names": [
+        "BALANCE"
+      ],
+      "aliases": [],
+      "parent_id": "ent_f26df3a1df4b45021bc5155b10edfb382272307ac7de17f33cda26606b6fdbb9",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {
+        "data_type": "decimal"
+      },
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_68f3040aa0a9f430257ef252e67ccb76b2f056d43daaaf09a065e84501536bea",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Screen",
+        "qualified_identity": [
+          "MYLIB",
+          "*FILE",
+          "CUSTDSP",
+          "CUSTSCR"
+        ]
+      },
+      "display_name": "CUSTSCR",
+      "original_names": [
+        "CUSTSCR"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_84facd25b949a47479afb490cd9bd9ab967c2e5211b366c1808052d7fd8c228b",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Module",
+        "qualified_identity": [
+          "MYLIB",
+          "*MODULE",
+          "CUSTMOD"
+        ]
+      },
+      "display_name": "CUSTMOD",
+      "original_names": [
+        "CUSTMOD"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_04714a2f4c69d8fed0c8455916f3d90578f3e5147754513b0934752a4d1365a7",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "ServiceProgram",
+        "qualified_identity": [
+          "MYLIB",
+          "*SRVPGM",
+          "CUSTSVC"
+        ]
+      },
+      "display_name": "CUSTSVC",
+      "original_names": [
+        "CUSTSVC"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_6926743f170906854425dfc949d7c08f90b3a5cb62d4e3fb0b7a8899f6456ac7",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Job",
+        "qualified_identity": [
+          "MYLIB",
+          "*JOBD",
+          "CUSTJOB"
+        ]
+      },
+      "display_name": "CUSTJOB",
+      "original_names": [
+        "CUSTJOB"
+      ],
+      "aliases": [],
+      "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_4c3bd53614d2a7753bab62dc6c8a7eff4f4d86f8837332cd52ee3417d2f948d3",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "BusinessRule",
+        "qualified_identity": [
+          "MYLIB",
+          "*PGM",
+          "VALIDATE",
+          "balance-status"
+        ]
+      },
+      "display_name": "Balance status determination",
+      "original_names": [
+        "Balance status determination"
+      ],
+      "aliases": [],
+      "parent_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    },
+    {
+      "schema_version": "0.1.0",
+      "entity_id": "ent_752f73207239097dfcbaab9efd35b3c0cc940857cb13c08b6e40824a9e575be2",
+      "identity": {
+        "system_namespace": "synthetic:customer-demo",
+        "kind": "Workflow",
+        "qualified_identity": [
+          "customer-validation",
+          "validate-path"
+        ]
+      },
+      "display_name": "Customer validation path",
+      "original_names": [
+        "Customer validation path"
+      ],
+      "aliases": [],
+      "parent_id": "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+      "source_availability": "not_applicable",
+      "analysis_status": "not_analyzed",
+      "attributes": {},
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "schema_version": "0.1.0",
+      "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+      "sha256": "c813ebf3c883dbd0cd6fecc90728a8804d52ec1b8fa4b8f1ec3523eefca85481",
+      "byte_length": 72,
+      "media_type": "text/plain",
+      "encoding": "UTF-8",
+      "locator": "source/MYLIB/QRPGLESRC/VALIDATE.rpgle",
+      "source_member_id": "ent_e604a1a0421e6d531e4a11602c2a70dac32fd4876bddb6d239349c0adc17af5f",
+      "import_id": "import_fixture_001",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "collection_method": "offline_manifest",
+      "decoded_sha256": "c813ebf3c883dbd0cd6fecc90728a8804d52ec1b8fa4b8f1ec3523eefca85481",
+      "origin_map_id": "map_fixture_utf8",
+      "processing_status": "analyzed",
+      "masking_policy_version": "local-default-0.1.0"
+    },
+    {
+      "schema_version": "0.1.0",
+      "artifact_id": "art_72c8896b8fbc519741d5f732122fcdd9d716c6e640f0be815d30ef68142443d6",
+      "sha256": "508548948ab51ceb70a9dc0de8869ecfb2ccc88988d577779578bda901c17d38",
+      "byte_length": 8637,
+      "media_type": "application/json",
+      "encoding": "UTF-8",
+      "locator": "metadata/relations.json",
+      "source_member_id": null,
+      "import_id": "import_fixture_001",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "collection_method": "offline_manifest",
+      "decoded_sha256": "508548948ab51ceb70a9dc0de8869ecfb2ccc88988d577779578bda901c17d38",
+      "origin_map_id": null,
+      "processing_status": "analyzed",
+      "masking_policy_version": "local-default-0.1.0"
+    }
+  ],
+  "evidence": [
+    {
+      "schema_version": "0.1.0",
+      "evidence_id": "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250",
+      "run_id": "run_fixture_001",
+      "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+      "content_sha256": "c813ebf3c883dbd0cd6fecc90728a8804d52ec1b8fa4b8f1ec3523eefca85481",
+      "subject_entity_ids": [
+        "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+        "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3"
+      ],
+      "source_locations": [
+        {
+          "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+          "start_line": 2,
+          "start_column": 1,
+          "end_line": 4,
+          "end_column": 7,
+          "byte_start": 8,
+          "byte_end": 71,
+          "coordinate_space": "decoded_unicode_codepoints",
+          "origin_map_id": "map_fixture_utf8"
+        }
+      ],
+      "collection_method": "offline_manifest",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "authority": "source",
+      "classification": "observed",
+      "excerpt": "**free;\nif CustomerBalance < 1000;\n  AccountStatus = 'INACTIVE';\nendif;\n",
+      "metadata": {
+        "predicate": "balance condition and assignment syntax"
+      },
+      "limitations": [],
+      "supporting_evidence_ids": [],
+      "contradiction_evidence_ids": [],
+      "upstream_record": null
+    },
+    {
+      "schema_version": "0.1.0",
+      "evidence_id": "ev_1430904441b933c7a593b19e4a2f205b7c5270f5a5ba1e1515b6f51b89a82ebd",
+      "run_id": "run_fixture_001",
+      "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+      "content_sha256": "c813ebf3c883dbd0cd6fecc90728a8804d52ec1b8fa4b8f1ec3523eefca85481",
+      "subject_entity_ids": [
+        "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+        "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3"
+      ],
+      "source_locations": [
+        {
+          "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+          "start_line": 2,
+          "start_column": 1,
+          "end_line": 4,
+          "end_column": 7,
+          "byte_start": 8,
+          "byte_end": 71,
+          "coordinate_space": "decoded_unicode_codepoints",
+          "origin_map_id": "map_fixture_utf8"
+        }
+      ],
+      "collection_method": "offline_manifest",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "authority": "analyst_interpretation",
+      "classification": "inferred",
+      "excerpt": "**free;\nif CustomerBalance < 1000;\n  AccountStatus = 'INACTIVE';\nendif;\n",
+      "metadata": {
+        "predicate": "business interpretation of balance condition"
+      },
+      "limitations": [
+        "Source is static; execution is not observed."
+      ],
+      "supporting_evidence_ids": [
+        "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250"
+      ],
+      "contradiction_evidence_ids": [],
+      "upstream_record": null
+    },
+    {
+      "schema_version": "0.1.0",
+      "evidence_id": "ev_9408f86bf4d49927662c810ee05f79ca63293f70cecdbf3c00e0e681e96a7f16",
+      "run_id": "run_fixture_001",
+      "artifact_id": "art_72c8896b8fbc519741d5f732122fcdd9d716c6e640f0be815d30ef68142443d6",
+      "content_sha256": "508548948ab51ceb70a9dc0de8869ecfb2ccc88988d577779578bda901c17d38",
+      "subject_entity_ids": [
+        "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+        "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3"
+      ],
+      "source_locations": [],
+      "collection_method": "offline_manifest",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "authority": "imported_metadata",
+      "classification": "unresolved",
+      "excerpt": null,
+      "metadata": {
+        "predicate": "dynamic call target not supplied"
+      },
+      "limitations": [
+        "Synthetic metadata/source set omits call-target value."
+      ],
+      "supporting_evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ],
+      "contradiction_evidence_ids": [],
+      "upstream_record": null
+    },
+    {
+      "schema_version": "0.1.0",
+      "run_id": "run_fixture_001",
+      "artifact_id": "art_72c8896b8fbc519741d5f732122fcdd9d716c6e640f0be815d30ef68142443d6",
+      "content_sha256": "508548948ab51ceb70a9dc0de8869ecfb2ccc88988d577779578bda901c17d38",
+      "subject_entity_ids": [
+        "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+        "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3"
+      ],
+      "source_locations": [],
+      "collection_method": "offline_manifest",
+      "collected_at": "2026-10-07T10:00:00Z",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "authority": "imported_metadata",
+      "classification": "observed",
+      "excerpt": null,
+      "metadata": {
+        "application_memberships": [
+          {
+            "application": "customer-validation",
+            "object": "MYLIB/*PGM/VALIDATE"
+          }
+        ],
+        "calls": [
+          {
+            "expression": "programName",
+            "resolution": "dynamic"
+          },
+          {
+            "candidates": [
+              "MYLIB/*PGM/VALIDATE",
+              "OTHERLIB/*PGM/VALIDATE"
+            ],
+            "expression": "VALIDATE",
+            "resolution": "ambiguous"
+          }
+        ],
+        "inventory": [
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Synthetic customer demo",
+            "entity_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "System",
+              "qualified_identity": [
+                "synthetic:customer-demo"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Synthetic customer demo"
+            ],
+            "parent_id": null,
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Customer validation",
+            "entity_id": "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Application",
+              "qualified_identity": [
+                "customer-validation"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Customer validation"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "dialect": "fully_free",
+              "language": "RPGLE"
+            },
+            "display_name": "VALIDATE",
+            "entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Program",
+              "qualified_identity": [
+                "MYLIB",
+                "*PGM",
+                "VALIDATE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "VALIDATE"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "language": "RPGLE"
+            },
+            "display_name": "VALIDATE",
+            "entity_id": "ent_323bfc707b846d08c5a51f123faeb063c4cafba9013025c9755d09d765595aec",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Program",
+              "qualified_identity": [
+                "OTHERLIB",
+                "*PGM",
+                "VALIDATE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "VALIDATE"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "validateCustomer",
+            "entity_id": "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Procedure",
+              "qualified_identity": [
+                "MYLIB",
+                "*PGM",
+                "VALIDATE",
+                "validateCustomer"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "validateCustomer"
+            ],
+            "parent_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "VALIDATE",
+            "entity_id": "ent_e604a1a0421e6d531e4a11602c2a70dac32fd4876bddb6d239349c0adc17af5f",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "SourceMember",
+              "qualified_identity": [
+                "MYLIB",
+                "QRPGLESRC",
+                "VALIDATE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "VALIDATE"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Db2 for i",
+            "entity_id": "ent_5947718f1c9b06cf2f8cf05f514989a3fdee1aaa2b79fa057e11cc4694e541ae",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Database",
+              "qualified_identity": [
+                "DB2_FOR_I"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Db2 for i"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "object_type": "physical_file"
+            },
+            "display_name": "CUSTOMER",
+            "entity_id": "ent_f26df3a1df4b45021bc5155b10edfb382272307ac7de17f33cda26606b6fdbb9",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Table",
+              "qualified_identity": [
+                "MYLIB",
+                "*FILE",
+                "CUSTOMER"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTOMER"
+            ],
+            "parent_id": "ent_5947718f1c9b06cf2f8cf05f514989a3fdee1aaa2b79fa057e11cc4694e541ae",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {
+              "data_type": "decimal"
+            },
+            "display_name": "BALANCE",
+            "entity_id": "ent_03a8a5e9401bbe92838f59a0a466dd29ca713b83abd83534fbcc285455be1b2c",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Field",
+              "qualified_identity": [
+                "MYLIB",
+                "*FILE",
+                "CUSTOMER",
+                "CUSTREC",
+                "BALANCE"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "BALANCE"
+            ],
+            "parent_id": "ent_f26df3a1df4b45021bc5155b10edfb382272307ac7de17f33cda26606b6fdbb9",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTSCR",
+            "entity_id": "ent_68f3040aa0a9f430257ef252e67ccb76b2f056d43daaaf09a065e84501536bea",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Screen",
+              "qualified_identity": [
+                "MYLIB",
+                "*FILE",
+                "CUSTDSP",
+                "CUSTSCR"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTSCR"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTMOD",
+            "entity_id": "ent_84facd25b949a47479afb490cd9bd9ab967c2e5211b366c1808052d7fd8c228b",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Module",
+              "qualified_identity": [
+                "MYLIB",
+                "*MODULE",
+                "CUSTMOD"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTMOD"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTSVC",
+            "entity_id": "ent_04714a2f4c69d8fed0c8455916f3d90578f3e5147754513b0934752a4d1365a7",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "ServiceProgram",
+              "qualified_identity": [
+                "MYLIB",
+                "*SRVPGM",
+                "CUSTSVC"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTSVC"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "CUSTJOB",
+            "entity_id": "ent_6926743f170906854425dfc949d7c08f90b3a5cb62d4e3fb0b7a8899f6456ac7",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Job",
+              "qualified_identity": [
+                "MYLIB",
+                "*JOBD",
+                "CUSTJOB"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "CUSTJOB"
+            ],
+            "parent_id": "ent_519f16071ec2fc754fba3014dd07524d43ff9f050e40f854b1235bd9f2d0981d",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Balance status determination",
+            "entity_id": "ent_4c3bd53614d2a7753bab62dc6c8a7eff4f4d86f8837332cd52ee3417d2f948d3",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "BusinessRule",
+              "qualified_identity": [
+                "MYLIB",
+                "*PGM",
+                "VALIDATE",
+                "balance-status"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Balance status determination"
+            ],
+            "parent_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          },
+          {
+            "aliases": [],
+            "analysis_status": "not_analyzed",
+            "attributes": {},
+            "display_name": "Customer validation path",
+            "entity_id": "ent_752f73207239097dfcbaab9efd35b3c0cc940857cb13c08b6e40824a9e575be2",
+            "evidence_ids": [],
+            "identity": {
+              "kind": "Workflow",
+              "qualified_identity": [
+                "customer-validation",
+                "validate-path"
+              ],
+              "system_namespace": "synthetic:customer-demo"
+            },
+            "original_names": [
+              "Customer validation path"
+            ],
+            "parent_id": "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+            "schema_version": "0.1.0",
+            "source_availability": "not_applicable"
+          }
+        ],
+        "missing_includes": [
+          "MYLIB/QRPGLESRC/MISSING"
+        ],
+        "references": [
+          {
+            "from": "MYLIB/*PGM/VALIDATE",
+            "relationship": "READS",
+            "to": "MYLIB/*FILE/CUSTOMER"
+          }
+        ],
+        "source_associations": [
+          {
+            "member": "MYLIB/QRPGLESRC/VALIDATE",
+            "object": "MYLIB/*PGM/VALIDATE"
+          }
+        ]
+      },
+      "limitations": [
+        "Relations supplied by synthetic metadata; static metadata does not prove runtime execution."
+      ],
+      "supporting_evidence_ids": [],
+      "contradiction_evidence_ids": [],
+      "upstream_record": null,
+      "evidence_id": "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+    }
+  ],
+  "dependencies": [
+    {
+      "schema_version": "0.1.0",
+      "run_id": "run_fixture_001",
+      "from_entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "relationship": "READS",
+      "to_entity_id": "ent_f26df3a1df4b45021bc5155b10edfb382272307ac7de17f33cda26606b6fdbb9",
+      "target_expression": "MYLIB/CUSTOMER",
+      "resolution": "resolved",
+      "candidate_entity_ids": [],
+      "resolution_context": {
+        "library_list": [
+          "MYLIB",
+          "OTHERLIB"
+        ],
+        "namespace": "synthetic:customer-demo",
+        "method": "manifest_fixture"
+      },
+      "classification": "observed",
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ],
+      "limitations": [
+        "Synthetic relationship fixture; no runtime proof."
+      ],
+      "dependency_id": "dep_7aae9076663c77f41d28727e29eff5880dec36ce359ba942ac78d72c39aee39a"
+    },
+    {
+      "schema_version": "0.1.0",
+      "run_id": "run_fixture_001",
+      "from_entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "relationship": "CALLS",
+      "to_entity_id": null,
+      "target_expression": "programName",
+      "resolution": "dynamic",
+      "candidate_entity_ids": [],
+      "resolution_context": {
+        "library_list": [
+          "MYLIB",
+          "OTHERLIB"
+        ],
+        "namespace": "synthetic:customer-demo",
+        "method": "manifest_fixture"
+      },
+      "classification": "unresolved",
+      "evidence_ids": [
+        "ev_9408f86bf4d49927662c810ee05f79ca63293f70cecdbf3c00e0e681e96a7f16"
+      ],
+      "limitations": [
+        "Synthetic relationship fixture; no runtime proof."
+      ],
+      "dependency_id": "dep_b1538435dacb75b397af396a8421c54f2bc82a81df0a72fe3495b272edf46bcf"
+    },
+    {
+      "schema_version": "0.1.0",
+      "run_id": "run_fixture_001",
+      "from_entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "relationship": "CALLS",
+      "to_entity_id": null,
+      "target_expression": "VALIDATE",
+      "resolution": "ambiguous",
+      "candidate_entity_ids": [
+        "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+        "ent_323bfc707b846d08c5a51f123faeb063c4cafba9013025c9755d09d765595aec"
+      ],
+      "resolution_context": {
+        "library_list": [
+          "MYLIB",
+          "OTHERLIB"
+        ],
+        "namespace": "synthetic:customer-demo",
+        "method": "manifest_fixture"
+      },
+      "classification": "unresolved",
+      "evidence_ids": [
+        "ev_9408f86bf4d49927662c810ee05f79ca63293f70cecdbf3c00e0e681e96a7f16"
+      ],
+      "limitations": [
+        "Synthetic relationship fixture; no runtime proof."
+      ],
+      "dependency_id": "dep_01c9afc9e96f6aa95d9568b847501044d37ff3117f81f7239cc249bdbf0375c6"
+    },
+    {
+      "schema_version": "0.1.0",
+      "run_id": "run_fixture_001",
+      "from_entity_id": "ent_e604a1a0421e6d531e4a11602c2a70dac32fd4876bddb6d239349c0adc17af5f",
+      "relationship": "SOURCE_OF",
+      "to_entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "target_expression": "MYLIB/*PGM/VALIDATE",
+      "resolution": "resolved",
+      "candidate_entity_ids": [],
+      "resolution_context": {
+        "library_list": [
+          "MYLIB",
+          "OTHERLIB"
+        ],
+        "namespace": "synthetic:customer-demo",
+        "method": "manifest_fixture"
+      },
+      "classification": "observed",
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ],
+      "limitations": [
+        "Synthetic relationship fixture; no runtime proof."
+      ],
+      "dependency_id": "dep_b2c938e66536bfdbeef575830cce49cd7c95e583cae9c44b3e0e31684ad311b4"
+    },
+    {
+      "schema_version": "0.1.0",
+      "run_id": "run_fixture_001",
+      "from_entity_id": "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209",
+      "relationship": "MEMBER_OF",
+      "to_entity_id": "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+      "target_expression": "customer-validation",
+      "resolution": "resolved",
+      "candidate_entity_ids": [],
+      "resolution_context": {
+        "library_list": [
+          "MYLIB",
+          "OTHERLIB"
+        ],
+        "namespace": "synthetic:customer-demo",
+        "method": "manifest_fixture"
+      },
+      "classification": "observed",
+      "evidence_ids": [
+        "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+      ],
+      "limitations": [
+        "Synthetic relationship fixture; no runtime proof."
+      ],
+      "dependency_id": "dep_e1ce413d652305ecc64e4bbbc048c1864be9772cdaf0fbb4d7db6d98085c2915"
+    }
+  ],
+  "rules": [
+    {
+      "schema_version": "0.1.0",
+      "rule_entity_id": "ent_4c3bd53614d2a7753bab62dc6c8a7eff4f4d86f8837332cd52ee3417d2f948d3",
+      "previous_revision_id": null,
+      "run_id": "run_fixture_001",
+      "application_entity_ids": [
+        "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c"
+      ],
+      "program_entity_ids": [
+        "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209"
+      ],
+      "procedure_entity_ids": [
+        "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3"
+      ],
+      "name": "Account status determination",
+      "description": "The supplied source assigns INACTIVE when CustomerBalance is below 1000.",
+      "conditions": [
+        {
+          "node": "operator",
+          "value": {
+            "operator": "<",
+            "operands": [
+              {
+                "reference": "CustomerBalance"
+              },
+              {
+                "literal": 1000
+              }
+            ]
+          },
+          "source_locations": [
+            {
+              "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+              "start_line": 2,
+              "start_column": 1,
+              "end_line": 4,
+              "end_column": 7,
+              "byte_start": 8,
+              "byte_end": 71,
+              "coordinate_space": "decoded_unicode_codepoints",
+              "origin_map_id": "map_fixture_utf8"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "node": "operator",
+          "value": {
+            "operator": "assign",
+            "target": "AccountStatus",
+            "literal": "INACTIVE"
+          },
+          "source_locations": [
+            {
+              "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+              "start_line": 2,
+              "start_column": 1,
+              "end_line": 4,
+              "end_column": 7,
+              "byte_start": 8,
+              "byte_end": 71,
+              "coordinate_space": "decoded_unicode_codepoints",
+              "origin_map_id": "map_fixture_utf8"
+            }
+          ]
+        }
+      ],
+      "classification": "inferred",
+      "interpretation_method": "deterministic",
+      "evidence_ids": [
+        "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250",
+        "ev_1430904441b933c7a593b19e4a2f205b7c5270f5a5ba1e1515b6f51b89a82ebd"
+      ],
+      "support_fingerprint": "8310156a3194ff018bbcdd2f72ca18e5ac7bb269fcc26170c2bdc307ca097721",
+      "limitations": [
+        "No source-to-live-object equivalence or runtime execution verified."
+      ],
+      "created_at": "2026-10-07T10:00:00Z",
+      "revision_id": "rev_1cd325ad6e64c20be26fe0f22a84dc148595d5742a22fa20e573a6e78f6af43d"
+    }
+  ],
+  "reviews": [
+    {
+      "schema_version": "0.1.0",
+      "review_id": "review_fixture_001",
+      "subject_type": "rule_revision",
+      "subject_id": "rev_1cd325ad6e64c20be26fe0f22a84dc148595d5742a22fa20e573a6e78f6af43d",
+      "subject_fingerprint": "1f06e7f304e58f85fc275abc375cff81684823998c8b2be383024969fd784536",
+      "previous_review_id": null,
+      "status": "verified",
+      "actor_id": "local-analyst",
+      "reason": "Approved this static interpretation; certainty remains inferred.",
+      "created_at": "2026-10-07T10:00:00Z"
+    },
+    {
+      "schema_version": "0.1.0",
+      "review_id": "review_fixture_002",
+      "subject_type": "evidence",
+      "subject_id": "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250",
+      "subject_fingerprint": "41d508f9fda490b4193f3384b12fc0eedb67971639eeecd38d43554867682f85",
+      "previous_review_id": null,
+      "status": "pending_review",
+      "actor_id": "local-system",
+      "reason": "Initial state.",
+      "created_at": "2026-10-07T10:00:00Z"
+    },
+    {
+      "schema_version": "0.1.0",
+      "review_id": "review_fixture_003",
+      "subject_type": "evidence",
+      "subject_id": "ev_9408f86bf4d49927662c810ee05f79ca63293f70cecdbf3c00e0e681e96a7f16",
+      "subject_fingerprint": "533963e8a9134d3a5d3da3eb2baea560dab08cbc5d72d1bfcdf5208006825397",
+      "previous_review_id": null,
+      "status": "rejected",
+      "actor_id": "local-system",
+      "reason": "Do not treat the missing dynamic target as known behavior.",
+      "created_at": "2026-10-07T10:00:00Z"
+    }
+  ],
+  "runs": [
+    {
+      "schema_version": "0.1.0",
+      "run_id": "run_fixture_001",
+      "import_id": "import_fixture_001",
+      "system_namespace": "synthetic:customer-demo",
+      "state": "partial",
+      "scope": {
+        "library_names": [
+          "MYLIB",
+          "OTHERLIB"
+        ],
+        "artifact_ids": [
+          "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+          "art_72c8896b8fbc519741d5f732122fcdd9d716c6e640f0be815d30ef68142443d6"
+        ],
+        "snapshot_sha256": "f47aa3eed940091112237fbc84eb4f5a0103259ab99895e197c0b32a80affd6c"
+      },
+      "providers": [
+        {
+          "id": "fixture.rpgle",
+          "version": "0.1.0",
+          "source_revision": null
+        }
+      ],
+      "configuration_sha256": "a8198524f58e72b56283ab71ebddada22840f108b46ef7165bb3fca9919c5558",
+      "started_at": "2026-10-07T10:00:00Z",
+      "finished_at": "2026-10-07T10:00:00Z",
+      "coverage": {
+        "supplied": 2,
+        "analyzed": 2,
+        "partial": 0,
+        "unsupported": 0,
+        "failed": 0,
+        "excluded": 0,
+        "missing": 1
+      },
+      "diagnostics": [
+        {
+          "code": "missing_source",
+          "message": "Declared include is absent from the supplied import.",
+          "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+          "location": null,
+          "retryable": false
+        }
+      ],
+      "limitations": [
+        "Synthetic fixtures only.",
+        "Missing include and dynamic target leave conclusions partial."
+      ],
+      "snapshot_id": "snapshot_fixture_001"
+    }
+  ],
+  "jobs": [
+    {
+      "schema_version": "0.1.0",
+      "job_id": "job_fixture_001",
+      "run_id": "run_fixture_001",
+      "lifecycle_owner": {
+        "kind": "run",
+        "id": "run_fixture_001"
+      },
+      "kind": "analyze",
+      "state": "partial",
+      "attempt": 1,
+      "max_attempts": 3,
+      "lease_token": null,
+      "lease_expires_at": null,
+      "heartbeat_at": null,
+      "cancel_requested_at": null,
+      "checkpoint": {
+        "last_artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9"
+      },
+      "available_at": "2026-10-07T10:00:00Z",
+      "progress": {
+        "stage": "complete",
+        "completed": 2,
+        "total": 2
+      },
+      "result_artifact_ids": [],
+      "last_error": {
+        "code": "missing_source",
+        "message": "Declared include is absent from the supplied import.",
+        "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+        "location": null,
+        "retryable": false
+      }
+    }
+  ],
+  "providers": [
+    {
+      "schema_version": "0.1.0",
+      "provider": {
+        "id": "fixture.rpgle",
+        "version": "0.1.0",
+        "source_revision": null
+      },
+      "kind": "analyzer",
+      "capabilities": [
+        {
+          "operation": "analyze",
+          "availability": "partial",
+          "platforms": [
+            "ibmi"
+          ],
+          "languages": [
+            "RPGLE"
+          ],
+          "dialects": [
+            "fully_free"
+          ],
+          "effects": [
+            "local_read"
+          ],
+          "limitations": [
+            "Synthetic descriptor; parser selection awaits conformance spike."
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": [
+    {
+      "schema_version": "0.1.0",
+      "system_namespace": "synthetic:customer-demo",
+      "system_display_name": "Synthetic customer demo",
+      "library_list": [
+        "MYLIB",
+        "OTHERLIB"
+      ],
+      "default_encoding": "UTF-8",
+      "artifacts": [
+        {
+          "relative_path": "source/MYLIB/QRPGLESRC/VALIDATE.rpgle",
+          "language": "RPGLE",
+          "dialect": "fully_free",
+          "source_member_identity": {
+            "system_namespace": "synthetic:customer-demo",
+            "kind": "SourceMember",
+            "qualified_identity": [
+              "MYLIB",
+              "QRPGLESRC",
+              "VALIDATE"
+            ]
+          },
+          "object_identity": {
+            "system_namespace": "synthetic:customer-demo",
+            "kind": "Program",
+            "qualified_identity": [
+              "MYLIB",
+              "*PGM",
+              "VALIDATE"
+            ]
+          },
+          "encoding": null,
+          "kind": "source",
+          "collection_method": "offline_manifest",
+          "collected_at": "2026-10-07T10:00:00Z"
+        },
+        {
+          "relative_path": "metadata/relations.json",
+          "language": null,
+          "dialect": null,
+          "source_member_identity": null,
+          "object_identity": null,
+          "encoding": "UTF-8",
+          "kind": "inventory",
+          "collection_method": "offline_manifest",
+          "collected_at": "2026-10-07T10:00:00Z"
+        }
+      ],
+      "application_memberships": [
+        {
+          "application_identity": {
+            "system_namespace": "synthetic:customer-demo",
+            "kind": "Application",
+            "qualified_identity": [
+              "customer-validation"
+            ]
+          },
+          "member_identity": {
+            "system_namespace": "synthetic:customer-demo",
+            "kind": "Program",
+            "qualified_identity": [
+              "MYLIB",
+              "*PGM",
+              "VALIDATE"
+            ]
+          },
+          "evidence_path": "metadata/relations.json"
+        }
+      ],
+      "exclusions": [],
+      "limits": {
+        "max_files": 1000,
+        "max_bytes": 104857600
+      }
+    }
+  ],
+  "contexts": [
+    {
+      "schema_version": "0.1.0",
+      "context_id": "context_fixture_001",
+      "snapshot_id": "snapshot_fixture_001",
+      "level": "application",
+      "entity_ids": [
+        "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c",
+        "ent_a1d744596e5167ed515f2e79ca107fd95c56dbafa26c97988beae6a59cc64209"
+      ],
+      "chunks": [
+        {
+          "chunk_id": "chunk_fixture_001",
+          "text": "Static interpretation: assigns INACTIVE below balance 1000. Dynamic target unresolved.",
+          "evidence_ids": [
+            "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250",
+            "ev_1430904441b933c7a593b19e4a2f205b7c5270f5a5ba1e1515b6f51b89a82ebd"
+          ],
+          "classification": "inferred",
+          "token_count": 86
+        }
+      ],
+      "budget": {
+        "max_context_tokens": 4096,
+        "used_context_tokens": 1120,
+        "reserved_output_tokens": 256,
+        "tokenizer_id": "utf8-byte-upper-bound-v1",
+        "count_method": "utf8_byte_upper_bound"
+      },
+      "unresolved_dependency_ids": [
+        "dep_b1538435dacb75b397af396a8421c54f2bc82a81df0a72fe3495b272edf46bcf"
+      ],
+      "omitted_evidence_ids": [
+        "ev_9408f86bf4d49927662c810ee05f79ca63293f70cecdbf3c00e0e681e96a7f16"
+      ],
+      "limitations": [
+        "Budget is context-only; complete prompt overhead must also be reserved by the caller."
+      ],
+      "semantic_mode": "disabled"
+    }
+  ],
+  "exports": [
+    {
+      "schema_version": "0.1.0",
+      "export_id": "export_fixture_001",
+      "snapshot_id": "snapshot_fixture_001",
+      "run_ids": [
+        "run_fixture_001"
+      ],
+      "created_at": "2026-10-07T10:00:00Z",
+      "providers": [
+        {
+          "id": "fixture.rpgle",
+          "version": "0.1.0",
+          "source_revision": null
+        }
+      ],
+      "source_included": false,
+      "masking_policy_version": "local-default-0.1.0",
+      "limitations": [
+        "Synthetic fixture export; no full source included."
+      ],
+      "files": [
+        {
+          "relative_path": "applications/customer-validation/business-rules/rules.json",
+          "sha256": "33fa61fea6d5569ebf8ec702db533d0a01cc6e3b0769ca4f274ac1a603c25509",
+          "byte_length": 1986,
+          "media_type": "application/json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema": "HistoricalSourceGraph",
+  "authority": "historical-reference",
+  "root_alias": "$REFERENCE_ROOT",
+  "root_sha256": "c03e57b7a1f3e7935fd742cbde9e252bef989caddb29b8866e20d6dbcde15ca3",
+  "inventory_state": "partial",
+  "entries": [
+    {
+      "path": "package.json",
+      "classifications": [
+        "manifest"
+      ],
+      "limitations": [],
+      "kind": "file",
+      "language": "JSON",
+      "sha256": "8aa9b7090be0f29b9deb65a47a877592cebb50843692ca0d4baedf4f462cbd96",
+      "size": 110,
+      "content_state": "hashed"
+    },
+    {
+      "path": "src",
+      "classifications": [
+        "source"
+      ],
+      "limitations": [],
+      "kind": "directory",
+      "tree_state": "enumerated"
+    },
+    {
+      "path": "src/ORDER.rpgle",
+      "classifications": [
+        "source"
+      ],
+      "limitations": [],
+      "kind": "file",
+      "language": null,
+      "sha256": "0e8ca676a4a2dfcbe00a1603b73552d73f41288d9318965437529d1e99155c53",
+      "size": 117,
+      "content_state": "hashed"
+    },
+    {
+      "path": "src/label.js",
+      "classifications": [
+        "source"
+      ],
+      "limitations": [],
+      "kind": "file",
+      "language": "JavaScript",
+      "sha256": "94606172a0bbf8103efba5d84a8881aac17d9935b6afaeac2b3aeb954e3d8e3f",
+      "size": 42,
+      "content_state": "hashed"
+    },
+    {
+      "path": "src/main.ts",
+      "classifications": [
+        "source"
+      ],
+      "limitations": [],
+      "kind": "file",
+      "language": "TypeScript",
+      "sha256": "fd187ede2be06442b0ff8fcc682145d87f797e4d346079e1fec33ab681fa3a51",
+      "size": 113,
+      "content_state": "hashed"
+    },
+    {
+      "path": "src/never-run.mjs",
+      "classifications": [
+        "source"
+      ],
+      "limitations": [],
+      "kind": "file",
+      "language": "JavaScript",
+      "sha256": "b631d0b365a84c8e550aefd79437bf212d0575f5081c147a14a0cfbf8ea316d4",
+      "size": 193,
+      "content_state": "hashed"
+    }
+  ],
+  "relationships": [
+    {
+      "from_path": "src/main.ts",
+      "to": "src/label.js",
+      "kind": "imports",
+      "resolution": "internal",
+      "parse_state": "parsed"
+    },
+    {
+      "from_path": "src/never-run.mjs",
+      "to": "node:fs",
+      "kind": "imports",
+      "resolution": "external",
+      "parse_state": "parsed"
+    }
+  ],
+  "parse_failures": [],
+  "exclusions": [],
+  "languages": [
+    "JSON",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "manifests": [
+    "package.json"
+  ],
+  "vcs": {
+    "kind": "none",
+    "head": null,
+    "dirty": null
+  },
+  "provenance": {
+    "importer": "rea-agents",
+    "importer_version": null,
+    "caller": "rea-cli"
+  },
+  "limitations": [
+    "Path identity is revalidated around operations; Node lacks portable descriptor-relative openat traversal, so a syscall-boundary pathname race remains."
+  ]
+}

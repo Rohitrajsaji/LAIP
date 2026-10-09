@@ -1,0 +1,113 @@
+{
+  "schema_version": "0.1.0",
+  "system_namespace": "synthetic:import",
+  "system_display_name": "Synthetic offline import",
+  "library_list": [
+    "LIB1",
+    "LIB2"
+  ],
+  "default_encoding": "utf-8",
+  "artifacts": [
+    {
+      "relative_path": "sources/LIB1/QRPGLESRC/ORDER.rpgle",
+      "language": "RPGLE",
+      "dialect": "free",
+      "source_member_identity": {
+        "system_namespace": "synthetic:import",
+        "kind": "SourceMember",
+        "qualified_identity": [
+          "LIB1",
+          "QRPGLESRC",
+          "ORDER"
+        ]
+      },
+      "object_identity": null,
+      "encoding": "ccsid:37",
+      "kind": "source",
+      "collection_method": "synthetic-offline-export",
+      "collected_at": "2026-10-07T12:00:00Z"
+    },
+    {
+      "relative_path": "sources/LIB2/QRPGLESRC/ORDER.rpgle",
+      "language": "RPGLE",
+      "dialect": "free",
+      "source_member_identity": {
+        "system_namespace": "synthetic:import",
+        "kind": "SourceMember",
+        "qualified_identity": [
+          "LIB2",
+          "QRPGLESRC",
+          "ORDER"
+        ]
+      },
+      "object_identity": null,
+      "encoding": "utf-8",
+      "kind": "source",
+      "collection_method": "synthetic-offline-export",
+      "collected_at": "2026-10-07T12:00:00Z"
+    },
+    {
+      "relative_path": "metadata/inventory.json",
+      "language": null,
+      "dialect": null,
+      "source_member_identity": null,
+      "object_identity": null,
+      "encoding": "utf-8",
+      "kind": "inventory",
+      "collection_method": "synthetic-inventory-export",
+      "collected_at": "2026-10-07T12:00:00Z"
+    },
+    {
+      "relative_path": "metadata/schema.json",
+      "language": null,
+      "dialect": null,
+      "source_member_identity": null,
+      "object_identity": null,
+      "encoding": "utf-8",
+      "kind": "schema",
+      "collection_method": "synthetic-schema-export",
+      "collected_at": "2026-10-07T12:00:00Z"
+    },
+    {
+      "relative_path": "metadata/binding.json",
+      "language": null,
+      "dialect": null,
+      "source_member_identity": null,
+      "object_identity": null,
+      "encoding": "utf-8",
+      "kind": "binding",
+      "collection_method": "synthetic-binding-export",
+      "collected_at": "2026-10-07T12:00:00Z"
+    },
+    {
+      "relative_path": "metadata/job.json",
+      "language": null,
+      "dialect": null,
+      "source_member_identity": null,
+      "object_identity": null,
+      "encoding": "utf-8",
+      "kind": "job",
+      "collection_method": "synthetic-job-export",
+      "collected_at": "2026-10-07T12:00:00Z"
+    },
+    {
+      "relative_path": "metadata/dsp_pgmref.json",
+      "language": null,
+      "dialect": null,
+      "source_member_identity": null,
+      "object_identity": null,
+      "encoding": "utf-8",
+      "kind": "dsp_pgmref",
+      "collection_method": "synthetic-dsp_pgmref-export",
+      "collected_at": "2026-10-07T12:00:00Z"
+    }
+  ],
+  "application_memberships": [],
+  "exclusions": [
+    "*.secret"
+  ],
+  "limits": {
+    "max_files": 100,
+    "max_bytes": 1048576
+  }
+}

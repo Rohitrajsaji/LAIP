@@ -1,0 +1,3085 @@
+{
+  "schema_version": "1.0",
+  "recorded_date": "2026-10-09",
+  "method": "Locked versions authoritative; locally installed matching versions supply declared metadata and license/NOTICE files. Platform markers retained as conservative runtime candidates, not evaluated against target Docker images. No network lookup or legal approval.",
+  "lockfiles": [
+    {
+      "path": "backend/uv.lock",
+      "sha256": "9a7c0f9f167a33a0dc8aa19c2b2c758b2e5ca55f3c886a584209f3e44c0bb735"
+    },
+    {
+      "path": "web/package-lock.json",
+      "sha256": "0e35f0e5a2fc7fc45d449d9a05223f2f497717bec7a388c56304b396ddf437e4"
+    }
+  ],
+  "packages": [
+    {
+      "ecosystem": "python",
+      "name": "annotated-doc",
+      "locked_version": "0.0.5",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "annotated_doc-0.0.5.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/annotated-doc-0.0.5/annotated_doc-0.0.5.dist-info_licenses_LICENSE",
+          "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+          "bytes": 1086
+        }
+      ],
+      "installed_version": "0.0.5",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution annotated-doc 0.0.5 METADATA",
+      "metadata_sha256": "8c24d70c5d9153d22123353a906042fd7603df2d15c2196290b0f8a962558c46"
+    },
+    {
+      "ecosystem": "python",
+      "name": "annotated-types",
+      "locked_version": "0.8.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "annotated_types-0.8.0.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/annotated-types-0.8.0/annotated_types-0.8.0.dist-info_licenses_LICENSE",
+          "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+          "bytes": 1083
+        }
+      ],
+      "installed_version": "0.8.0",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "metadata_source": "installed distribution annotated-types 0.8.0 METADATA",
+      "metadata_sha256": "614985b278f601b8ef863f82783b991cc3ada4b89f592eb71c7c48c5f2ef2298"
+    },
+    {
+      "ecosystem": "python",
+      "name": "anyio",
+      "locked_version": "4.15.1",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "anyio-4.15.1.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/anyio-4.15.1/anyio-4.15.1.dist-info_licenses_LICENSE",
+          "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+          "bytes": 1081
+        }
+      ],
+      "installed_version": "4.15.1",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution anyio 4.15.1 METADATA",
+      "metadata_sha256": "043aecb571af7189e8a6c528f5d8e32545f1b2cdfaaf761d51e6d5b67ea3ca81"
+    },
+    {
+      "ecosystem": "python",
+      "name": "attrs",
+      "locked_version": "26.1.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "attrs-26.1.0.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/attrs-26.1.0/attrs-26.1.0.dist-info_licenses_LICENSE",
+          "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+          "bytes": 1109
+        }
+      ],
+      "installed_version": "26.1.0",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution attrs 26.1.0 METADATA",
+      "metadata_sha256": "4cd40e690f23bf37cbcad34efd6758e062df1df07c86833f7e3ce95bf1fa38cc"
+    },
+    {
+      "ecosystem": "python",
+      "name": "click",
+      "locked_version": "8.5.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "click-8.5.0.dist-info/licenses/LICENSE.txt",
+          "retained_path": "docs/licenses/runtime/python/click-8.5.0/click-8.5.0.dist-info_licenses_LICENSE.txt",
+          "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+          "bytes": 1475
+        }
+      ],
+      "installed_version": "8.5.0",
+      "status": "matched",
+      "license_expression": "BSD-3-Clause",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution click 8.5.0 METADATA",
+      "metadata_sha256": "e87bce0bd194de70dfb8e708e0a6b0483009f25611804eaf87bfeb63e6c20501"
+    },
+    {
+      "ecosystem": "python",
+      "name": "fastapi",
+      "locked_version": "0.142.2",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "fastapi-0.142.2.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/fastapi-0.142.2/fastapi-0.142.2.dist-info_licenses_LICENSE",
+          "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+          "bytes": 1086
+        }
+      ],
+      "installed_version": "0.142.2",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution fastapi 0.142.2 METADATA",
+      "metadata_sha256": "53eadf5c5f121b353144e43767758d2b1ffd0bd48c942c65b82a92f487db380c"
+    },
+    {
+      "ecosystem": "python",
+      "name": "h11",
+      "locked_version": "0.16.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "h11-0.16.0.dist-info/licenses/LICENSE.txt",
+          "retained_path": "docs/licenses/runtime/python/h11-0.16.0/h11-0.16.0.dist-info_licenses_LICENSE.txt",
+          "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+          "bytes": 1124
+        }
+      ],
+      "installed_version": "0.16.0",
+      "status": "matched",
+      "license_expression": null,
+      "license": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "metadata_source": "installed distribution h11 0.16.0 METADATA",
+      "metadata_sha256": "28f326098ac09fcba79b8f180f96087c841fe2456215cb7b872a9c7d5cd19d64"
+    },
+    {
+      "ecosystem": "python",
+      "name": "idna",
+      "locked_version": "3.20",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "idna-3.20.dist-info/licenses/LICENSE.md",
+          "retained_path": "docs/licenses/runtime/python/idna-3.20/idna-3.20.dist-info_licenses_LICENSE.md",
+          "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+          "bytes": 1541
+        }
+      ],
+      "installed_version": "3.20",
+      "status": "matched",
+      "license_expression": "BSD-3-Clause",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution idna 3.20 METADATA",
+      "metadata_sha256": "dbd8c14c1e4ca1e0c9824a6dbc7cbbf78884f38eb52d91148cd3025f671e4b85"
+    },
+    {
+      "ecosystem": "python",
+      "name": "jsonschema",
+      "locked_version": "4.26.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "jsonschema-4.26.0.dist-info/licenses/COPYING",
+          "retained_path": "docs/licenses/runtime/python/jsonschema-4.26.0/jsonschema-4.26.0.dist-info_licenses_COPYING",
+          "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+          "bytes": 1057
+        }
+      ],
+      "installed_version": "4.26.0",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution jsonschema 4.26.0 METADATA",
+      "metadata_sha256": "05b189866ca98a96da3934bf6b83687ced3ff85325273b77e16b705f6d8b26d2"
+    },
+    {
+      "ecosystem": "python",
+      "name": "jsonschema-specifications",
+      "locked_version": "2025.9.1",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "jsonschema_specifications-2025.9.1.dist-info/licenses/COPYING",
+          "retained_path": "docs/licenses/runtime/python/jsonschema-specifications-2025.9.1/jsonschema_specifications-2025.9.1.dist-info_licenses_COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+          "bytes": 1057
+        }
+      ],
+      "installed_version": "2025.9.1",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution jsonschema-specifications 2025.9.1 METADATA",
+      "metadata_sha256": "35abd41757f32b4ea24756920ded47b70173d77cbc052a5a6d3ab583b2e8d89d"
+    },
+    {
+      "ecosystem": "python",
+      "name": "lark",
+      "locked_version": "1.3.1",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "lark-1.3.1.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/lark-1.3.1/lark-1.3.1.dist-info_licenses_LICENSE",
+          "sha256": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771",
+          "bytes": 1055
+        }
+      ],
+      "installed_version": "1.3.1",
+      "status": "matched",
+      "license_expression": null,
+      "license": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "metadata_source": "installed distribution lark 1.3.1 METADATA",
+      "metadata_sha256": "730d3f056045a9096bc0a65e4faccae53fe7f3634055174d4b8245cd19cb4cde"
+    },
+    {
+      "ecosystem": "python",
+      "name": "opentelemetry-api",
+      "locked_version": "1.45.1",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "opentelemetry_api-1.45.1.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/opentelemetry-api-1.45.1/opentelemetry_api-1.45.1.dist-info_licenses_LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ],
+      "installed_version": "1.45.1",
+      "status": "matched",
+      "license_expression": "Apache-2.0",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution opentelemetry-api 1.45.1 METADATA",
+      "metadata_sha256": "5bc71e90cb421be92a43bf5ad5b0f25dccfa2a24ddceaa2877779879962a4c9e"
+    },
+    {
+      "ecosystem": "python",
+      "name": "psycopg",
+      "locked_version": "3.3.6",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "psycopg-3.3.6.dist-info/licenses/LICENSE.txt",
+          "retained_path": "docs/licenses/runtime/python/psycopg-3.3.6/psycopg-3.3.6.dist-info_licenses_LICENSE.txt",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "bytes": 7652
+        }
+      ],
+      "installed_version": "3.3.6",
+      "status": "matched",
+      "license_expression": "LGPL-3.0-only",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution psycopg 3.3.6 METADATA",
+      "metadata_sha256": "351960397d6b386beae931f5bfd945e8c1212e9505017d1b15c72d4c33bb00af"
+    },
+    {
+      "ecosystem": "python",
+      "name": "psycopg-binary",
+      "locked_version": "3.3.6",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "psycopg_binary-3.3.6.dist-info/licenses/LICENSE.txt",
+          "retained_path": "docs/licenses/runtime/python/psycopg-binary-3.3.6/psycopg_binary-3.3.6.dist-info_licenses_LICENSE.txt",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+          "bytes": 7652
+        }
+      ],
+      "installed_version": "3.3.6",
+      "status": "matched",
+      "license_expression": "LGPL-3.0-only",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution psycopg-binary 3.3.6 METADATA",
+      "metadata_sha256": "0a1fb529c1e27ca41655413e669c964bd0d7069e8cc2ab32b192fc98baf37fd5"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pydantic",
+      "locked_version": "2.13.5",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "pydantic-2.13.5.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/pydantic-2.13.5/pydantic-2.13.5.dist-info_licenses_LICENSE",
+          "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+          "bytes": 1129
+        }
+      ],
+      "installed_version": "2.13.5",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution pydantic 2.13.5 METADATA",
+      "metadata_sha256": "0685830d13647bd6f3f05526043d32a8b2a221d86b53773053d6c52bb17a9c07"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pydantic-core",
+      "locked_version": "2.46.5",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "pydantic_core-2.46.5.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/pydantic-core-2.46.5/pydantic_core-2.46.5.dist-info_licenses_LICENSE",
+          "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+          "bytes": 1080
+        }
+      ],
+      "installed_version": "2.46.5",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution pydantic-core 2.46.5 METADATA",
+      "metadata_sha256": "29768c038c0bb3564c0a87ef50ef78d18a2372474bdef0ba356a8c0fd4bd6028"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pydantic-settings",
+      "locked_version": "2.15.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "pydantic_settings-2.15.0.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/pydantic-settings-2.15.0/pydantic_settings-2.15.0.dist-info_licenses_LICENSE",
+          "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998",
+          "bytes": 1103
+        }
+      ],
+      "installed_version": "2.15.0",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "metadata_source": "installed distribution pydantic-settings 2.15.0 METADATA",
+      "metadata_sha256": "5ac12e408df62f1d4c7643146d9df04ace749f1fe5cf28b3b794be0b2834ca6d"
+    },
+    {
+      "ecosystem": "python",
+      "name": "python-dotenv",
+      "locked_version": "1.2.4",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/python-dotenv-1.2.4/python_dotenv-1.2.4.dist-info_licenses_LICENSE",
+          "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+          "bytes": 1556
+        }
+      ],
+      "installed_version": "1.2.4",
+      "status": "matched",
+      "license_expression": null,
+      "license": "BSD-3-Clause",
+      "license_classifiers": [],
+      "metadata_source": "installed distribution python-dotenv 1.2.4 METADATA",
+      "metadata_sha256": "87cfee6042412d48df1100ea7822684988c3f2b79de7a250f4717f4df3026d6f"
+    },
+    {
+      "ecosystem": "python",
+      "name": "referencing",
+      "locked_version": "0.37.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "referencing-0.37.0.dist-info/licenses/COPYING",
+          "retained_path": "docs/licenses/runtime/python/referencing-0.37.0/referencing-0.37.0.dist-info_licenses_COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+          "bytes": 1057
+        }
+      ],
+      "installed_version": "0.37.0",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution referencing 0.37.0 METADATA",
+      "metadata_sha256": "c93b00e6ab1524fd60848376604c189a114374776475c25a31d57be47b29de6a"
+    },
+    {
+      "ecosystem": "python",
+      "name": "rpds-py",
+      "locked_version": "2026.9.1",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "rpds_py-2026.9.1.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/rpds-py-2026.9.1/rpds_py-2026.9.1.dist-info_licenses_LICENSE",
+          "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+          "bytes": 1057
+        }
+      ],
+      "installed_version": "2026.9.1",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution rpds-py 2026.9.1 METADATA",
+      "metadata_sha256": "5d72dca2e387c8d2b4180b68ee87c15b64751e059100a6db58891ec9995445c3"
+    },
+    {
+      "ecosystem": "python",
+      "name": "starlette",
+      "locked_version": "1.7.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "starlette-1.7.0.dist-info/licenses/LICENSE.md",
+          "retained_path": "docs/licenses/runtime/python/starlette-1.7.0/starlette-1.7.0.dist-info_licenses_LICENSE.md",
+          "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+          "bytes": 1518
+        }
+      ],
+      "installed_version": "1.7.0",
+      "status": "matched",
+      "license_expression": "BSD-3-Clause",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution starlette 1.7.0 METADATA",
+      "metadata_sha256": "f7870fc19ab7c2e364887057340b9fb47e9bda74d24b06c58ca399494abfe019"
+    },
+    {
+      "ecosystem": "python",
+      "name": "typing-extensions",
+      "locked_version": "4.16.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "typing_extensions-4.16.0.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/typing-extensions-4.16.0/typing_extensions-4.16.0.dist-info_licenses_LICENSE",
+          "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+          "bytes": 13936
+        }
+      ],
+      "installed_version": "4.16.0",
+      "status": "matched",
+      "license_expression": "PSF-2.0",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution typing-extensions 4.16.0 METADATA",
+      "metadata_sha256": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46"
+    },
+    {
+      "ecosystem": "python",
+      "name": "typing-inspection",
+      "locked_version": "0.4.4",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "typing_inspection-0.4.4.dist-info/licenses/LICENSE",
+          "retained_path": "docs/licenses/runtime/python/typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info_licenses_LICENSE",
+          "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+          "bytes": 1090
+        }
+      ],
+      "installed_version": "0.4.4",
+      "status": "matched",
+      "license_expression": "MIT",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution typing-inspection 0.4.4 METADATA",
+      "metadata_sha256": "bad3d9e6342ef6750cf5128ec942327b8bebdce0b6e4d6f67cb15b27ae5118da"
+    },
+    {
+      "ecosystem": "python",
+      "name": "tzdata",
+      "locked_version": "2026.5",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local",
+      "license": null
+    },
+    {
+      "ecosystem": "python",
+      "name": "uvicorn",
+      "locked_version": "0.54.0",
+      "scope": "runtime-closure-including-platform-markers",
+      "notice_files": [
+        {
+          "source": "uvicorn-0.54.0.dist-info/licenses/LICENSE.md",
+          "retained_path": "docs/licenses/runtime/python/uvicorn-0.54.0/uvicorn-0.54.0.dist-info_licenses_LICENSE.md",
+          "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+          "bytes": 1526
+        }
+      ],
+      "installed_version": "0.54.0",
+      "status": "matched",
+      "license_expression": "BSD-3-Clause",
+      "license": null,
+      "license_classifiers": [],
+      "metadata_source": "installed distribution uvicorn 0.54.0 METADATA",
+      "metadata_sha256": "9399e5ddda3d26e842d6fb5420c38b0857aac568d53badbdc224b3a21339efa8"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@emnapi/runtime",
+      "locked_version": "1.11.3",
+      "lock_location": "node_modules/@emnapi/runtime",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/@emnapi/runtime/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/_emnapi_runtime-1.11.3/LICENSE",
+          "sha256": "2088f55c6731498410b20c95ebd345ed4a4a800bf74c0fba4d282fd2a021daaa",
+          "bytes": 1076
+        }
+      ],
+      "installed_version": "1.11.3",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "751db16171cb4d111905122be8a4c0dc2b5c82e6ba2a590ca24fbc6cca048f93",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/colour",
+      "locked_version": "1.1.0",
+      "lock_location": "node_modules/@img/colour",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/@img/colour/LICENSE.md",
+          "retained_path": "docs/licenses/runtime/npm/_img_colour-1.1.0/LICENSE.md",
+          "sha256": "e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8",
+          "bytes": 4433
+        }
+      ],
+      "installed_version": "1.1.0",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "bc38c5097693ed53b91c32f35fb0a52569736c7854ba2eb6d080f3252071f75c",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-darwin-arm64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-darwin-arm64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/@img/sharp-darwin-arm64/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/_img_sharp-darwin-arm64-0.35.5/LICENSE",
+          "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+          "bytes": 10273
+        }
+      ],
+      "installed_version": "0.35.5",
+      "installed_license": "Apache-2.0",
+      "status": "matched",
+      "metadata_sha256": "157996706c751e9a3608f35811f156238fa4ad1f367abfd4facec30883747f5e",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-darwin-x64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-darwin-x64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-freebsd-wasm32",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-freebsd-wasm32",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "freebsd"
+      ],
+      "cpu": null,
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-darwin-arm64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-darwin-arm64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": "1.3.4",
+      "installed_license": "LGPL-3.0-or-later",
+      "status": "matched",
+      "metadata_sha256": "394ecfe4e823ebf6ddc9f9b7155046aad1f0492300920323ddfb84cae85dbac0",
+      "supporting_files": [
+        {
+          "source": "node_modules/@img/sharp-libvips-darwin-arm64/README.md",
+          "retained_path": "docs/licenses/runtime/npm/_img_sharp-libvips-darwin-arm64-1.3.4/README.md",
+          "sha256": "5dd6d3c034f925604681d49b7bedc71bd08dcf3d0cfc6d16b9f0569497d700dc",
+          "bytes": 4333
+        },
+        {
+          "source": "node_modules/@img/sharp-libvips-darwin-arm64/versions.json",
+          "retained_path": "docs/licenses/runtime/npm/_img_sharp-libvips-darwin-arm64-1.3.4/versions.json",
+          "sha256": "e2611d5d854815a8b33c8a3d2ec649511a9596ccf16844e8eae7cf81e79881c4",
+          "bytes": 596
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-darwin-x64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-darwin-x64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linux-arm",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linux-arm",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linux-arm64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linux-arm64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linux-ppc64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linux-ppc64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linux-riscv64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linux-riscv64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linux-s390x",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linux-s390x",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linux-x64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linux-x64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linuxmusl-arm64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linuxmusl-arm64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-linuxmusl-x64",
+      "locked_version": "1.3.4",
+      "lock_location": "node_modules/@img/sharp-libvips-linuxmusl-x64",
+      "license": "LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linux-arm",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linux-arm",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linux-arm64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linux-arm64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linux-ppc64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linux-ppc64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linux-riscv64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linux-riscv64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linux-s390x",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linux-s390x",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linux-x64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linux-x64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linuxmusl-arm64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linuxmusl-arm64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-linuxmusl-x64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-linuxmusl-x64",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-wasm32",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-wasm32",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/@img/sharp-wasm32/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/_img_sharp-wasm32-0.35.5/LICENSE",
+          "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+          "bytes": 10273
+        }
+      ],
+      "installed_version": "0.35.5",
+      "installed_license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+      "status": "matched",
+      "metadata_sha256": "59d5eeaaac1c43434701f08e9ea78648aa54011159ff2eb192550432608e05c1",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-webcontainers-wasm32",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-webcontainers-wasm32",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": null,
+      "cpu": [
+        "wasm32"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-win32-arm64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-win32-arm64",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-win32-ia32",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-win32-ia32",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "ia32"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-win32-x64",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/@img/sharp-win32-x64",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/env",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/env",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [],
+      "installed_version": "16.4.0",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "d2da8961d46f40945dbf6de55cbdfcf5b255f5a64fa18ae7ad3a16d7fb74781f",
+      "supporting_files": [
+        {
+          "source": "node_modules/@next/env/README.md",
+          "retained_path": "docs/licenses/runtime/npm/_next_env-16.4.0/README.md",
+          "sha256": "d9749351b98624c72b1183db9b577a39d7be192f7380e1220c486b30dacdf979",
+          "bytes": 84
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-darwin-arm64",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-darwin-arm64",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": "16.4.0",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "6985faca589fdf1d92d1d979c4bc2b5c175f87041d4826e2443ac4e123e2a55b",
+      "supporting_files": [
+        {
+          "source": "node_modules/@next/swc-darwin-arm64/README.md",
+          "retained_path": "docs/licenses/runtime/npm/_next_swc-darwin-arm64-16.4.0/README.md",
+          "sha256": "147093bfcbd0d2d966965acd83354452e1fa523a0a6f4ab490c9f3ecc58f1663",
+          "bytes": 88
+        }
+      ]
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-darwin-x64",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-darwin-x64",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-linux-arm64-gnu",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-linux-arm64-gnu",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-linux-arm64-musl",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-linux-arm64-musl",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-linux-x64-gnu",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-linux-x64-gnu",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-linux-x64-musl",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-linux-x64-musl",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-win32-arm64-msvc",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-win32-arm64-msvc",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@next/swc-win32-x64-msvc",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/@next/swc-win32-x64-msvc",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "libc": null,
+      "notice_files": [],
+      "installed_version": null,
+      "status": "not-installed-local"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@swc/helpers",
+      "locked_version": "0.5.23",
+      "lock_location": "node_modules/@swc/helpers",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/@swc/helpers/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/_swc_helpers-0.5.23/LICENSE",
+          "sha256": "d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91",
+          "bytes": 10836
+        }
+      ],
+      "installed_version": "0.5.23",
+      "installed_license": "Apache-2.0",
+      "status": "matched",
+      "metadata_sha256": "10ee79b75759afbf8cfa2b8e5a2eff946c487143e935fc31b2433aa68be84596",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "baseline-browser-mapping",
+      "locked_version": "2.11.27",
+      "lock_location": "node_modules/baseline-browser-mapping",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/baseline-browser-mapping/LICENSE.txt",
+          "retained_path": "docs/licenses/runtime/npm/baseline-browser-mapping-2.11.27/LICENSE.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        }
+      ],
+      "installed_version": "2.11.27",
+      "installed_license": "Apache-2.0",
+      "status": "matched",
+      "metadata_sha256": "4a7331bb5051361f02e26cfa38d3c669cfe1fc65ce9bbf110c8ad2ae4658ce77",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "caniuse-lite",
+      "locked_version": "1.0.30001814",
+      "lock_location": "node_modules/caniuse-lite",
+      "license": "CC-BY-4.0",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/caniuse-lite/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/caniuse-lite-1.0.30001814/LICENSE",
+          "sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e",
+          "bytes": 18651
+        }
+      ],
+      "installed_version": "1.0.30001814",
+      "installed_license": "CC-BY-4.0",
+      "status": "matched",
+      "metadata_sha256": "31dcbe13294558c777cc3f6c9a07535afd2da6193d0ad3011063d8cdb5e5e1ea",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "client-only",
+      "locked_version": "0.0.1",
+      "lock_location": "node_modules/client-only",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [],
+      "installed_version": "0.0.1",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "4d6342705767832f299b9a59c28e4275bcf02db19472732f93f67d979441df8f",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "detect-libc",
+      "locked_version": "2.1.2",
+      "lock_location": "node_modules/detect-libc",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/detect-libc/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/detect-libc-2.1.2/LICENSE",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "bytes": 11357
+        }
+      ],
+      "installed_version": "2.1.2",
+      "installed_license": "Apache-2.0",
+      "status": "matched",
+      "metadata_sha256": "ee88e5b954fdf3a8480b1d01ef767d68d8ca2c6da269f58c5cf1c5550e9aa2a7",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "nanoid",
+      "locked_version": "3.3.20",
+      "lock_location": "node_modules/nanoid",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/nanoid/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/nanoid-3.3.20/LICENSE",
+          "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+          "bytes": 1095
+        }
+      ],
+      "installed_version": "3.3.20",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "e2a77185ded1c006171e4e2f8b316d0e3b4c51a135a190851cfc888ea428f6bf",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "next",
+      "locked_version": "16.4.0",
+      "lock_location": "node_modules/next",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/next/dist/compiled/@babel/runtime/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@babel/runtime/LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+          "bytes": 1106
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@hapi/accept/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@hapi/accept/LICENSE",
+          "sha256": "ff96bbd6a7408c166f16dbed7f2c87a8061e5a21289ec8f2d3069f8d3b15fc0a",
+          "bytes": 1541
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@mswjs/interceptors/ClientRequest/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@mswjs/interceptors/ClientRequest/LICENSE",
+          "sha256": "bb3a5cb8fb224f632970e31425348f556f7a83b165d5384ea5e142575f5c412e",
+          "bytes": 1085
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@napi-rs/triples/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@napi-rs/triples/LICENSE",
+          "sha256": "7b34e99bc43641767fded49f7f03563ffd50c689b1f3b0d50700b4727bc4ae24",
+          "bytes": 1066
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@opentelemetry/api/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@opentelemetry/api/LICENSE",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@vercel/blob/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/blob/LICENSE",
+          "sha256": "2b6fc3f4a995e6ad29f4e2ed8881a32979058b8d6557efaa6d86b7e985849f40",
+          "bytes": 10932
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@vercel/detect-agent/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/detect-agent/LICENSE",
+          "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+          "bytes": 11343
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@vercel/nft/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/nft/LICENSE",
+          "sha256": "0b31f3a6ab66b272b7de451df39835f310a309a06b1a8aafb3a2fdab20adc166",
+          "bytes": 1051
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@vercel/og/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/og/LICENSE",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "bytes": 16725
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@vercel/og/satori/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/og/satori/LICENSE",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "bytes": 16725
+        },
+        {
+          "source": "node_modules/next/dist/compiled/@vercel/routing-utils/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/routing-utils/LICENSE",
+          "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+          "bytes": 11343
+        },
+        {
+          "source": "node_modules/next/dist/compiled/acorn/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/acorn/LICENSE",
+          "sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7",
+          "bytes": 1099
+        },
+        {
+          "source": "node_modules/next/dist/compiled/anser/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/anser/LICENSE",
+          "sha256": "6d2abc90a426cf65bbf84f7cedf9487f7ff86a3daf0e130b335a45c112f040d0",
+          "bytes": 1134
+        },
+        {
+          "source": "node_modules/next/dist/compiled/assert/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/assert/LICENSE",
+          "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+          "bytes": 1096
+        },
+        {
+          "source": "node_modules/next/dist/compiled/async-retry/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/async-retry/LICENSE",
+          "sha256": "8cec82f7beeab8459fa6165c973f5cd6f89aceea7a07de0aa8fc30a9dd339a05",
+          "bytes": 1067
+        },
+        {
+          "source": "node_modules/next/dist/compiled/async-sema/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/async-sema/LICENSE",
+          "sha256": "291ff3e2bd22891edef553930da53ba64adf79d83f0bd1c5b7f6fe9727526b37",
+          "bytes": 1131
+        },
+        {
+          "source": "node_modules/next/dist/compiled/babel/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/babel/LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+          "bytes": 1106
+        },
+        {
+          "source": "node_modules/next/dist/compiled/browserify-zlib/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/browserify-zlib/LICENSE",
+          "sha256": "ddd770379e07bf0574dfaa4485be80a23b3248b36d09f33ec79276c09b829daf",
+          "bytes": 3486
+        },
+        {
+          "source": "node_modules/next/dist/compiled/browserslist/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/browserslist/LICENSE",
+          "sha256": "f25bf9bf3ae8984bcd43bf7fb8f78e7eec8d577081fb8d0989cfa7c67ecebb8e",
+          "bytes": 1118
+        },
+        {
+          "source": "node_modules/next/dist/compiled/buffer/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/buffer/LICENSE",
+          "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+          "bytes": 1106
+        },
+        {
+          "source": "node_modules/next/dist/compiled/busboy/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/busboy/LICENSE",
+          "sha256": "d06b5d27bbbbe22c36b1fd88406b1208876e2d37d795f5b8eaed951a459a3111",
+          "bytes": 1067
+        },
+        {
+          "source": "node_modules/next/dist/compiled/bytes/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/bytes/LICENSE",
+          "sha256": "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85",
+          "bytes": 1153
+        },
+        {
+          "source": "node_modules/next/dist/compiled/ci-info/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ci-info/LICENSE",
+          "sha256": "25bd22427e27b0d3f1c3da2670bb44b622bcced22ebdf4777d5488ac129370a1",
+          "bytes": 1091
+        },
+        {
+          "source": "node_modules/next/dist/compiled/cli-select/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/cli-select/LICENSE",
+          "sha256": "a8e260b5b60eb27746ff2c5967489e6878c5a6ba99400cbec84c89a9b49a46ca",
+          "bytes": 1069
+        },
+        {
+          "source": "node_modules/next/dist/compiled/commander/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/commander/LICENSE",
+          "sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b",
+          "bytes": 1098
+        },
+        {
+          "source": "node_modules/next/dist/compiled/comment-json/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/comment-json/LICENSE",
+          "sha256": "9dbd86998d3cdafc1d8c298aea636146568d05d429b81386e60cfce11e6cedb6",
+          "bytes": 1086
+        },
+        {
+          "source": "node_modules/next/dist/compiled/compression/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/compression/LICENSE",
+          "sha256": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68",
+          "bytes": 1172
+        },
+        {
+          "source": "node_modules/next/dist/compiled/conf/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/conf/LICENSE",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/content-disposition/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/content-disposition/LICENSE",
+          "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400",
+          "bytes": 1094
+        },
+        {
+          "source": "node_modules/next/dist/compiled/content-type/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/content-type/LICENSE",
+          "sha256": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38",
+          "bytes": 1089
+        },
+        {
+          "source": "node_modules/next/dist/compiled/cookie/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/cookie/LICENSE",
+          "sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858",
+          "bytes": 1175
+        },
+        {
+          "source": "node_modules/next/dist/compiled/cross-spawn/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/cross-spawn/LICENSE",
+          "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1",
+          "bytes": 1105
+        },
+        {
+          "source": "node_modules/next/dist/compiled/crypto-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/crypto-browserify/LICENSE",
+          "sha256": "6134c69bc22c8289252e70de3af20bd67071233459055be74d83acfcc4865e7e",
+          "bytes": 1087
+        },
+        {
+          "source": "node_modules/next/dist/compiled/debug/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/debug/LICENSE",
+          "sha256": "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422",
+          "bytes": 1107
+        },
+        {
+          "source": "node_modules/next/dist/compiled/devalue/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/devalue/LICENSE",
+          "sha256": "e399db7e952e45cae84f1b53d72ba8dbad2daaa7ab8cd1f0ab72fea5ab73b225",
+          "bytes": 1121
+        },
+        {
+          "source": "node_modules/next/dist/compiled/domain-browser/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/domain-browser/LICENSE",
+          "sha256": "fc06db8dd5e7840db84ab328d9f58bdb91a56fbbf045bb977c11fcd07e2d8e3e",
+          "bytes": 1379
+        },
+        {
+          "source": "node_modules/next/dist/compiled/edge-runtime/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/edge-runtime/LICENSE",
+          "sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3",
+          "bytes": 1079
+        },
+        {
+          "source": "node_modules/next/dist/compiled/events/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/events/LICENSE",
+          "sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599",
+          "bytes": 1081
+        },
+        {
+          "source": "node_modules/next/dist/compiled/find-up/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/find-up/LICENSE",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/fresh/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/fresh/LICENSE",
+          "sha256": "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d",
+          "bytes": 1174
+        },
+        {
+          "source": "node_modules/next/dist/compiled/glob/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/glob/LICENSE",
+          "sha256": "6236fa0b88a4a0cce3dda0367979491b2052b3c8d6b1c10b3668de083e86a7f0",
+          "bytes": 976
+        },
+        {
+          "source": "node_modules/next/dist/compiled/gzip-size/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/gzip-size/LICENSE",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/hash.js/sha256/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/hash.js/sha256/LICENSE",
+          "sha256": "7261b3ab93df04c6d8f3398f87275d28f0e87d88cbd0033b788fb50402de03c5",
+          "bytes": 1105
+        },
+        {
+          "source": "node_modules/next/dist/compiled/https-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/https-browserify/LICENSE",
+          "sha256": "ff151c00207c908581639851dd8504ce4255be0650b2b236edec2aa90342b0cd",
+          "bytes": 1103
+        },
+        {
+          "source": "node_modules/next/dist/compiled/httpxy/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/httpxy/LICENSE",
+          "sha256": "4249bd020d1b5c503d20a196c1b686b3bdebcd1c7ac06909c546d9624c64f79b",
+          "bytes": 2232
+        },
+        {
+          "source": "node_modules/next/dist/compiled/icss-utils/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/icss-utils/LICENSE",
+          "sha256": "b2b54c738525e98cc42d4a1c239c9d8421507816acce98950e81d0943daae68e",
+          "bytes": 744
+        },
+        {
+          "source": "node_modules/next/dist/compiled/ignore-loader/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ignore-loader/LICENSE",
+          "sha256": "62ba766e9b50f9b175b0229f4ea03e93730c9180408acec50dd617e9ae1fa059",
+          "bytes": 1066
+        },
+        {
+          "source": "node_modules/next/dist/compiled/image-size/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/image-size/LICENSE",
+          "sha256": "3109783dad7527b490aabc49c3cb148573c19b41b843e70cf9388a93f3d7fccd",
+          "bytes": 1112
+        },
+        {
+          "source": "node_modules/next/dist/compiled/ipaddr.js/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ipaddr.js/LICENSE",
+          "sha256": "62568a2d1337b77171ecca9db10579163446de1ba6151678e81f06cdc199971b",
+          "bytes": 1087
+        },
+        {
+          "source": "node_modules/next/dist/compiled/is-animated/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/is-animated/LICENSE",
+          "sha256": "e08c030e1274fadc495c71e0489612f0c74673b69ae8e41460526c233a94a728",
+          "bytes": 1137
+        },
+        {
+          "source": "node_modules/next/dist/compiled/is-docker/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/is-docker/LICENSE",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/is-wsl/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/is-wsl/LICENSE",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/jest-worker/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/jest-worker/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        },
+        {
+          "source": "node_modules/next/dist/compiled/json5/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/json5/LICENSE",
+          "sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927",
+          "bytes": 1145
+        },
+        {
+          "source": "node_modules/next/dist/compiled/jsonwebtoken/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/jsonwebtoken/LICENSE",
+          "sha256": "2144eb6894cb440fde6b2b3aaae3b617c8f1dc9bb19813079dcf62ec6c517042",
+          "bytes": 1121
+        },
+        {
+          "source": "node_modules/next/dist/compiled/loader-runner/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/loader-runner/LICENSE",
+          "sha256": "498d39c83164cf8de195090f5564fc0308ab271344ca2f95484a7f1020952d00",
+          "bytes": 1077
+        },
+        {
+          "source": "node_modules/next/dist/compiled/loader-utils2/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/loader-utils2/LICENSE",
+          "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/loader-utils3/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/loader-utils3/LICENSE",
+          "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/lodash.curry/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/lodash.curry/LICENSE",
+          "sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272",
+          "bytes": 1951
+        },
+        {
+          "source": "node_modules/next/dist/compiled/lru-cache/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/lru-cache/LICENSE",
+          "sha256": "451ec07eeb9c4e1b86de9abdaa426462a8be48f887ec7421cf0bbb9c769555ab",
+          "bytes": 775
+        },
+        {
+          "source": "node_modules/next/dist/compiled/mini-css-extract-plugin/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/mini-css-extract-plugin/LICENSE",
+          "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/nanoid/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/nanoid/LICENSE",
+          "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+          "bytes": 1095
+        },
+        {
+          "source": "node_modules/next/dist/compiled/native-url/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/native-url/LICENSE",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358
+        },
+        {
+          "source": "node_modules/next/dist/compiled/neo-async/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/neo-async/LICENSE",
+          "sha256": "811238ba7d85f6fe6b820703a32f92705bcf77bc352ddc3476783491c64a129a",
+          "bytes": 1119
+        },
+        {
+          "source": "node_modules/next/dist/compiled/node-html-parser/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/node-html-parser/LICENSE",
+          "sha256": "ea75e9321945b7f0bc4644da1e404ad76ce55e9bc05cae3b2f5f2d973aede83b",
+          "bytes": 1050
+        },
+        {
+          "source": "node_modules/next/dist/compiled/ora/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ora/LICENSE",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+          "bytes": 1117
+        },
+        {
+          "source": "node_modules/next/dist/compiled/os-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/os-browserify/LICENSE",
+          "sha256": "d25d1d6d28c35cb6f358e2833e405c4e53fec2fa24d156323ddea5cd438d3407",
+          "bytes": 1077
+        },
+        {
+          "source": "node_modules/next/dist/compiled/p-limit/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/p-limit/LICENSE",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+          "bytes": 1117
+        },
+        {
+          "source": "node_modules/next/dist/compiled/p-queue/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/p-queue/LICENSE",
+          "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+          "bytes": 1117
+        },
+        {
+          "source": "node_modules/next/dist/compiled/path-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/path-browserify/LICENSE",
+          "sha256": "a22b9d5763f574e5db347c30acc0b33eaf4846767c03d2e27d012e864e79a824",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/path-to-regexp/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/path-to-regexp/LICENSE",
+          "sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25",
+          "bytes": 1103
+        },
+        {
+          "source": "node_modules/next/dist/compiled/picomatch/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/picomatch/LICENSE",
+          "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+          "bytes": 1091
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-flexbugs-fixes/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-flexbugs-fixes/LICENSE",
+          "sha256": "f26c92c1c16e78c6b1f7474792f7195b7abc851caccb4a73dcc5b3c31efc7321",
+          "bytes": 1094
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-modules-extract-imports/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-extract-imports/LICENSE",
+          "sha256": "9e534cfb7f7ae1300e16fe1ee7d203fdfe707dc932429c37246f747c3699ee14",
+          "bytes": 726
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-modules-local-by-default/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-local-by-default/LICENSE",
+          "sha256": "dd40f37957ddcb6a6157f40b677d6f43697583f956144fbce25443e35630453e",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-modules-scope/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-scope/LICENSE",
+          "sha256": "7774c8c4a3f750b294b416818062201a404fc2d6c8756d8b89a1688e24b5d5a7",
+          "bytes": 750
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-modules-values/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-values/LICENSE",
+          "sha256": "655287aefbf8e292057318c385d77767b1dd9819c87709fd26730b7090efe4d9",
+          "bytes": 749
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-preset-env/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-preset-env/LICENSE",
+          "sha256": "597756adcb51f243ef4fb386920377f61d012ace0904364e1a8ee9aaec6afc84",
+          "bytes": 6799
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-safe-parser/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-safe-parser/LICENSE",
+          "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+          "bytes": 1095
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-scss/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-scss/LICENSE",
+          "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+          "bytes": 1095
+        },
+        {
+          "source": "node_modules/next/dist/compiled/postcss-value-parser/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-value-parser/LICENSE",
+          "sha256": "3687447039151857a6ba378db062172c7f33d4aa70a615c87a43a9c50e990485",
+          "bytes": 1074
+        },
+        {
+          "source": "node_modules/next/dist/compiled/process/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/process/LICENSE",
+          "sha256": "59a400d04c5078579acc27ddd6452c1bdf763f9506e01364700935fbb1a7c91b",
+          "bytes": 1098
+        },
+        {
+          "source": "node_modules/next/dist/compiled/querystring-es3/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/querystring-es3/LICENSE",
+          "sha256": "cb72d9714ddc21e758d63f423be0caddf909d23ccbb10a2f5201a870818e4f57",
+          "bytes": 1081
+        },
+        {
+          "source": "node_modules/next/dist/compiled/raw-body/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/raw-body/LICENSE",
+          "sha256": "c8e6bca7230689d536a3bd7158f66e9c4f89f95d0748743a0370ac229e9023ad",
+          "bytes": 1181
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-dom/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-dom/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-dom-experimental/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-dom-experimental/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-experimental/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-experimental/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-is/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-is/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-refresh/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-refresh/LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-server-dom-turbopack/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-turbopack/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-server-dom-turbopack-experimental/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-turbopack-experimental/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-server-dom-webpack/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-webpack/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/react-server-dom-webpack-experimental/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-webpack-experimental/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/regenerator-runtime/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/regenerator-runtime/LICENSE",
+          "sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd",
+          "bytes": 1080
+        },
+        {
+          "source": "node_modules/next/dist/compiled/safe-stable-stringify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/safe-stable-stringify/LICENSE",
+          "sha256": "3a6d6de49d284a36c5d271ef0e62eca1838cc460dd7630e3f2c347c8f5b2232a",
+          "bytes": 1079
+        },
+        {
+          "source": "node_modules/next/dist/compiled/sass-loader/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/sass-loader/LICENSE",
+          "sha256": "2af12ca8b612a22e6659ae68e0e59ee7ac792718c45524a989b512c49c5f5879",
+          "bytes": 1070
+        },
+        {
+          "source": "node_modules/next/dist/compiled/scheduler/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/scheduler/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/scheduler-experimental/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/scheduler-experimental/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        },
+        {
+          "source": "node_modules/next/dist/compiled/schema-utils2/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/schema-utils2/LICENSE",
+          "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/schema-utils3/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/schema-utils3/LICENSE",
+          "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/semver/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/semver/LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+          "bytes": 765
+        },
+        {
+          "source": "node_modules/next/dist/compiled/send/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/send/LICENSE",
+          "sha256": "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9",
+          "bytes": 1128
+        },
+        {
+          "source": "node_modules/next/dist/compiled/serve-handler/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/serve-handler/LICENSE",
+          "sha256": "be8ba42db3b7c3dbb064bcdc1bbbb191c0a39c8851c2a53564e97c7eea301bca",
+          "bytes": 1067
+        },
+        {
+          "source": "node_modules/next/dist/compiled/shell-quote/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/shell-quote/LICENSE",
+          "sha256": "8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/source-map/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/source-map/LICENSE",
+          "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+          "bytes": 1526
+        },
+        {
+          "source": "node_modules/next/dist/compiled/source-map08/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/source-map08/LICENSE",
+          "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+          "bytes": 1526
+        },
+        {
+          "source": "node_modules/next/dist/compiled/stacktrace-parser/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/stacktrace-parser/LICENSE",
+          "sha256": "e1898814043cb5500483d9c8517edda824b352f696d35e5043fcfb537c221531",
+          "bytes": 1076
+        },
+        {
+          "source": "node_modules/next/dist/compiled/stream-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/stream-browserify/LICENSE",
+          "sha256": "96e5193183476a03da6667d217ce14110191d26ee105338086e94339edf40d5a",
+          "bytes": 1066
+        },
+        {
+          "source": "node_modules/next/dist/compiled/stream-http/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/stream-http/LICENSE",
+          "sha256": "a0e6357a5e8ea65827addeb383e0948a1874d2f46bc7feaf6349b7a376ed6e98",
+          "bytes": 1086
+        },
+        {
+          "source": "node_modules/next/dist/compiled/string_decoder/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/string_decoder/LICENSE",
+          "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+          "bytes": 2338
+        },
+        {
+          "source": "node_modules/next/dist/compiled/strip-ansi/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/strip-ansi/LICENSE",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+          "bytes": 1109
+        },
+        {
+          "source": "node_modules/next/dist/compiled/superstruct/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/superstruct/LICENSE",
+          "sha256": "0f644bc01d85e4b1958bdfe5a851704bd886404c78188d4d6fba43dc8293bc91",
+          "bytes": 1111
+        },
+        {
+          "source": "node_modules/next/dist/compiled/tar/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/tar/LICENSE",
+          "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+          "bytes": 1552
+        },
+        {
+          "source": "node_modules/next/dist/compiled/terser/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/terser/LICENSE",
+          "sha256": "901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da",
+          "bytes": 1303
+        },
+        {
+          "source": "node_modules/next/dist/compiled/text-table/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/text-table/LICENSE",
+          "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+          "bytes": 1073
+        },
+        {
+          "source": "node_modules/next/dist/compiled/timers-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/timers-browserify/LICENSE",
+          "sha256": "d5f14c3258420dfe5a3b641a143d6e6dd90eabb5962244d937e25699c3a45ec9",
+          "bytes": 2505
+        },
+        {
+          "source": "node_modules/next/dist/compiled/tty-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/tty-browserify/LICENSE",
+          "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+          "bytes": 1073
+        },
+        {
+          "source": "node_modules/next/dist/compiled/ua-parser-js/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ua-parser-js/LICENSE",
+          "sha256": "fb9548e36708f09ae0cc1047ebd8153928bfe5bed67e4051f0ace552bdcbf0b3",
+          "bytes": 1095
+        },
+        {
+          "source": "node_modules/next/dist/compiled/util/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/util/LICENSE",
+          "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+          "bytes": 1096
+        },
+        {
+          "source": "node_modules/next/dist/compiled/vm-browserify/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/vm-browserify/LICENSE",
+          "sha256": "3a62887f73cd035ac1068bc0127ce94291f7a03843391f56df3520e2ca2037f8",
+          "bytes": 1036
+        },
+        {
+          "source": "node_modules/next/dist/compiled/watchpack/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/watchpack/LICENSE",
+          "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/web-vitals/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/web-vitals/LICENSE",
+          "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+          "bytes": 11342
+        },
+        {
+          "source": "node_modules/next/dist/compiled/web-vitals-attribution/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/web-vitals-attribution/LICENSE",
+          "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+          "bytes": 11342
+        },
+        {
+          "source": "node_modules/next/dist/compiled/webpack/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/webpack/LICENSE",
+          "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+          "bytes": 1071
+        },
+        {
+          "source": "node_modules/next/dist/compiled/webpack-sources1/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/webpack-sources1/LICENSE",
+          "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+          "bytes": 1093
+        },
+        {
+          "source": "node_modules/next/dist/compiled/webpack-sources3/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/webpack-sources3/LICENSE",
+          "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+          "bytes": 1093
+        },
+        {
+          "source": "node_modules/next/dist/compiled/write-file-atomic/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/write-file-atomic/LICENSE",
+          "sha256": "ea7f376fe7a1fc28572b83ac8f806d92effb31852b9981bc9ba9d5266caa6b28",
+          "bytes": 734
+        },
+        {
+          "source": "node_modules/next/dist/compiled/ws/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ws/LICENSE",
+          "sha256": "dcd0a622a3a2c94fe3aa6238b76363f87df442afe788cbad966afe943ed62281",
+          "bytes": 1083
+        },
+        {
+          "source": "node_modules/next/dist/compiled/zod/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/zod/LICENSE",
+          "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+          "bytes": 1072
+        },
+        {
+          "source": "node_modules/next/dist/compiled/zod-validation-error/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/zod-validation-error/LICENSE",
+          "sha256": "03cc9a630489a2544b799548a0e8b134f382fe09fa06dc22b339091b28b8f4a8",
+          "bytes": 1095
+        },
+        {
+          "source": "node_modules/next/license.md",
+          "retained_path": "docs/licenses/runtime/npm/next-16.4.0/license.md",
+          "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
+          "bytes": 1079
+        }
+      ],
+      "installed_version": "16.4.0",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "440efba874450dc997b2c3bf9efa4c3c4835abbc40d65442e94a7c69f4bad031",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "postcss",
+      "locked_version": "8.5.23",
+      "lock_location": "node_modules/next/node_modules/postcss",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/next/node_modules/postcss/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/postcss-8.5.23/LICENSE",
+          "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+          "bytes": 1095
+        }
+      ],
+      "installed_version": "8.5.23",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "df43e035f054943454c49556c89cea8a288d91f5d4b1a6f4e56d48b85c7ebd75",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "picocolors",
+      "locked_version": "1.1.1",
+      "lock_location": "node_modules/picocolors",
+      "license": "ISC",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/picocolors/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/picocolors-1.1.1/LICENSE",
+          "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+          "bytes": 787
+        }
+      ],
+      "installed_version": "1.1.1",
+      "installed_license": "ISC",
+      "status": "matched",
+      "metadata_sha256": "ef2ac226c4811d312e12c64214c453878653e834482125ae475f27cea60de737",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react",
+      "locked_version": "19.3.0",
+      "lock_location": "node_modules/react",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/react/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/react-19.3.0/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ],
+      "installed_version": "19.3.0",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "6e003e4e9ed25afa7fdd55613f8aa877cefa9b359d9c13f81ee704030248e24e",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "react-dom",
+      "locked_version": "19.3.0",
+      "lock_location": "node_modules/react-dom",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/react-dom/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/react-dom-19.3.0/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ],
+      "installed_version": "19.3.0",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "136d4af63de473392ea79d6a21932b0ed9eb37fe518ce70f4621250f3d79e9bb",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "scheduler",
+      "locked_version": "0.28.0",
+      "lock_location": "node_modules/scheduler",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/scheduler/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/scheduler-0.28.0/LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "bytes": 1088
+        }
+      ],
+      "installed_version": "0.28.0",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "06290718f22bcd93f29eaa1ac8d2ec9a7592ba4fec12bf1230e7cdd9a871b324",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "semver",
+      "locked_version": "7.8.5",
+      "lock_location": "node_modules/semver",
+      "license": "ISC",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/semver/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/semver-7.8.5/LICENSE",
+          "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+          "bytes": 765
+        }
+      ],
+      "installed_version": "7.8.5",
+      "installed_license": "ISC",
+      "status": "matched",
+      "metadata_sha256": "7c94cb7f2a53c27b20d76386ec144c062894dbcc909cfabd0f728c37874b1776",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "sharp",
+      "locked_version": "0.35.5",
+      "lock_location": "node_modules/sharp",
+      "license": "Apache-2.0",
+      "license_source": "web/package-lock.json",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/sharp/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/sharp-0.35.5/LICENSE",
+          "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+          "bytes": 10273
+        }
+      ],
+      "installed_version": "0.35.5",
+      "installed_license": "Apache-2.0",
+      "status": "matched",
+      "metadata_sha256": "ad4a2535d72eb638053a38867b1abf43c328cd1c1dbae5cf4172d498365a8b97",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "source-map-js",
+      "locked_version": "1.2.2",
+      "lock_location": "node_modules/source-map-js",
+      "license": "BSD-3-Clause",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/source-map-js/LICENSE",
+          "retained_path": "docs/licenses/runtime/npm/source-map-js-1.2.2/LICENSE",
+          "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+          "bytes": 1526
+        }
+      ],
+      "installed_version": "1.2.2",
+      "installed_license": "BSD-3-Clause",
+      "status": "matched",
+      "metadata_sha256": "9f1ea63b1661d0f6e5fcd50b625d86cddd77de870a0019b23262360987b487f5",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "styled-jsx",
+      "locked_version": "5.1.6",
+      "lock_location": "node_modules/styled-jsx",
+      "license": "MIT",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/styled-jsx/license.md",
+          "retained_path": "docs/licenses/runtime/npm/styled-jsx-5.1.6/license.md",
+          "sha256": "24d4a4580df855c345705b3016404f0c9da7e7674dc3b21a3ce7d0e5d0c37e2d",
+          "bytes": 1077
+        }
+      ],
+      "installed_version": "5.1.6",
+      "installed_license": "MIT",
+      "status": "matched",
+      "metadata_sha256": "0a11b14d7bbeab650019db18883a14cb67daa3615f498a5a625d45828be7eef9",
+      "supporting_files": []
+    },
+    {
+      "ecosystem": "npm",
+      "name": "tslib",
+      "locked_version": "2.8.1",
+      "lock_location": "node_modules/tslib",
+      "license": "0BSD",
+      "license_source": "web/package-lock.json",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "libc": null,
+      "notice_files": [
+        {
+          "source": "node_modules/tslib/LICENSE.txt",
+          "retained_path": "docs/licenses/runtime/npm/tslib-2.8.1/LICENSE.txt",
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+          "bytes": 655
+        }
+      ],
+      "installed_version": "2.8.1",
+      "installed_license": "0BSD",
+      "status": "matched",
+      "metadata_sha256": "f02b4851df316f29bdfcd404aa1eb41e4e216b5859015f81fcd3e91caf8be931",
+      "supporting_files": []
+    }
+  ],
+  "python_runtime_edges": [
+    {
+      "from": "laip-backend",
+      "name": "fastapi"
+    },
+    {
+      "from": "fastapi",
+      "name": "annotated-doc"
+    },
+    {
+      "from": "fastapi",
+      "name": "opentelemetry-api"
+    },
+    {
+      "from": "opentelemetry-api",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "fastapi",
+      "name": "pydantic"
+    },
+    {
+      "from": "pydantic",
+      "name": "annotated-types"
+    },
+    {
+      "from": "pydantic",
+      "name": "pydantic-core"
+    },
+    {
+      "from": "pydantic-core",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "pydantic",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "pydantic",
+      "name": "typing-inspection"
+    },
+    {
+      "from": "typing-inspection",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "fastapi",
+      "name": "starlette"
+    },
+    {
+      "from": "starlette",
+      "name": "anyio"
+    },
+    {
+      "from": "anyio",
+      "name": "idna"
+    },
+    {
+      "from": "anyio",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "starlette",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "fastapi",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "fastapi",
+      "name": "typing-inspection"
+    },
+    {
+      "from": "laip-backend",
+      "name": "jsonschema"
+    },
+    {
+      "from": "jsonschema",
+      "name": "attrs"
+    },
+    {
+      "from": "jsonschema",
+      "name": "jsonschema-specifications"
+    },
+    {
+      "from": "jsonschema-specifications",
+      "name": "referencing"
+    },
+    {
+      "from": "referencing",
+      "name": "attrs"
+    },
+    {
+      "from": "referencing",
+      "name": "rpds-py"
+    },
+    {
+      "from": "referencing",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "jsonschema",
+      "name": "referencing"
+    },
+    {
+      "from": "jsonschema",
+      "name": "rpds-py"
+    },
+    {
+      "from": "laip-backend",
+      "name": "lark"
+    },
+    {
+      "from": "laip-backend",
+      "name": "psycopg",
+      "extra": [
+        "binary"
+      ]
+    },
+    {
+      "from": "psycopg",
+      "name": "typing-extensions"
+    },
+    {
+      "from": "psycopg",
+      "name": "tzdata",
+      "marker": "sys_platform == 'win32'"
+    },
+    {
+      "from": "psycopg",
+      "name": "psycopg-binary",
+      "marker": "implementation_name != 'pypy'"
+    },
+    {
+      "from": "laip-backend",
+      "name": "pydantic"
+    },
+    {
+      "from": "laip-backend",
+      "name": "pydantic-settings"
+    },
+    {
+      "from": "pydantic-settings",
+      "name": "pydantic"
+    },
+    {
+      "from": "pydantic-settings",
+      "name": "python-dotenv"
+    },
+    {
+      "from": "pydantic-settings",
+      "name": "typing-inspection"
+    },
+    {
+      "from": "laip-backend",
+      "name": "uvicorn"
+    },
+    {
+      "from": "uvicorn",
+      "name": "click"
+    },
+    {
+      "from": "uvicorn",
+      "name": "h11"
+    }
+  ],
+  "excluded_python_development_and_build": [
+    {
+      "name": "ast-serialize",
+      "locked_version": "0.12.1"
+    },
+    {
+      "name": "certifi",
+      "locked_version": "2026.7.22"
+    },
+    {
+      "name": "colorama",
+      "locked_version": "0.4.6"
+    },
+    {
+      "name": "coverage",
+      "locked_version": "7.16.2"
+    },
+    {
+      "name": "httpcore",
+      "locked_version": "1.0.9"
+    },
+    {
+      "name": "httpx",
+      "locked_version": "0.28.1"
+    },
+    {
+      "name": "iniconfig",
+      "locked_version": "2.3.1"
+    },
+    {
+      "name": "librt",
+      "locked_version": "0.16.0"
+    },
+    {
+      "name": "mypy",
+      "locked_version": "2.4.0"
+    },
+    {
+      "name": "mypy-extensions",
+      "locked_version": "1.1.0"
+    },
+    {
+      "name": "packaging",
+      "locked_version": "26.3"
+    },
+    {
+      "name": "pathspec",
+      "locked_version": "1.1.1"
+    },
+    {
+      "name": "pluggy",
+      "locked_version": "1.6.0"
+    },
+    {
+      "name": "pygments",
+      "locked_version": "2.21.0"
+    },
+    {
+      "name": "pytest",
+      "locked_version": "9.1.1"
+    },
+    {
+      "name": "pytest-cov",
+      "locked_version": "7.1.0"
+    },
+    {
+      "name": "ruff",
+      "locked_version": "0.16.10"
+    }
+  ],
+  "excluded_npm_development": [
+    {
+      "name": "@alloc/quick-lru",
+      "locked_version": "5.3.0",
+      "lock_location": "node_modules/@alloc/quick-lru"
+    },
+    {
+      "name": "@jridgewell/gen-mapping",
+      "locked_version": "0.3.13",
+      "lock_location": "node_modules/@jridgewell/gen-mapping"
+    },
+    {
+      "name": "@jridgewell/remapping",
+      "locked_version": "2.3.5",
+      "lock_location": "node_modules/@jridgewell/remapping"
+    },
+    {
+      "name": "@jridgewell/resolve-uri",
+      "locked_version": "3.1.2",
+      "lock_location": "node_modules/@jridgewell/resolve-uri"
+    },
+    {
+      "name": "@jridgewell/sourcemap-codec",
+      "locked_version": "1.6.0",
+      "lock_location": "node_modules/@jridgewell/sourcemap-codec"
+    },
+    {
+      "name": "@jridgewell/trace-mapping",
+      "locked_version": "0.3.31",
+      "lock_location": "node_modules/@jridgewell/trace-mapping"
+    },
+    {
+      "name": "@tailwindcss/node",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/node"
+    },
+    {
+      "name": "@tailwindcss/oxide",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide"
+    },
+    {
+      "name": "@tailwindcss/oxide-android-arm64",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-android-arm64"
+    },
+    {
+      "name": "@tailwindcss/oxide-darwin-arm64",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-darwin-arm64"
+    },
+    {
+      "name": "@tailwindcss/oxide-darwin-x64",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-darwin-x64"
+    },
+    {
+      "name": "@tailwindcss/oxide-freebsd-x64",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-freebsd-x64"
+    },
+    {
+      "name": "@tailwindcss/oxide-linux-arm-gnueabihf",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-linux-arm-gnueabihf"
+    },
+    {
+      "name": "@tailwindcss/oxide-linux-arm64-gnu",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-linux-arm64-gnu"
+    },
+    {
+      "name": "@tailwindcss/oxide-linux-arm64-musl",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-linux-arm64-musl"
+    },
+    {
+      "name": "@tailwindcss/oxide-linux-x64-gnu",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-linux-x64-gnu"
+    },
+    {
+      "name": "@tailwindcss/oxide-linux-x64-musl",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-linux-x64-musl"
+    },
+    {
+      "name": "@tailwindcss/oxide-wasm32-wasi",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-wasm32-wasi"
+    },
+    {
+      "name": "@tailwindcss/oxide-win32-arm64-msvc",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-win32-arm64-msvc"
+    },
+    {
+      "name": "@tailwindcss/oxide-win32-x64-msvc",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/oxide-win32-x64-msvc"
+    },
+    {
+      "name": "@tailwindcss/postcss",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/@tailwindcss/postcss"
+    },
+    {
+      "name": "@types/node",
+      "locked_version": "22.19.15",
+      "lock_location": "node_modules/@types/node"
+    },
+    {
+      "name": "@types/react",
+      "locked_version": "19.2.14",
+      "lock_location": "node_modules/@types/react"
+    },
+    {
+      "name": "@types/react-dom",
+      "locked_version": "19.2.3",
+      "lock_location": "node_modules/@types/react-dom"
+    },
+    {
+      "name": "@typescript/typescript-aix-ppc64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-aix-ppc64"
+    },
+    {
+      "name": "@typescript/typescript-darwin-arm64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-darwin-arm64"
+    },
+    {
+      "name": "@typescript/typescript-darwin-x64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-darwin-x64"
+    },
+    {
+      "name": "@typescript/typescript-freebsd-arm64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-freebsd-arm64"
+    },
+    {
+      "name": "@typescript/typescript-freebsd-x64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-freebsd-x64"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-arm"
+    },
+    {
+      "name": "@typescript/typescript-linux-arm64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-arm64"
+    },
+    {
+      "name": "@typescript/typescript-linux-loong64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-loong64"
+    },
+    {
+      "name": "@typescript/typescript-linux-mips64el",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-mips64el"
+    },
+    {
+      "name": "@typescript/typescript-linux-ppc64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-ppc64"
+    },
+    {
+      "name": "@typescript/typescript-linux-riscv64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-riscv64"
+    },
+    {
+      "name": "@typescript/typescript-linux-s390x",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-s390x"
+    },
+    {
+      "name": "@typescript/typescript-linux-x64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-linux-x64"
+    },
+    {
+      "name": "@typescript/typescript-netbsd-arm64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-netbsd-arm64"
+    },
+    {
+      "name": "@typescript/typescript-netbsd-x64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-netbsd-x64"
+    },
+    {
+      "name": "@typescript/typescript-openbsd-arm64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-openbsd-arm64"
+    },
+    {
+      "name": "@typescript/typescript-openbsd-x64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-openbsd-x64"
+    },
+    {
+      "name": "@typescript/typescript-sunos-x64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-sunos-x64"
+    },
+    {
+      "name": "@typescript/typescript-win32-arm64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-win32-arm64"
+    },
+    {
+      "name": "@typescript/typescript-win32-x64",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/@typescript/typescript-win32-x64"
+    },
+    {
+      "name": "csstype",
+      "locked_version": "3.2.3",
+      "lock_location": "node_modules/csstype"
+    },
+    {
+      "name": "enhanced-resolve",
+      "locked_version": "5.26.0",
+      "lock_location": "node_modules/enhanced-resolve"
+    },
+    {
+      "name": "graceful-fs",
+      "locked_version": "4.2.11",
+      "lock_location": "node_modules/graceful-fs"
+    },
+    {
+      "name": "jiti",
+      "locked_version": "2.7.0",
+      "lock_location": "node_modules/jiti"
+    },
+    {
+      "name": "lightningcss",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss"
+    },
+    {
+      "name": "lightningcss-android-arm64",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-android-arm64"
+    },
+    {
+      "name": "lightningcss-darwin-arm64",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-darwin-arm64"
+    },
+    {
+      "name": "lightningcss-darwin-x64",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-darwin-x64"
+    },
+    {
+      "name": "lightningcss-freebsd-x64",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-freebsd-x64"
+    },
+    {
+      "name": "lightningcss-linux-arm-gnueabihf",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-linux-arm-gnueabihf"
+    },
+    {
+      "name": "lightningcss-linux-arm64-gnu",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-linux-arm64-gnu"
+    },
+    {
+      "name": "lightningcss-linux-arm64-musl",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-linux-arm64-musl"
+    },
+    {
+      "name": "lightningcss-linux-x64-gnu",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-linux-x64-gnu"
+    },
+    {
+      "name": "lightningcss-linux-x64-musl",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-linux-x64-musl"
+    },
+    {
+      "name": "lightningcss-win32-arm64-msvc",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-win32-arm64-msvc"
+    },
+    {
+      "name": "lightningcss-win32-x64-msvc",
+      "locked_version": "1.32.0",
+      "lock_location": "node_modules/lightningcss-win32-x64-msvc"
+    },
+    {
+      "name": "magic-string",
+      "locked_version": "0.30.21",
+      "lock_location": "node_modules/magic-string"
+    },
+    {
+      "name": "postcss",
+      "locked_version": "8.5.29",
+      "lock_location": "node_modules/postcss"
+    },
+    {
+      "name": "tailwindcss",
+      "locked_version": "4.3.3",
+      "lock_location": "node_modules/tailwindcss"
+    },
+    {
+      "name": "tapable",
+      "locked_version": "2.3.3",
+      "lock_location": "node_modules/tapable"
+    },
+    {
+      "name": "typescript",
+      "locked_version": "7.0.2",
+      "lock_location": "node_modules/typescript"
+    },
+    {
+      "name": "undici-types",
+      "locked_version": "6.21.0",
+      "lock_location": "node_modules/undici-types"
+    }
+  ],
+  "excluded_scope": [
+    "LAIP project license decision",
+    "Docker base images, operating-system libraries, copied uv executable and PostgreSQL/pgvector image notices",
+    "Build tools and development-only dependencies (see explicit excluded lists)",
+    "Reproducible video project dependencies and assets (separate distribution)",
+    "Optional REA installation (see docs/rea-assessment.md)"
+  ],
+  "blockers": [
+    "Local macOS installed metadata cannot establish full Linux Docker runtime notices, including native bundled libraries.",
+    "Absent optional platform packages have lockfile license expressions only; target-image notice files must be collected before container redistribution.",
+    "Psycopg/psycopg-binary LGPL obligations and bundled native library source/notice requirements need distribution-specific review.",
+    "Next.js compiled/vendored dependency license files are retained, but this is not a complete final-image SBOM or legal clearance.",
+    "Project license is undecided; no project LICENSE was introduced."
+  ]
+}

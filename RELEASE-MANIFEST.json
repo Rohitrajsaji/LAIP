@@ -1,0 +1,3202 @@
+{
+  "audit_inventory_sha256": "42845e43ba35d27296f8bd9b01132ec5182a2641742cb4510c53585b87b53f60",
+  "excluded": [
+    "backend/tests/fixtures/banking/manifest.json",
+    "backend/tests/fixtures/banking/oracle.json",
+    "backend/tests/test_banking_acceptance.py",
+    "backend/tests/test_banking_dds.py",
+    "backend/tests/test_banking_negative_jobs.py",
+    "backend/tests/test_banking_projections.py",
+    "backend/tests/test_banking_publication.py",
+    "backend/tests/test_banking_recovery.py",
+    "backend/tests/test_banking_rpgle.py",
+    "backend/tests/test_banking_rules.py",
+    "backend/tests/test_banking_workflow_security.py",
+    "docs/laip-banking-browser-validation.md",
+    "docs/laip-banking-extraction-validation.md",
+    "docs/laip-banking-semantics-sources.md",
+    "docs/packaging/inventory.json",
+    "docs/packaging/inventory.md",
+    "docs/plans/laip-banking-extraction-fix.md",
+    "docs/plans/laip-banking-extraction-orchestration.md",
+    "docs/validation/banking/coverage.jpg",
+    "docs/validation/banking/export.jpg"
+  ],
+  "files": [
+    {
+      "bytes": 979,
+      "original_sha256": "7394c622f4a0f07f3ff7773bf7fe3c9df817023f23c5f63aa0b7bb7f8c7225a2",
+      "path": ".dockerignore",
+      "sha256": "7394c622f4a0f07f3ff7773bf7fe3c9df817023f23c5f63aa0b7bb7f8c7225a2",
+      "transformed": false
+    },
+    {
+      "bytes": 823,
+      "original_sha256": "7d5362e8e4d2f94369bf0c87a49329319cf7172bb2e946f1aea24a78d819eb1f",
+      "path": ".github/workflows/ci.yml",
+      "sha256": "7d5362e8e4d2f94369bf0c87a49329319cf7172bb2e946f1aea24a78d819eb1f",
+      "transformed": false
+    },
+    {
+      "bytes": 1134,
+      "original_sha256": "4e0680d034936a805433a9df0fd3ae26db029d961c0124935f9f51f383191f37",
+      "path": ".gitignore",
+      "sha256": "4e0680d034936a805433a9df0fd3ae26db029d961c0124935f9f51f383191f37",
+      "transformed": false
+    },
+    {
+      "bytes": 4591,
+      "original_sha256": "f267e033a0389df6b736cab5bf910994fc8e8f7234eaca80a2cfbb323e13c60f",
+      "path": "Makefile",
+      "sha256": "f267e033a0389df6b736cab5bf910994fc8e8f7234eaca80a2cfbb323e13c60f",
+      "transformed": false
+    },
+    {
+      "bytes": 3708,
+      "original_sha256": "a99ee2ce9e29c6489b82348e48cf9fbfb6f0aa66aabde2170bc2dc4ffcc469a3",
+      "path": "README.md",
+      "sha256": "a99ee2ce9e29c6489b82348e48cf9fbfb6f0aa66aabde2170bc2dc4ffcc469a3",
+      "transformed": false
+    },
+    {
+      "bytes": 97,
+      "original_sha256": "ea2882af439598984a0ec3679e6074bbfb8ccc95fdc1f1cff225944357b18448",
+      "path": "backend/.dockerignore",
+      "sha256": "ea2882af439598984a0ec3679e6074bbfb8ccc95fdc1f1cff225944357b18448",
+      "transformed": false
+    },
+    {
+      "bytes": 733,
+      "original_sha256": "4e937baa194f4401ff90f3704e88a73a8539de31a627f0a54c60b98ddcf8720b",
+      "path": "backend/Dockerfile",
+      "sha256": "4e937baa194f4401ff90f3704e88a73a8539de31a627f0a54c60b98ddcf8720b",
+      "transformed": false
+    },
+    {
+      "bytes": 9520,
+      "original_sha256": "1bf56f3a39eb9e37b8c8d11547653c1f55766e98fbd2e5af77b945fe9f21f36e",
+      "path": "backend/README.md",
+      "sha256": "1bf56f3a39eb9e37b8c8d11547653c1f55766e98fbd2e5af77b945fe9f21f36e",
+      "transformed": false
+    },
+    {
+      "bytes": 829,
+      "original_sha256": "90e9c730c262bfe03f283301ffab1802dd1d12c0fa5d1558ebc847100086edd7",
+      "path": "backend/pyproject.toml",
+      "sha256": "90e9c730c262bfe03f283301ffab1802dd1d12c0fa5d1558ebc847100086edd7",
+      "transformed": false
+    },
+    {
+      "bytes": 1,
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "path": "backend/src/laip/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "transformed": false
+    },
+    {
+      "bytes": 607,
+      "original_sha256": "c35210911c3d8547e06d30d602a3b82618c459536d195d4dd9109885b04590d5",
+      "path": "backend/src/laip/analysis_facts.py",
+      "sha256": "c35210911c3d8547e06d30d602a3b82618c459536d195d4dd9109885b04590d5",
+      "transformed": false
+    },
+    {
+      "bytes": 9179,
+      "original_sha256": "806e114f6cacc8501da18b5662f1174a08b8209c86c0b7f1403b1db17c2aa20f",
+      "path": "backend/src/laip/analyst_api.py",
+      "sha256": "806e114f6cacc8501da18b5662f1174a08b8209c86c0b7f1403b1db17c2aa20f",
+      "transformed": false
+    },
+    {
+      "bytes": 7560,
+      "original_sha256": "ae0eca59e5ebc80dceb3f3405a118b0c9bf02106a707c4d844559803ab51ca83",
+      "path": "backend/src/laip/analyst_fixture.py",
+      "sha256": "ae0eca59e5ebc80dceb3f3405a118b0c9bf02106a707c4d844559803ab51ca83",
+      "transformed": false
+    },
+    {
+      "bytes": 35561,
+      "original_sha256": "4fc051b2bb86d29d945d7daaa0499fae74af7b2849b4d44b3c5ec3ff1f56bcc3",
+      "path": "backend/src/laip/analyst_jobs.py",
+      "sha256": "4fc051b2bb86d29d945d7daaa0499fae74af7b2849b4d44b3c5ec3ff1f56bcc3",
+      "transformed": false
+    },
+    {
+      "bytes": 21970,
+      "original_sha256": "2c7de932f5e54dd7961826dc3948e06333ddb79f7fffcac5525aeefc660c8730",
+      "path": "backend/src/laip/analyst_service.py",
+      "sha256": "2c7de932f5e54dd7961826dc3948e06333ddb79f7fffcac5525aeefc660c8730",
+      "transformed": false
+    },
+    {
+      "bytes": 26182,
+      "original_sha256": "979cd02490d77828a0cad44e0d58d98a2dd8018a569d240cc2f1f818c213b3ac",
+      "path": "backend/src/laip/analyzer_publication.py",
+      "sha256": "979cd02490d77828a0cad44e0d58d98a2dd8018a569d240cc2f1f818c213b3ac",
+      "transformed": false
+    },
+    {
+      "bytes": 3806,
+      "original_sha256": "52809a612ac7f63267779fe16732375fc04c793e5d01d89c22263cf0e7e194f7",
+      "path": "backend/src/laip/api.py",
+      "sha256": "52809a612ac7f63267779fe16732375fc04c793e5d01d89c22263cf0e7e194f7",
+      "transformed": false
+    },
+    {
+      "bytes": 5824,
+      "original_sha256": "88c5353e4d115618ad672acaaeb5bdbb1c7170e520dc51b50bf6b91603533309",
+      "path": "backend/src/laip/artifacts.py",
+      "sha256": "88c5353e4d115618ad672acaaeb5bdbb1c7170e520dc51b50bf6b91603533309",
+      "transformed": false
+    },
+    {
+      "bytes": 3386,
+      "original_sha256": "959575510221a3eccc4ccdb20d62c9e0ec9b3d5e897b0266f693ac938470f6c4",
+      "path": "backend/src/laip/banking_corpus.py",
+      "sha256": "959575510221a3eccc4ccdb20d62c9e0ec9b3d5e897b0266f693ac938470f6c4",
+      "transformed": false
+    },
+    {
+      "bytes": 4920,
+      "original_sha256": "6df1720b4ef7cda33976ffdf6ac94de1c09dec8c9beb92316ea8b9fb18a78ec7",
+      "path": "backend/src/laip/bootstrap.py",
+      "sha256": "6df1720b4ef7cda33976ffdf6ac94de1c09dec8c9beb92316ea8b9fb18a78ec7",
+      "transformed": false
+    },
+    {
+      "bytes": 2622,
+      "original_sha256": "26cd1efbf1e96718c070fb0da740fc6507d28e77f5ee087ec5c3c2e79c87787f",
+      "path": "backend/src/laip/canonical.py",
+      "sha256": "26cd1efbf1e96718c070fb0da740fc6507d28e77f5ee087ec5c3c2e79c87787f",
+      "transformed": false
+    },
+    {
+      "bytes": 12263,
+      "original_sha256": "8389890bec359754cb03878af4af313186f8b1e167dcd9a5d5df5434b6c4d4db",
+      "path": "backend/src/laip/cl_analysis.py",
+      "sha256": "8389890bec359754cb03878af4af313186f8b1e167dcd9a5d5df5434b6c4d4db",
+      "transformed": false
+    },
+    {
+      "bytes": 13295,
+      "original_sha256": "8dd38577103fa393128eca9463841261417257dcb12b39cd8bd99f579b026e69",
+      "path": "backend/src/laip/cl_ir.py",
+      "sha256": "8dd38577103fa393128eca9463841261417257dcb12b39cd8bd99f579b026e69",
+      "transformed": false
+    },
+    {
+      "bytes": 13978,
+      "original_sha256": "07f90bffe475fe4e93f1a7bb55f30afd8f14a842c3fb220707bccfec7ff489a0",
+      "path": "backend/src/laip/cl_parser.py",
+      "sha256": "07f90bffe475fe4e93f1a7bb55f30afd8f14a842c3fb220707bccfec7ff489a0",
+      "transformed": false
+    },
+    {
+      "bytes": 10794,
+      "original_sha256": "bf66b2075671fc540915ce8d088cbe9db749b5c95cda8403d43b323a03dd0565",
+      "path": "backend/src/laip/claim_slices.py",
+      "sha256": "bf66b2075671fc540915ce8d088cbe9db749b5c95cda8403d43b323a03dd0565",
+      "transformed": false
+    },
+    {
+      "bytes": 612,
+      "original_sha256": "84bc49f55114734cffef700785aa84d7f84c206a129a8004b7cb8b950e192544",
+      "path": "backend/src/laip/claim_support.py",
+      "sha256": "84bc49f55114734cffef700785aa84d7f84c206a129a8004b7cb8b950e192544",
+      "transformed": false
+    },
+    {
+      "bytes": 5691,
+      "original_sha256": "bf080cd498dcb01ccfacf7d20352bb7aab7a0eb6b5f107713d5844515a350f14",
+      "path": "backend/src/laip/config.py",
+      "sha256": "bf080cd498dcb01ccfacf7d20352bb7aab7a0eb6b5f107713d5844515a350f14",
+      "transformed": false
+    },
+    {
+      "bytes": 12502,
+      "original_sha256": "d3b07e00081a54e606c9b30b2a35ce474574b04d85c38e617e62a3256b73576c",
+      "path": "backend/src/laip/context.py",
+      "sha256": "d3b07e00081a54e606c9b30b2a35ce474574b04d85c38e617e62a3256b73576c",
+      "transformed": false
+    },
+    {
+      "bytes": 223894,
+      "original_sha256": "e6d9518dc780533e59cd1a8271fa6eac4f277f477ea84d1940e8b3a6b01a71d4",
+      "path": "backend/src/laip/contracts/0.2.0/export.schema.json",
+      "sha256": "e6d9518dc780533e59cd1a8271fa6eac4f277f477ea84d1940e8b3a6b01a71d4",
+      "transformed": false
+    },
+    {
+      "bytes": 82522,
+      "original_sha256": "f271051a6d2ea0d2e4f5dc94c9fcf2c6c450c31a743af8e40de8f90137db3fb5",
+      "path": "backend/src/laip/contracts/0.2.0/laip.schema.json",
+      "sha256": "f271051a6d2ea0d2e4f5dc94c9fcf2c6c450c31a743af8e40de8f90137db3fb5",
+      "transformed": false
+    },
+    {
+      "bytes": 890999,
+      "original_sha256": "e323bac8f30902304ec9e59e0e85424fd7354021361d493d56008dd3b43c0ecd",
+      "path": "backend/src/laip/contracts/0.2.0/read-tools.json",
+      "sha256": "e323bac8f30902304ec9e59e0e85424fd7354021361d493d56008dd3b43c0ecd",
+      "transformed": false
+    },
+    {
+      "bytes": 62130,
+      "original_sha256": "00e7b9625e071d930a0e9824a40d165ecfb465133c7f89bac778bdc20d11103e",
+      "path": "backend/src/laip/contracts/export.schema.json",
+      "sha256": "00e7b9625e071d930a0e9824a40d165ecfb465133c7f89bac778bdc20d11103e",
+      "transformed": false
+    },
+    {
+      "bytes": 52983,
+      "original_sha256": "dc2888453ba3ba8b3d140079d6e919986e741375c94df636c2f3e6384b348c09",
+      "path": "backend/src/laip/contracts/laip.schema.json",
+      "sha256": "dc2888453ba3ba8b3d140079d6e919986e741375c94df636c2f3e6384b348c09",
+      "transformed": false
+    },
+    {
+      "bytes": 16034,
+      "original_sha256": "409a670ec2c8a095a15989d6777e6e92cef0f45eb7d34aa8cea8986766bbd1b3",
+      "path": "backend/src/laip/dds_analysis.py",
+      "sha256": "409a670ec2c8a095a15989d6777e6e92cef0f45eb7d34aa8cea8986766bbd1b3",
+      "transformed": false
+    },
+    {
+      "bytes": 23321,
+      "original_sha256": "5cdf9d4efa689e308c5618216323169f0920333ffc6b5cedab1493de169e4050",
+      "path": "backend/src/laip/dds_ir.py",
+      "sha256": "5cdf9d4efa689e308c5618216323169f0920333ffc6b5cedab1493de169e4050",
+      "transformed": false
+    },
+    {
+      "bytes": 20227,
+      "original_sha256": "b5205cee6ab154b60882279633d3a8fe7411c66f948ae976a8ed8aee1b0b4e4e",
+      "path": "backend/src/laip/dds_parser.py",
+      "sha256": "b5205cee6ab154b60882279633d3a8fe7411c66f948ae976a8ed8aee1b0b4e4e",
+      "transformed": false
+    },
+    {
+      "bytes": 28207,
+      "original_sha256": "2aea5c2f04118b45400e88ba9e5b7c7edbe74ed9cb4e386962af862444b46f58",
+      "path": "backend/src/laip/exports.py",
+      "sha256": "2aea5c2f04118b45400e88ba9e5b7c7edbe74ed9cb4e386962af862444b46f58",
+      "transformed": false
+    },
+    {
+      "bytes": 1567,
+      "original_sha256": "1f19ce1bd3669eb5c00ec73f6d2834aa651818d6354b9afcbe7e1fdc40435c0c",
+      "path": "backend/src/laip/healthcheck.py",
+      "sha256": "1f19ce1bd3669eb5c00ec73f6d2834aa651818d6354b9afcbe7e1fdc40435c0c",
+      "transformed": false
+    },
+    {
+      "bytes": 6712,
+      "original_sha256": "330e3d60b829ed25da41f53cc90f75e243ccd82fe6be7c8e8f6755e8e22b49f6",
+      "path": "backend/src/laip/import_manifest.py",
+      "sha256": "330e3d60b829ed25da41f53cc90f75e243ccd82fe6be7c8e8f6755e8e22b49f6",
+      "transformed": false
+    },
+    {
+      "bytes": 15481,
+      "original_sha256": "da62a6904f33ff97ce764c3bbb649a085e020972d775a40d0047e80d4d1e8bc7",
+      "path": "backend/src/laip/import_readers.py",
+      "sha256": "da62a6904f33ff97ce764c3bbb649a085e020972d775a40d0047e80d4d1e8bc7",
+      "transformed": false
+    },
+    {
+      "bytes": 3985,
+      "original_sha256": "bbcd321c15f81dabdbf739445e4200401cc7e7920aa932ab9245f6586d35900b",
+      "path": "backend/src/laip/intrinsic_registry.py",
+      "sha256": "bbcd321c15f81dabdbf739445e4200401cc7e7920aa932ab9245f6586d35900b",
+      "transformed": false
+    },
+    {
+      "bytes": 23793,
+      "original_sha256": "19e3ce799aa66fffab4209acd34d37807a153a49e60647d33140d5c8b5e52274",
+      "path": "backend/src/laip/inventory.py",
+      "sha256": "19e3ce799aa66fffab4209acd34d37807a153a49e60647d33140d5c8b5e52274",
+      "transformed": false
+    },
+    {
+      "bytes": 7225,
+      "original_sha256": "89f13d74715f4638b6395cb98543be2e9f40f0ee040f5882c5f3c127322e4c6b",
+      "path": "backend/src/laip/inventory_store.py",
+      "sha256": "89f13d74715f4638b6395cb98543be2e9f40f0ee040f5882c5f3c127322e4c6b",
+      "transformed": false
+    },
+    {
+      "bytes": 19201,
+      "original_sha256": "c2612617219ad0e05569fcb32acc6f27ca2a5f8f80bc410cd653322d85712b3f",
+      "path": "backend/src/laip/jobs.py",
+      "sha256": "c2612617219ad0e05569fcb32acc6f27ca2a5f8f80bc410cd653322d85712b3f",
+      "transformed": false
+    },
+    {
+      "bytes": 1591,
+      "original_sha256": "f4d152f3cbfaf73d5be871d489fd1f689e93714fda83b577bd00b9e528201106",
+      "path": "backend/src/laip/masking.py",
+      "sha256": "f4d152f3cbfaf73d5be871d489fd1f689e93714fda83b577bd00b9e528201106",
+      "transformed": false
+    },
+    {
+      "bytes": 10704,
+      "original_sha256": "da88e455940a01447e27c093fe507e51abb4e460b1ae86b6af0d2fb3d2db9250",
+      "path": "backend/src/laip/mcp.py",
+      "sha256": "da88e455940a01447e27c093fe507e51abb4e460b1ae86b6af0d2fb3d2db9250",
+      "transformed": false
+    },
+    {
+      "bytes": 12469,
+      "original_sha256": "843f1cf9f744b9929411b4df261eb02f1bada485fd11f77da1aa8f324cd7c4e8",
+      "path": "backend/src/laip/migrations/001_core.sql",
+      "sha256": "843f1cf9f744b9929411b4df261eb02f1bada485fd11f77da1aa8f324cd7c4e8",
+      "transformed": false
+    },
+    {
+      "bytes": 5324,
+      "original_sha256": "99b3218a421aa18561e2f4e6179adcdd34d33987ee4447b4191286ac5ad95ff0",
+      "path": "backend/src/laip/migrations/002_jobs.sql",
+      "sha256": "99b3218a421aa18561e2f4e6179adcdd34d33987ee4447b4191286ac5ad95ff0",
+      "transformed": false
+    },
+    {
+      "bytes": 3947,
+      "original_sha256": "073884ba93f1b3248b18ee2ed486a1aa2dfa164a9694042ee9cba7b66e78af5a",
+      "path": "backend/src/laip/migrations/003_indexes.sql",
+      "sha256": "073884ba93f1b3248b18ee2ed486a1aa2dfa164a9694042ee9cba7b66e78af5a",
+      "transformed": false
+    },
+    {
+      "bytes": 1057,
+      "original_sha256": "bb3d4d1263d52ae615f99f44cc29a9ec7b67806a1d736cf97b69df0b16ab1e26",
+      "path": "backend/src/laip/migrations/004_immutability.sql",
+      "sha256": "bb3d4d1263d52ae615f99f44cc29a9ec7b67806a1d736cf97b69df0b16ab1e26",
+      "transformed": false
+    },
+    {
+      "bytes": 1694,
+      "original_sha256": "b9d5edea1af6dd8903e84dc1f1330648541bc728c40985aeb0211aa10c13e4e4",
+      "path": "backend/src/laip/migrations/005_provenance.sql",
+      "sha256": "b9d5edea1af6dd8903e84dc1f1330648541bc728c40985aeb0211aa10c13e4e4",
+      "transformed": false
+    },
+    {
+      "bytes": 800,
+      "original_sha256": "ef3707007ea557cbc5d99aa9739e6a16c402ef70ec8badf99e23b37a141d2b25",
+      "path": "backend/src/laip/migrations/006_import_entries.sql",
+      "sha256": "ef3707007ea557cbc5d99aa9739e6a16c402ef70ec8badf99e23b37a141d2b25",
+      "transformed": false
+    },
+    {
+      "bytes": 1069,
+      "original_sha256": "b30d3de64c8eaed83176c653db9ed72b11244f7079e993ed387f6023ff9dc3a2",
+      "path": "backend/src/laip/migrations/007_import_lifecycle.sql",
+      "sha256": "b30d3de64c8eaed83176c653db9ed72b11244f7079e993ed387f6023ff9dc3a2",
+      "transformed": false
+    },
+    {
+      "bytes": 1258,
+      "original_sha256": "e379cade31045132e112a928a374cea6b374d6d3992395372f158aef34684191",
+      "path": "backend/src/laip/migrations/008_import_plans.sql",
+      "sha256": "e379cade31045132e112a928a374cea6b374d6d3992395372f158aef34684191",
+      "transformed": false
+    },
+    {
+      "bytes": 1314,
+      "original_sha256": "dda36ea84e09b6d41c773660fcd505960c23c500107a711b78857dd7fe13cf5a",
+      "path": "backend/src/laip/migrations/009_inventory_reports.sql",
+      "sha256": "dda36ea84e09b6d41c773660fcd505960c23c500107a711b78857dd7fe13cf5a",
+      "transformed": false
+    },
+    {
+      "bytes": 977,
+      "original_sha256": "064b8b5c2ab49762bf24710392ebc792b71efb8f340634b50749bb045d075498",
+      "path": "backend/src/laip/migrations/010_rule_workflows.sql",
+      "sha256": "064b8b5c2ab49762bf24710392ebc792b71efb8f340634b50749bb045d075498",
+      "transformed": false
+    },
+    {
+      "bytes": 309,
+      "original_sha256": "496af32849eca0fb01618ef0ec6004a6c5dadba49b10831855ba449046b7f18c",
+      "path": "backend/src/laip/migrations/011_analyst_jobs.sql",
+      "sha256": "496af32849eca0fb01618ef0ec6004a6c5dadba49b10831855ba449046b7f18c",
+      "transformed": false
+    },
+    {
+      "bytes": 1232,
+      "original_sha256": "90ab44566c1abef181a8ab571480a2ddc5caa8e0d375ed20a3d91f7020529865",
+      "path": "backend/src/laip/migrations/012_analysis_facts_subjects.sql",
+      "sha256": "90ab44566c1abef181a8ab571480a2ddc5caa8e0d375ed20a3d91f7020529865",
+      "transformed": false
+    },
+    {
+      "bytes": 1887,
+      "original_sha256": "dff28dfa4a4e36a40a15b0e9477c7460dd73289d06ad47617e0b19229b3a324c",
+      "path": "backend/src/laip/migrations.py",
+      "sha256": "dff28dfa4a4e36a40a15b0e9477c7460dd73289d06ad47617e0b19229b3a324c",
+      "transformed": false
+    },
+    {
+      "bytes": 982,
+      "original_sha256": "ff5d07b5e8844f82397ea3203bb654d2ef75c8195a1795f2f113a786f6c7642c",
+      "path": "backend/src/laip/optional/vector.sql",
+      "sha256": "ff5d07b5e8844f82397ea3203bb654d2ef75c8195a1795f2f113a786f6c7642c",
+      "transformed": false
+    },
+    {
+      "bytes": 44777,
+      "original_sha256": "f1cf254353b8172c90a567d8487e4ca1ef634fefac50835ee4dcfaf8051ff90e",
+      "path": "backend/src/laip/persistence.py",
+      "sha256": "f1cf254353b8172c90a567d8487e4ca1ef634fefac50835ee4dcfaf8051ff90e",
+      "transformed": false
+    },
+    {
+      "bytes": 18233,
+      "original_sha256": "b69e78b82fbf83aa69a08f323b1891ba0053df6a3ea6a7944ee091b55329679d",
+      "path": "backend/src/laip/private_ai.py",
+      "sha256": "b69e78b82fbf83aa69a08f323b1891ba0053df6a3ea6a7944ee091b55329679d",
+      "transformed": false
+    },
+    {
+      "bytes": 830,
+      "original_sha256": "c1c516df31fc1242a97545e06f9a4dac0d2aeb79f65f06afb8ea4fca2db321d1",
+      "path": "backend/src/laip/public_projection.py",
+      "sha256": "c1c516df31fc1242a97545e06f9a4dac0d2aeb79f65f06afb8ea4fca2db321d1",
+      "transformed": false
+    },
+    {
+      "bytes": 21762,
+      "original_sha256": "d6d7187a301f7e0494cf047aa7640ed7ca460c95a883b3a9005d21ab3b9d05ed",
+      "path": "backend/src/laip/rea_adapter.py",
+      "sha256": "d6d7187a301f7e0494cf047aa7640ed7ca460c95a883b3a9005d21ab3b9d05ed",
+      "transformed": false
+    },
+    {
+      "bytes": 4683,
+      "original_sha256": "984ba85f832f582d141a67ba52ef1e320b70f303510c047e25eee7c2ac18b71e",
+      "path": "backend/src/laip/rea_import.py",
+      "sha256": "984ba85f832f582d141a67ba52ef1e320b70f303510c047e25eee7c2ac18b71e",
+      "transformed": false
+    },
+    {
+      "bytes": 5079,
+      "original_sha256": "6ce8f97928bfff9c2666be8968130b3cf5df3f37bf34ea4bf22e5a3e653d6e1c",
+      "path": "backend/src/laip/read_api.py",
+      "sha256": "6ce8f97928bfff9c2666be8968130b3cf5df3f37bf34ea4bf22e5a3e653d6e1c",
+      "transformed": false
+    },
+    {
+      "bytes": 16029,
+      "original_sha256": "e7743bb4f6e032691395bc76a04e6c0f6b9aac022c260ee10112dbc2d6571042",
+      "path": "backend/src/laip/read_service.py",
+      "sha256": "e7743bb4f6e032691395bc76a04e6c0f6b9aac022c260ee10112dbc2d6571042",
+      "transformed": false
+    },
+    {
+      "bytes": 25162,
+      "original_sha256": "d586ac3b4cfe5f70824ba626116f298c6a04af03b7341984ba81185ccd05617a",
+      "path": "backend/src/laip/retrieval.py",
+      "sha256": "d586ac3b4cfe5f70824ba626116f298c6a04af03b7341984ba81185ccd05617a",
+      "transformed": false
+    },
+    {
+      "bytes": 13126,
+      "original_sha256": "b9c48223ab8faa9a26c05de2cb8998027be8100305daa6ebae86d5d1130bdfeb",
+      "path": "backend/src/laip/rpgle_analysis.py",
+      "sha256": "b9c48223ab8faa9a26c05de2cb8998027be8100305daa6ebae86d5d1130bdfeb",
+      "transformed": false
+    },
+    {
+      "bytes": 32994,
+      "original_sha256": "a093e3aa24054fc06d0ff08e24becb55a0d5a0fa7b6ae47fd547fae07556d204",
+      "path": "backend/src/laip/rpgle_ir.py",
+      "sha256": "a093e3aa24054fc06d0ff08e24becb55a0d5a0fa7b6ae47fd547fae07556d204",
+      "transformed": false
+    },
+    {
+      "bytes": 21357,
+      "original_sha256": "670b8aa28618f1cb6da80dfa5598617d40707279992d1eb4eaad92c33b0ed92b",
+      "path": "backend/src/laip/rpgle_parser.py",
+      "sha256": "670b8aa28618f1cb6da80dfa5598617d40707279992d1eb4eaad92c33b0ed92b",
+      "transformed": false
+    },
+    {
+      "bytes": 9953,
+      "original_sha256": "e946a0f5fecf3a512aca7d75b748d69770fb7cad0d2ecd9a3e153c20657895a9",
+      "path": "backend/src/laip/rpgle_source.py",
+      "sha256": "e946a0f5fecf3a512aca7d75b748d69770fb7cad0d2ecd9a3e153c20657895a9",
+      "transformed": false
+    },
+    {
+      "bytes": 25939,
+      "original_sha256": "2f8a350afd6330a7cd292e2a7a132a204344e0dec74748a6275130a80a6be443",
+      "path": "backend/src/laip/rule_store.py",
+      "sha256": "2f8a350afd6330a7cd292e2a7a132a204344e0dec74748a6275130a80a6be443",
+      "transformed": false
+    },
+    {
+      "bytes": 24143,
+      "original_sha256": "8be8d153a2c45a065a25bda5ab78fb975dbdaee34a982ad64b4f566f8e4aeb19",
+      "path": "backend/src/laip/rules.py",
+      "sha256": "8be8d153a2c45a065a25bda5ab78fb975dbdaee34a982ad64b4f566f8e4aeb19",
+      "transformed": false
+    },
+    {
+      "bytes": 3833,
+      "original_sha256": "36119ead9bed426f97bc193ade6377e828148d3c5beecf09432143ba436aeb14",
+      "path": "backend/src/laip/runtime.py",
+      "sha256": "36119ead9bed426f97bc193ade6377e828148d3c5beecf09432143ba436aeb14",
+      "transformed": false
+    },
+    {
+      "bytes": 2404,
+      "original_sha256": "cd5b467d444a3c95a24c75da3219032e4bf9fe3f59d641568c90238e0c066979",
+      "path": "backend/src/laip/schema_registry.py",
+      "sha256": "cd5b467d444a3c95a24c75da3219032e4bf9fe3f59d641568c90238e0c066979",
+      "transformed": false
+    },
+    {
+      "bytes": 4087,
+      "original_sha256": "361d674d3e1c4a00cae38ddfb7830ea53ce254de5b7b31e041e2e2b139adea3a",
+      "path": "backend/src/laip/semantic.py",
+      "sha256": "361d674d3e1c4a00cae38ddfb7830ea53ce254de5b7b31e041e2e2b139adea3a",
+      "transformed": false
+    },
+    {
+      "bytes": 1289,
+      "original_sha256": "dcae445e6f572e85461da2f849a0c0d27b54a83992d6d76f41a916dded0c2006",
+      "path": "backend/src/laip/snapshot_index.py",
+      "sha256": "dcae445e6f572e85461da2f849a0c0d27b54a83992d6d76f41a916dded0c2006",
+      "transformed": false
+    },
+    {
+      "bytes": 3766,
+      "original_sha256": "b4411d3dd40b04a53381aa239a993ab5a23aa64e8b9aabbf1140b444df2656b5",
+      "path": "backend/src/laip/source_decode.py",
+      "sha256": "b4411d3dd40b04a53381aa239a993ab5a23aa64e8b9aabbf1140b444df2656b5",
+      "transformed": false
+    },
+    {
+      "bytes": 24042,
+      "original_sha256": "1f3fc6fa0bea624c591f587a1a27b52b635535922adea67cf36d6aaa36c0abdb",
+      "path": "backend/src/laip/source_import.py",
+      "sha256": "1f3fc6fa0bea624c591f587a1a27b52b635535922adea67cf36d6aaa36c0abdb",
+      "transformed": false
+    },
+    {
+      "bytes": 6789,
+      "original_sha256": "7afaede8e9c4e6fa7d5fb5fbb7dba05ef5ec3673f73827a13c5740674197dab6",
+      "path": "backend/src/laip/vectors.py",
+      "sha256": "7afaede8e9c4e6fa7d5fb5fbb7dba05ef5ec3673f73827a13c5740674197dab6",
+      "transformed": false
+    },
+    {
+      "bytes": 2573,
+      "original_sha256": "bb3858004cb872f764987f677aeeb1928977d2870c8ceeb514d7bd495dc5ceeb",
+      "path": "backend/src/laip/worker.py",
+      "sha256": "bb3858004cb872f764987f677aeeb1928977d2870c8ceeb514d7bd495dc5ceeb",
+      "transformed": false
+    },
+    {
+      "bytes": 25956,
+      "original_sha256": "9c973fc9d611b5570c7e8029e76b3f069bc38219d640dabc1c060c627e9ed7b0",
+      "path": "backend/src/laip/workflows.py",
+      "sha256": "9c973fc9d611b5570c7e8029e76b3f069bc38219d640dabc1c060c627e9ed7b0",
+      "transformed": false
+    },
+    {
+      "bytes": 1163,
+      "original_sha256": "ac1f7ba578c0860197316197377ce5a499d0f9f76cf08440546b8d55454c8e08",
+      "path": "backend/tests/fixtures/banking/README.md",
+      "sha256": "ac1f7ba578c0860197316197377ce5a499d0f9f76cf08440546b8d55454c8e08",
+      "transformed": false
+    },
+    {
+      "bytes": 436,
+      "original_sha256": "78582b8f7a950401626f58c093e6bede65f6a80dd744be3f27b79150375d63fd",
+      "path": "backend/tests/fixtures/cl/MAIN.clle",
+      "sha256": "78582b8f7a950401626f58c093e6bede65f6a80dd744be3f27b79150375d63fd",
+      "transformed": false
+    },
+    {
+      "bytes": 345,
+      "original_sha256": "2b9806e8df9d2731151005d4fd141113eaeb7cb7dc582d4f85099094f7f94432",
+      "path": "backend/tests/fixtures/cl/README.md",
+      "sha256": "2b9806e8df9d2731151005d4fd141113eaeb7cb7dc582d4f85099094f7f94432",
+      "transformed": false
+    },
+    {
+      "bytes": 324,
+      "original_sha256": "78b24e4b26c4edffd3a9e1d199715a1b4c54481e1013674143c5ce0706fc2c1b",
+      "path": "backend/tests/fixtures/dds/DISPLAY.dds",
+      "sha256": "78b24e4b26c4edffd3a9e1d199715a1b4c54481e1013674143c5ce0706fc2c1b",
+      "transformed": false
+    },
+    {
+      "bytes": 243,
+      "original_sha256": "c5b41f19f1c0b55cb96b25b3d343e634c97ffc33c6b5236daf2b88a5e5033250",
+      "path": "backend/tests/fixtures/dds/LOGICAL.dds",
+      "sha256": "c5b41f19f1c0b55cb96b25b3d343e634c97ffc33c6b5236daf2b88a5e5033250",
+      "transformed": false
+    },
+    {
+      "bytes": 405,
+      "original_sha256": "af3f67cfac9220b4282aed0f0986c594d27c2cd1d6fc488ec06639a361faca7a",
+      "path": "backend/tests/fixtures/dds/PHYSICAL.dds",
+      "sha256": "af3f67cfac9220b4282aed0f0986c594d27c2cd1d6fc488ec06639a361faca7a",
+      "transformed": false
+    },
+    {
+      "bytes": 385,
+      "original_sha256": "f9ee73e1c9344fb8aeaad3caa7ab844f4ea0163d000023bf1d52f4084b2b3338",
+      "path": "backend/tests/fixtures/dds/README.md",
+      "sha256": "f9ee73e1c9344fb8aeaad3caa7ab844f4ea0163d000023bf1d52f4084b2b3338",
+      "transformed": false
+    },
+    {
+      "bytes": 1407,
+      "original_sha256": "015ce739783bb1d0613512358b240d87fc4564f890bd57f77465ee4f8f95ce1e",
+      "path": "backend/tests/fixtures/import/README.md",
+      "sha256": "015ce739783bb1d0613512358b240d87fc4564f890bd57f77465ee4f8f95ce1e",
+      "transformed": false
+    },
+    {
+      "bytes": 3076,
+      "original_sha256": "1d2f070f3f653777433ad246a4b09c62786cd33fc8bc285b8d52342457b7f02e",
+      "path": "backend/tests/fixtures/import/manifest.json",
+      "sha256": "1d2f070f3f653777433ad246a4b09c62786cd33fc8bc285b8d52342457b7f02e",
+      "transformed": false
+    },
+    {
+      "bytes": 232,
+      "original_sha256": "0fcd69a67a3c1fb0ee52ca7672bf6b99e9f677ec1a7d735351d5b8044c5ec40c",
+      "path": "backend/tests/fixtures/import/source/metadata/binding.json",
+      "sha256": "0fcd69a67a3c1fb0ee52ca7672bf6b99e9f677ec1a7d735351d5b8044c5ec40c",
+      "transformed": false
+    },
+    {
+      "bytes": 235,
+      "original_sha256": "d45f0f2a29d3d36cefb2b05980c99e990f3e0c0fedb6ba79980df2c8974ef723",
+      "path": "backend/tests/fixtures/import/source/metadata/dsp_pgmref.json",
+      "sha256": "d45f0f2a29d3d36cefb2b05980c99e990f3e0c0fedb6ba79980df2c8974ef723",
+      "transformed": false
+    },
+    {
+      "bytes": 234,
+      "original_sha256": "a82588bdde4e99db9b29b7cec3b7cb6bd58f4547117a1e111665273f7f7b0c2d",
+      "path": "backend/tests/fixtures/import/source/metadata/inventory.json",
+      "sha256": "a82588bdde4e99db9b29b7cec3b7cb6bd58f4547117a1e111665273f7f7b0c2d",
+      "transformed": false
+    },
+    {
+      "bytes": 228,
+      "original_sha256": "1845d6829808ade39364ab68e365e955040d47ace9d949da6285a4230c3e657d",
+      "path": "backend/tests/fixtures/import/source/metadata/job.json",
+      "sha256": "1845d6829808ade39364ab68e365e955040d47ace9d949da6285a4230c3e657d",
+      "transformed": false
+    },
+    {
+      "bytes": 231,
+      "original_sha256": "f56f29748d9c61e9b016dad48f72ea2b6b39f6ba1a522892e9912233684f3326",
+      "path": "backend/tests/fixtures/import/source/metadata/schema.json",
+      "sha256": "f56f29748d9c61e9b016dad48f72ea2b6b39f6ba1a522892e9912233684f3326",
+      "transformed": false
+    },
+    {
+      "bytes": 43,
+      "original_sha256": "7a6940974cc03c2700cf219da87ee3cdd22b5907b060079345ad25d0c1e731b9",
+      "path": "backend/tests/fixtures/import/source/sources/LIB1/QRPGLESRC/ORDER.rpgle",
+      "sha256": "7a6940974cc03c2700cf219da87ee3cdd22b5907b060079345ad25d0c1e731b9",
+      "transformed": false
+    },
+    {
+      "bytes": 51,
+      "original_sha256": "2c623e34a99887f8e286a29a2b2a0c2c7c7c9946d76dec73279d33ba5410d98b",
+      "path": "backend/tests/fixtures/import/source/sources/LIB2/QRPGLESRC/ORDER.rpgle",
+      "sha256": "2c623e34a99887f8e286a29a2b2a0c2c7c7c9946d76dec73279d33ba5410d98b",
+      "transformed": false
+    },
+    {
+      "bytes": 944,
+      "original_sha256": "682a12bc6300d316229f4448320245af6c0f113f740c45c04864ed6178851f33",
+      "path": "backend/tests/fixtures/rea/README.md",
+      "sha256": "682a12bc6300d316229f4448320245af6c0f113f740c45c04864ed6178851f33",
+      "transformed": false
+    },
+    {
+      "bytes": 2830,
+      "original_sha256": "9028b647da9708f2fb9e2f2deefdc4d24408951da4965da00fd04cb27de609e8",
+      "path": "backend/tests/fixtures/rea/inventory.json",
+      "sha256": "9028b647da9708f2fb9e2f2deefdc4d24408951da4965da00fd04cb27de609e8",
+      "transformed": false
+    },
+    {
+      "bytes": 110,
+      "original_sha256": "8aa9b7090be0f29b9deb65a47a877592cebb50843692ca0d4baedf4f462cbd96",
+      "path": "backend/tests/fixtures/rea/source/package.json",
+      "sha256": "8aa9b7090be0f29b9deb65a47a877592cebb50843692ca0d4baedf4f462cbd96",
+      "transformed": false
+    },
+    {
+      "bytes": 117,
+      "original_sha256": "0e8ca676a4a2dfcbe00a1603b73552d73f41288d9318965437529d1e99155c53",
+      "path": "backend/tests/fixtures/rea/source/src/ORDER.rpgle",
+      "sha256": "0e8ca676a4a2dfcbe00a1603b73552d73f41288d9318965437529d1e99155c53",
+      "transformed": false
+    },
+    {
+      "bytes": 42,
+      "original_sha256": "94606172a0bbf8103efba5d84a8881aac17d9935b6afaeac2b3aeb954e3d8e3f",
+      "path": "backend/tests/fixtures/rea/source/src/label.js",
+      "sha256": "94606172a0bbf8103efba5d84a8881aac17d9935b6afaeac2b3aeb954e3d8e3f",
+      "transformed": false
+    },
+    {
+      "bytes": 113,
+      "original_sha256": "fd187ede2be06442b0ff8fcc682145d87f797e4d346079e1fec33ab681fa3a51",
+      "path": "backend/tests/fixtures/rea/source/src/main.ts",
+      "sha256": "fd187ede2be06442b0ff8fcc682145d87f797e4d346079e1fec33ab681fa3a51",
+      "transformed": false
+    },
+    {
+      "bytes": 193,
+      "original_sha256": "b631d0b365a84c8e550aefd79437bf212d0575f5081c147a14a0cfbf8ea316d4",
+      "path": "backend/tests/fixtures/rea/source/src/never-run.mjs",
+      "sha256": "b631d0b365a84c8e550aefd79437bf212d0575f5081c147a14a0cfbf8ea316d4",
+      "transformed": false
+    },
+    {
+      "bytes": 46,
+      "original_sha256": "3f2cdad6a331ae1843abd4639e339f430de64f45ff3cbffc3519fc00ed0feda3",
+      "path": "backend/tests/fixtures/rpgle/CONSTANTS.rpgle",
+      "sha256": "3f2cdad6a331ae1843abd4639e339f430de64f45ff3cbffc3519fc00ed0feda3",
+      "transformed": false
+    },
+    {
+      "bytes": 380,
+      "original_sha256": "4c2c6bddcabc4ed7b8a8242cb8232344cc11f6ebd03d94b5c80ba87ffa0e1692",
+      "path": "backend/tests/fixtures/rpgle/MAIN.rpgle",
+      "sha256": "4c2c6bddcabc4ed7b8a8242cb8232344cc11f6ebd03d94b5c80ba87ffa0e1692",
+      "transformed": false
+    },
+    {
+      "bytes": 982,
+      "original_sha256": "6b52474eced65c1dcd5bcff9ab4d85fd6d9ac40bde31ee19a596c7d9da3cd628",
+      "path": "backend/tests/fixtures/rpgle/README.md",
+      "sha256": "6b52474eced65c1dcd5bcff9ab4d85fd6d9ac40bde31ee19a596c7d9da3cd628",
+      "transformed": false
+    },
+    {
+      "bytes": 125,
+      "original_sha256": "5a31d13837d742a1654f3bbfb8a4f01b4065500b9182ed8f7d2a4519cb4a681e",
+      "path": "backend/tests/fixtures/rpgle/UNSUPPORTED.rpgle",
+      "sha256": "5a31d13837d742a1654f3bbfb8a4f01b4065500b9182ed8f7d2a4519cb4a681e",
+      "transformed": false
+    },
+    {
+      "bytes": 2242,
+      "original_sha256": "be194c00f45a09ad11b41cc982a6edfca3c4a9cc232fe61291bd4896fbd57417",
+      "path": "backend/tests/test_analyst_api.py",
+      "sha256": "be194c00f45a09ad11b41cc982a6edfca3c4a9cc232fe61291bd4896fbd57417",
+      "transformed": false
+    },
+    {
+      "bytes": 5753,
+      "original_sha256": "54cd79e5e0d7b15db8e053755d1e6864736210c89c5810769b3a5f2a67dc89a6",
+      "path": "backend/tests/test_analyst_api_journey.py",
+      "sha256": "54cd79e5e0d7b15db8e053755d1e6864736210c89c5810769b3a5f2a67dc89a6",
+      "transformed": false
+    },
+    {
+      "bytes": 2705,
+      "original_sha256": "3ccd4688814977d7212f473b5fb8fa92202bdf8493ec25666de75f2ca93b09b9",
+      "path": "backend/tests/test_analyst_capacity.py",
+      "sha256": "3ccd4688814977d7212f473b5fb8fa92202bdf8493ec25666de75f2ca93b09b9",
+      "transformed": false
+    },
+    {
+      "bytes": 4312,
+      "original_sha256": "01fe3354781ccbb4c12de31616ad7895a43745eb0156751006fa4445cc60964f",
+      "path": "backend/tests/test_analyst_fixture.py",
+      "sha256": "01fe3354781ccbb4c12de31616ad7895a43745eb0156751006fa4445cc60964f",
+      "transformed": false
+    },
+    {
+      "bytes": 10435,
+      "original_sha256": "17341ff39868fddf4c793230539210a761db6c8df5a5facc082372925dc2ed34",
+      "path": "backend/tests/test_analyst_jobs.py",
+      "sha256": "17341ff39868fddf4c793230539210a761db6c8df5a5facc082372925dc2ed34",
+      "transformed": false
+    },
+    {
+      "bytes": 3987,
+      "original_sha256": "6a00a8a1745a031459f75b97ce0e370af91d0c985b1d38157753d9c90bb9b673",
+      "path": "backend/tests/test_analyst_service.py",
+      "sha256": "6a00a8a1745a031459f75b97ce0e370af91d0c985b1d38157753d9c90bb9b673",
+      "transformed": false
+    },
+    {
+      "bytes": 4260,
+      "original_sha256": "7ca1645a2c67c03068867cec5b1cee59199c620e999b9e8649479bbd516e2415",
+      "path": "backend/tests/test_artifacts.py",
+      "sha256": "7ca1645a2c67c03068867cec5b1cee59199c620e999b9e8649479bbd516e2415",
+      "transformed": false
+    },
+    {
+      "bytes": 7696,
+      "original_sha256": "272d2e32bb54a3d455032025a3549e14bd5dd4b3dfc53a229fdded96fbdd6e8c",
+      "path": "backend/tests/test_banking_consumers.py",
+      "sha256": "272d2e32bb54a3d455032025a3549e14bd5dd4b3dfc53a229fdded96fbdd6e8c",
+      "transformed": false
+    },
+    {
+      "bytes": 8813,
+      "original_sha256": "23e994906140e82885f12b06231485b3e8fde79a2c764ed1fdd9405be1c61780",
+      "path": "backend/tests/test_banking_contracts.py",
+      "sha256": "23e994906140e82885f12b06231485b3e8fde79a2c764ed1fdd9405be1c61780",
+      "transformed": false
+    },
+    {
+      "bytes": 14577,
+      "original_sha256": "78c035244f0fffd74d7edd23fa9f8e5b8a6f44283a923dfdbf94bb9ee432deb4",
+      "path": "backend/tests/test_banking_persistence.py",
+      "sha256": "78c035244f0fffd74d7edd23fa9f8e5b8a6f44283a923dfdbf94bb9ee432deb4",
+      "transformed": false
+    },
+    {
+      "bytes": 2427,
+      "original_sha256": "3d47af119d6b9ae84b2edd6d192342d2b76f91e9d0b1b3abc824fc7d0ae385c0",
+      "path": "backend/tests/test_banking_snapshot_versions.py",
+      "sha256": "3d47af119d6b9ae84b2edd6d192342d2b76f91e9d0b1b3abc824fc7d0ae385c0",
+      "transformed": false
+    },
+    {
+      "bytes": 3268,
+      "original_sha256": "bf3382a4d4a7537d27ba9c7aaea090f9af1b7c1197b684c302cf38e05418f8ff",
+      "path": "backend/tests/test_bootstrap.py",
+      "sha256": "bf3382a4d4a7537d27ba9c7aaea090f9af1b7c1197b684c302cf38e05418f8ff",
+      "transformed": false
+    },
+    {
+      "bytes": 1295,
+      "original_sha256": "4546d03b077f203709d721f1a67ba1534bf8f2aec348fb2e93298104cdb11a2e",
+      "path": "backend/tests/test_canonical.py",
+      "sha256": "4546d03b077f203709d721f1a67ba1534bf8f2aec348fb2e93298104cdb11a2e",
+      "transformed": false
+    },
+    {
+      "bytes": 7419,
+      "original_sha256": "39e964fb07a1169f5676119c074a363dc92086598068d54c5e4af39f3d5f7197",
+      "path": "backend/tests/test_cl_analysis.py",
+      "sha256": "39e964fb07a1169f5676119c074a363dc92086598068d54c5e4af39f3d5f7197",
+      "transformed": false
+    },
+    {
+      "bytes": 5653,
+      "original_sha256": "1797730caaa8ffd82ae3a990c88a618b1b9cdf15309cb135293bad725ad1349d",
+      "path": "backend/tests/test_cl_ir.py",
+      "sha256": "1797730caaa8ffd82ae3a990c88a618b1b9cdf15309cb135293bad725ad1349d",
+      "transformed": false
+    },
+    {
+      "bytes": 5332,
+      "original_sha256": "77a1476bcff0850b8b29795260c7550ff58b00dba74183e8370b7ec593d5be47",
+      "path": "backend/tests/test_cl_parser.py",
+      "sha256": "77a1476bcff0850b8b29795260c7550ff58b00dba74183e8370b7ec593d5be47",
+      "transformed": false
+    },
+    {
+      "bytes": 8899,
+      "original_sha256": "d991ba785a5bb82299c4472ed4922384a6e99b311f4b9acc0f59d65c354e352e",
+      "path": "backend/tests/test_context.py",
+      "sha256": "d991ba785a5bb82299c4472ed4922384a6e99b311f4b9acc0f59d65c354e352e",
+      "transformed": false
+    },
+    {
+      "bytes": 11069,
+      "original_sha256": "55645ea78f4f3a4ce4941e4be7d91a91616f36a1633d119fcb0dc0e7fcb9c2a3",
+      "path": "backend/tests/test_dds_analysis.py",
+      "sha256": "55645ea78f4f3a4ce4941e4be7d91a91616f36a1633d119fcb0dc0e7fcb9c2a3",
+      "transformed": false
+    },
+    {
+      "bytes": 9136,
+      "original_sha256": "74138c27647cd733d289710d17a905095b6b2849e60597107cdae746a57b9a24",
+      "path": "backend/tests/test_dds_ir.py",
+      "sha256": "74138c27647cd733d289710d17a905095b6b2849e60597107cdae746a57b9a24",
+      "transformed": false
+    },
+    {
+      "bytes": 8784,
+      "original_sha256": "90766717e95d5ec6b285fd0e9a5bd4c603bde83f75d75d9e125d5f70cc6e25ab",
+      "path": "backend/tests/test_dds_parser.py",
+      "sha256": "90766717e95d5ec6b285fd0e9a5bd4c603bde83f75d75d9e125d5f70cc6e25ab",
+      "transformed": false
+    },
+    {
+      "bytes": 11252,
+      "original_sha256": "4842cc33887dcbfe789cac73808654642c02033afab07bca86b3d19ad7cda6c7",
+      "path": "backend/tests/test_exports.py",
+      "sha256": "4842cc33887dcbfe789cac73808654642c02033afab07bca86b3d19ad7cda6c7",
+      "transformed": false
+    },
+    {
+      "bytes": 7458,
+      "original_sha256": "1c33f2f2609cc38f5ad9f98671c845b56d24fe0ff54b778324cdcf59971f311a",
+      "path": "backend/tests/test_import_manifest.py",
+      "sha256": "1c33f2f2609cc38f5ad9f98671c845b56d24fe0ff54b778324cdcf59971f311a",
+      "transformed": false
+    },
+    {
+      "bytes": 7819,
+      "original_sha256": "37444f7b54a1506c01e9c4001ac50ca9d628bbb8bf437bec8debe09872f4ae3b",
+      "path": "backend/tests/test_import_readers.py",
+      "sha256": "37444f7b54a1506c01e9c4001ac50ca9d628bbb8bf437bec8debe09872f4ae3b",
+      "transformed": false
+    },
+    {
+      "bytes": 12680,
+      "original_sha256": "96bea2f199cd8b72027a1687aa4d17caf8e4846a246d9340bbf711f3b8ff9ce7",
+      "path": "backend/tests/test_inventory.py",
+      "sha256": "96bea2f199cd8b72027a1687aa4d17caf8e4846a246d9340bbf711f3b8ff9ce7",
+      "transformed": false
+    },
+    {
+      "bytes": 6927,
+      "original_sha256": "8565af3e02223fc44b242276b6c4fc5d1866f18a247856f33f9a0eda9cb9b611",
+      "path": "backend/tests/test_inventory_store.py",
+      "sha256": "8565af3e02223fc44b242276b6c4fc5d1866f18a247856f33f9a0eda9cb9b611",
+      "transformed": false
+    },
+    {
+      "bytes": 12587,
+      "original_sha256": "5fe925c7b93ab14c6b06405a70428f0e965cef48982857e48540b73b86ea87d4",
+      "path": "backend/tests/test_jobs.py",
+      "sha256": "5fe925c7b93ab14c6b06405a70428f0e965cef48982857e48540b73b86ea87d4",
+      "transformed": false
+    },
+    {
+      "bytes": 783,
+      "original_sha256": "18aabf982471a5178185bcb3d7e6af38d2584ec325de8cfd0e69385b7c2257e1",
+      "path": "backend/tests/test_masking.py",
+      "sha256": "18aabf982471a5178185bcb3d7e6af38d2584ec325de8cfd0e69385b7c2257e1",
+      "transformed": false
+    },
+    {
+      "bytes": 10006,
+      "original_sha256": "8e979aed27e49bd58fe37dc634a7f0a585536b4403d8c010ff8ab2a3c1f11025",
+      "path": "backend/tests/test_mcp.py",
+      "sha256": "8e979aed27e49bd58fe37dc634a7f0a585536b4403d8c010ff8ab2a3c1f11025",
+      "transformed": false
+    },
+    {
+      "bytes": 2325,
+      "original_sha256": "44b88a84c12aefec75a1793f5e59e3ff3930404d0ccb249a8074512aba4714c0",
+      "path": "backend/tests/test_mcp_transport.py",
+      "sha256": "44b88a84c12aefec75a1793f5e59e3ff3930404d0ccb249a8074512aba4714c0",
+      "transformed": false
+    },
+    {
+      "bytes": 8520,
+      "original_sha256": "d0602aebbf5319d0277952c2ee316dd05e12d7664e8bb68d717224736d023994",
+      "path": "backend/tests/test_mvp_acceptance.py",
+      "sha256": "d0602aebbf5319d0277952c2ee316dd05e12d7664e8bb68d717224736d023994",
+      "transformed": false
+    },
+    {
+      "bytes": 14843,
+      "original_sha256": "e6bab956dd1547699c700ba98195b10a5075d7b7d46405f28e1b11c07f029f71",
+      "path": "backend/tests/test_persistence.py",
+      "sha256": "e6bab956dd1547699c700ba98195b10a5075d7b7d46405f28e1b11c07f029f71",
+      "transformed": false
+    },
+    {
+      "bytes": 11530,
+      "original_sha256": "3c885a56b2f3fe72746c716a908dd948d9ddc2c8321c56f8375c26634a2dd2d6",
+      "path": "backend/tests/test_private_ai.py",
+      "sha256": "3c885a56b2f3fe72746c716a908dd948d9ddc2c8321c56f8375c26634a2dd2d6",
+      "transformed": false
+    },
+    {
+      "bytes": 6196,
+      "original_sha256": "be1a4b7e8205ed9b1b89ba161ba7279d9cb8c7150eb0e37d2b26e6a48be196ea",
+      "path": "backend/tests/test_private_semantics.py",
+      "sha256": "be1a4b7e8205ed9b1b89ba161ba7279d9cb8c7150eb0e37d2b26e6a48be196ea",
+      "transformed": false
+    },
+    {
+      "bytes": 15399,
+      "original_sha256": "67c8ec342d41cc40202ec80718dfde7285a37f07b323cad118ee97283c770b5a",
+      "path": "backend/tests/test_rea_adapter.py",
+      "sha256": "67c8ec342d41cc40202ec80718dfde7285a37f07b323cad118ee97283c770b5a",
+      "transformed": false
+    },
+    {
+      "bytes": 6960,
+      "original_sha256": "cee8c44bbff0dd67bf261aa6129425f0335f9abc3b270c770a8db3bad9b8462d",
+      "path": "backend/tests/test_rea_import.py",
+      "sha256": "cee8c44bbff0dd67bf261aa6129425f0335f9abc3b270c770a8db3bad9b8462d",
+      "transformed": false
+    },
+    {
+      "bytes": 4219,
+      "original_sha256": "949ab045af6ebe9ba328f58fd2928fff9dc7326dd0927a7748834a5c3b8e6b49",
+      "path": "backend/tests/test_read_api.py",
+      "sha256": "949ab045af6ebe9ba328f58fd2928fff9dc7326dd0927a7748834a5c3b8e6b49",
+      "transformed": false
+    },
+    {
+      "bytes": 5065,
+      "original_sha256": "34be229117733ff07550f6d0543349d5ca7d62eb1e706ef302aeeea7326f544e",
+      "path": "backend/tests/test_read_service.py",
+      "sha256": "34be229117733ff07550f6d0543349d5ca7d62eb1e706ef302aeeea7326f544e",
+      "transformed": false
+    },
+    {
+      "bytes": 4518,
+      "original_sha256": "cb0232d7e326d5d5952635cfbbbcb2f211a25e53cbb37ddbc5209580a73882b7",
+      "path": "backend/tests/test_release_packaging.py",
+      "sha256": "cb0232d7e326d5d5952635cfbbbcb2f211a25e53cbb37ddbc5209580a73882b7",
+      "transformed": false
+    },
+    {
+      "bytes": 5168,
+      "original_sha256": "cc8ab0d54e012b2e0e190d04faf9b00d62a23f83b889f1d33441367a2b54dd8c",
+      "path": "backend/tests/test_retrieval.py",
+      "sha256": "cc8ab0d54e012b2e0e190d04faf9b00d62a23f83b889f1d33441367a2b54dd8c",
+      "transformed": false
+    },
+    {
+      "bytes": 6740,
+      "original_sha256": "a786603982eda8d45ff5a2db0454bdeca556613f49e3228ecf8f35733bc55eff",
+      "path": "backend/tests/test_rpgle_analysis.py",
+      "sha256": "a786603982eda8d45ff5a2db0454bdeca556613f49e3228ecf8f35733bc55eff",
+      "transformed": false
+    },
+    {
+      "bytes": 9231,
+      "original_sha256": "76a4113eb9404743e3c9f0a7435f63c440bc0405891e61601df9f8a8dd93631b",
+      "path": "backend/tests/test_rpgle_ir.py",
+      "sha256": "76a4113eb9404743e3c9f0a7435f63c440bc0405891e61601df9f8a8dd93631b",
+      "transformed": false
+    },
+    {
+      "bytes": 7476,
+      "original_sha256": "4f3aeb9ba565018076e843aa5e219fd3487f8e3f4c8d9096754c2ad75c0b66f8",
+      "path": "backend/tests/test_rpgle_parser.py",
+      "sha256": "4f3aeb9ba565018076e843aa5e219fd3487f8e3f4c8d9096754c2ad75c0b66f8",
+      "transformed": false
+    },
+    {
+      "bytes": 5286,
+      "original_sha256": "bffd272f8e6e57999ccbecfc3d5904ba78626f233aa42a2f54ecb6c3d82eb2c0",
+      "path": "backend/tests/test_rpgle_source.py",
+      "sha256": "bffd272f8e6e57999ccbecfc3d5904ba78626f233aa42a2f54ecb6c3d82eb2c0",
+      "transformed": false
+    },
+    {
+      "bytes": 4155,
+      "original_sha256": "8c3e2c34739d28666d09a2589b278b62295f8c1f071658361dcd1091d7b8b6c8",
+      "path": "backend/tests/test_rule_pipeline.py",
+      "sha256": "8c3e2c34739d28666d09a2589b278b62295f8c1f071658361dcd1091d7b8b6c8",
+      "transformed": false
+    },
+    {
+      "bytes": 23601,
+      "original_sha256": "cd1d197e0a1986356e1d7a835a0a77ef8c430b332fd5bd64646ed2b9d86bbbb8",
+      "path": "backend/tests/test_rule_store.py",
+      "sha256": "cd1d197e0a1986356e1d7a835a0a77ef8c430b332fd5bd64646ed2b9d86bbbb8",
+      "transformed": false
+    },
+    {
+      "bytes": 11154,
+      "original_sha256": "6aeaf019ad75cd741583502407be04e04aff730c55019854b9aed0433724d19f",
+      "path": "backend/tests/test_rules.py",
+      "sha256": "6aeaf019ad75cd741583502407be04e04aff730c55019854b9aed0433724d19f",
+      "transformed": false
+    },
+    {
+      "bytes": 5031,
+      "original_sha256": "156b29a10f427b875a3685c5758050bba21bd092d5136c5f89d76be0892f9f93",
+      "path": "backend/tests/test_runtime.py",
+      "sha256": "156b29a10f427b875a3685c5758050bba21bd092d5136c5f89d76be0892f9f93",
+      "transformed": false
+    },
+    {
+      "bytes": 3627,
+      "original_sha256": "e5058d20ff3785d68632508a44b2fadee03e2328ce9acb892b3879caa08de726",
+      "path": "backend/tests/test_semantic.py",
+      "sha256": "e5058d20ff3785d68632508a44b2fadee03e2328ce9acb892b3879caa08de726",
+      "transformed": false
+    },
+    {
+      "bytes": 2656,
+      "original_sha256": "03c5f4493fb82ee45d3f9b929959c5efd8adf2f0242a6456ab9acfa402d73adf",
+      "path": "backend/tests/test_settings_ai.py",
+      "sha256": "03c5f4493fb82ee45d3f9b929959c5efd8adf2f0242a6456ab9acfa402d73adf",
+      "transformed": false
+    },
+    {
+      "bytes": 3105,
+      "original_sha256": "c065e0c9157d37d679856d3066531da102fce9afd2c3db829668da214df999f1",
+      "path": "backend/tests/test_source_decode.py",
+      "sha256": "c065e0c9157d37d679856d3066531da102fce9afd2c3db829668da214df999f1",
+      "transformed": false
+    },
+    {
+      "bytes": 14527,
+      "original_sha256": "45dd11a458142c6a8a542ed6aa54d22add38b5493684af6e2cd4e050bb1e97f9",
+      "path": "backend/tests/test_source_import.py",
+      "sha256": "45dd11a458142c6a8a542ed6aa54d22add38b5493684af6e2cd4e050bb1e97f9",
+      "transformed": false
+    },
+    {
+      "bytes": 4921,
+      "original_sha256": "832c7e7aeb0881230bb0dc59f0433e9e5df6479d923f07f9ab792541c19b533a",
+      "path": "backend/tests/test_vectors.py",
+      "sha256": "832c7e7aeb0881230bb0dc59f0433e9e5df6479d923f07f9ab792541c19b533a",
+      "transformed": false
+    },
+    {
+      "bytes": 6111,
+      "original_sha256": "735092eb8c4b61a3335208ddf181e3b0095985763b88d613816d778942df976c",
+      "path": "backend/tests/test_worker.py",
+      "sha256": "735092eb8c4b61a3335208ddf181e3b0095985763b88d613816d778942df976c",
+      "transformed": false
+    },
+    {
+      "bytes": 13497,
+      "original_sha256": "057609be4c1cfecb66757cb46bd66f8e87f7a10e5c6f96acc6de11b91aa36a78",
+      "path": "backend/tests/test_workflows.py",
+      "sha256": "057609be4c1cfecb66757cb46bd66f8e87f7a10e5c6f96acc6de11b91aa36a78",
+      "transformed": false
+    },
+    {
+      "bytes": 78351,
+      "original_sha256": "9a7c0f9f167a33a0dc8aa19c2b2c758b2e5ca55f3c886a584209f3e44c0bb735",
+      "path": "backend/uv.lock",
+      "sha256": "9a7c0f9f167a33a0dc8aa19c2b2c758b2e5ca55f3c886a584209f3e44c0bb735",
+      "transformed": false
+    },
+    {
+      "bytes": 476,
+      "original_sha256": "3d04f5291b6797fddf801aabd7abb8d7cec6e30b0a625471f35ace2073606911",
+      "path": "compose.test.yaml",
+      "sha256": "3d04f5291b6797fddf801aabd7abb8d7cec6e30b0a625471f35ace2073606911",
+      "transformed": false
+    },
+    {
+      "bytes": 3861,
+      "original_sha256": "8f3a214df3f61143abf7cd896b200580f0b50f445de3e7486a9e678bc4803dce",
+      "path": "compose.yaml",
+      "sha256": "8f3a214df3f61143abf7cd896b200580f0b50f445de3e7486a9e678bc4803dce",
+      "transformed": false
+    },
+    {
+      "bytes": 2030,
+      "original_sha256": "1aa13c497df0607650ac47b9e36d679dacc91bec61740859d2ee8ab8d257195b",
+      "path": "docs/README.md",
+      "sha256": "1aa13c497df0607650ac47b9e36d679dacc91bec61740859d2ee8ab8d257195b",
+      "transformed": false
+    },
+    {
+      "bytes": 13136,
+      "original_sha256": "205365e072cbf55536a12f7871ff42cdf9cb5746c2b93c4ee9bdc9cee0751152",
+      "path": "docs/adr/0010-banking-extraction-contracts.md",
+      "sha256": "205365e072cbf55536a12f7871ff42cdf9cb5746c2b93c4ee9bdc9cee0751152",
+      "transformed": false
+    },
+    {
+      "bytes": 57105,
+      "original_sha256": "e65493ec102d0ef55cade2df716a47794ac17c132b2f7d076f86f29425a95b74",
+      "path": "docs/artifacts/step15-dependencies.jpg",
+      "sha256": "e65493ec102d0ef55cade2df716a47794ac17c132b2f7d076f86f29425a95b74",
+      "transformed": false
+    },
+    {
+      "bytes": 49850,
+      "original_sha256": "5c646cd46bfefa1d84c1a9d00d36eb2ed4df9817aa2b125da11e41b781ce5d09",
+      "path": "docs/artifacts/step15-diagnostics.jpg",
+      "sha256": "5c646cd46bfefa1d84c1a9d00d36eb2ed4df9817aa2b125da11e41b781ce5d09",
+      "transformed": false
+    },
+    {
+      "bytes": 55448,
+      "original_sha256": "fafcc740b583502bd1e590ec108e72b77317ff383c161d6e85c6f534b8a2b085",
+      "path": "docs/artifacts/step15-empty.jpg",
+      "sha256": "fafcc740b583502bd1e590ec108e72b77317ff383c161d6e85c6f534b8a2b085",
+      "transformed": false
+    },
+    {
+      "bytes": 63950,
+      "original_sha256": "98755379e769567fc2d9eb062adbe1167a8ba8e95f7d00ae8680e3a904a8f5b2",
+      "path": "docs/artifacts/step15-error.jpg",
+      "sha256": "98755379e769567fc2d9eb062adbe1167a8ba8e95f7d00ae8680e3a904a8f5b2",
+      "transformed": false
+    },
+    {
+      "bytes": 54210,
+      "original_sha256": "a9dc65424e9fe3d9327b5c094e8d43831f561c4cd820ce8a6631368412055742",
+      "path": "docs/artifacts/step15-export.jpg",
+      "sha256": "a9dc65424e9fe3d9327b5c094e8d43831f561c4cd820ce8a6631368412055742",
+      "transformed": false
+    },
+    {
+      "bytes": 1057641,
+      "original_sha256": "8f20097dcb89595c010f811d0e27e10216bcd0d07ee36433eef2553365cfee29",
+      "path": "docs/artifacts/step15-knowledge.zip",
+      "sha256": "8f20097dcb89595c010f811d0e27e10216bcd0d07ee36433eef2553365cfee29",
+      "transformed": false
+    },
+    {
+      "bytes": 40184,
+      "original_sha256": "5e717933cd9749c8d1d51b37725c327a0782ac0f8e20aa4c4d4bd8e1e1f56691",
+      "path": "docs/artifacts/step15-progress.jpg",
+      "sha256": "5e717933cd9749c8d1d51b37725c327a0782ac0f8e20aa4c4d4bd8e1e1f56691",
+      "transformed": false
+    },
+    {
+      "bytes": 51321,
+      "original_sha256": "8d87c6236e708bf160642d113962cafc567eff9ba8169d742917d032dbe483fb",
+      "path": "docs/artifacts/step15-retrieval.jpg",
+      "sha256": "8d87c6236e708bf160642d113962cafc567eff9ba8169d742917d032dbe483fb",
+      "transformed": false
+    },
+    {
+      "bytes": 46409,
+      "original_sha256": "a4a2b89bf49e3a18edee08b3f2939eee8dfb2157ba2cac85264907bee74d74e6",
+      "path": "docs/artifacts/step15-revisions.jpg",
+      "sha256": "a4a2b89bf49e3a18edee08b3f2939eee8dfb2157ba2cac85264907bee74d74e6",
+      "transformed": false
+    },
+    {
+      "bytes": 49985,
+      "original_sha256": "107f062268ef04bf31c7306381339079ece0e7ff97cc2ee590c4dcb842c2e6fa",
+      "path": "docs/artifacts/step15-source.jpg",
+      "sha256": "107f062268ef04bf31c7306381339079ece0e7ff97cc2ee590c4dcb842c2e6fa",
+      "transformed": false
+    },
+    {
+      "bytes": 15656,
+      "original_sha256": "2e18475ab990bc9f112d26c246636624aff6d4e83cfa615219881186dfa2738c",
+      "path": "docs/contracts/0.1.0/README.md",
+      "sha256": "2e18475ab990bc9f112d26c246636624aff6d4e83cfa615219881186dfa2738c",
+      "transformed": false
+    },
+    {
+      "bytes": 72,
+      "original_sha256": "c813ebf3c883dbd0cd6fecc90728a8804d52ec1b8fa4b8f1ec3523eefca85481",
+      "path": "docs/contracts/0.1.0/VALIDATE.rpgle",
+      "sha256": "c813ebf3c883dbd0cd6fecc90728a8804d52ec1b8fa4b8f1ec3523eefca85481",
+      "transformed": false
+    },
+    {
+      "bytes": 1808,
+      "original_sha256": "1d43500b9b69967102a0a81c60e265091dc43f0e0ab1c9ecda5a344a49eaccef",
+      "path": "docs/contracts/0.1.0/canonicalization.example.json",
+      "sha256": "1d43500b9b69967102a0a81c60e265091dc43f0e0ab1c9ecda5a344a49eaccef",
+      "transformed": false
+    },
+    {
+      "bytes": 1986,
+      "original_sha256": "33fa61fea6d5569ebf8ec702db533d0a01cc6e3b0769ca4f274ac1a603c25509",
+      "path": "docs/contracts/0.1.0/export-rule.example.json",
+      "sha256": "33fa61fea6d5569ebf8ec702db533d0a01cc6e3b0769ca4f274ac1a603c25509",
+      "transformed": false
+    },
+    {
+      "bytes": 62130,
+      "original_sha256": "00e7b9625e071d930a0e9824a40d165ecfb465133c7f89bac778bdc20d11103e",
+      "path": "docs/contracts/0.1.0/export.schema.json",
+      "sha256": "00e7b9625e071d930a0e9824a40d165ecfb465133c7f89bac778bdc20d11103e",
+      "transformed": false
+    },
+    {
+      "bytes": 5494,
+      "original_sha256": "20efdb47ed3b53935e6eafaa154071ed33be880f524468e17ce18462df61df07",
+      "path": "docs/contracts/0.1.0/inventory-metadata.md",
+      "sha256": "20efdb47ed3b53935e6eafaa154071ed33be880f524468e17ce18462df61df07",
+      "transformed": false
+    },
+    {
+      "bytes": 52983,
+      "original_sha256": "dc2888453ba3ba8b3d140079d6e919986e741375c94df636c2f3e6384b348c09",
+      "path": "docs/contracts/0.1.0/laip.schema.json",
+      "sha256": "dc2888453ba3ba8b3d140079d6e919986e741375c94df636c2f3e6384b348c09",
+      "transformed": false
+    },
+    {
+      "bytes": 1888,
+      "original_sha256": "a279f01b77f48de2b5aafc3193bc3d5992cc66cd501b60c9d2ad3d48e522ef42",
+      "path": "docs/contracts/0.1.0/offline-metadata.md",
+      "sha256": "a279f01b77f48de2b5aafc3193bc3d5992cc66cd501b60c9d2ad3d48e522ef42",
+      "transformed": false
+    },
+    {
+      "bytes": 350234,
+      "original_sha256": "8b9821c065bcbdfc390275b110a80123d05c7636ab3445c1a97e9b475b5df357",
+      "path": "docs/contracts/0.1.0/read-tools.json",
+      "sha256": "8b9821c065bcbdfc390275b110a80123d05c7636ab3445c1a97e9b475b5df357",
+      "transformed": false
+    },
+    {
+      "bytes": 8637,
+      "original_sha256": "508548948ab51ceb70a9dc0de8869ecfb2ccc88988d577779578bda901c17d38",
+      "path": "docs/contracts/0.1.0/relations.example.json",
+      "sha256": "508548948ab51ceb70a9dc0de8869ecfb2ccc88988d577779578bda901c17d38",
+      "transformed": false
+    },
+    {
+      "bytes": 69127,
+      "original_sha256": "f05c927a88a5258d1974c205c1f744ee6db1a8804b9e909975973f3a8888cc51",
+      "path": "docs/contracts/0.1.0/synthetic.example.json",
+      "sha256": "f05c927a88a5258d1974c205c1f744ee6db1a8804b9e909975973f3a8888cc51",
+      "transformed": false
+    },
+    {
+      "bytes": 1097,
+      "original_sha256": "f8eb74f07c64f2d6d893fc3f81f0175381ad99639761aa86e2961f4d0c86945a",
+      "path": "docs/contracts/0.2.0/README.md",
+      "sha256": "f8eb74f07c64f2d6d893fc3f81f0175381ad99639761aa86e2961f4d0c86945a",
+      "transformed": false
+    },
+    {
+      "bytes": 4852,
+      "original_sha256": "6b7c4e9090834f2562a3e66ed9367fa913b0bb83033d04eea53adaafb72f4383",
+      "path": "docs/contracts/0.2.0/banking.example.json",
+      "sha256": "6b7c4e9090834f2562a3e66ed9367fa913b0bb83033d04eea53adaafb72f4383",
+      "transformed": false
+    },
+    {
+      "bytes": 223894,
+      "original_sha256": "e6d9518dc780533e59cd1a8271fa6eac4f277f477ea84d1940e8b3a6b01a71d4",
+      "path": "docs/contracts/0.2.0/export.schema.json",
+      "sha256": "e6d9518dc780533e59cd1a8271fa6eac4f277f477ea84d1940e8b3a6b01a71d4",
+      "transformed": false
+    },
+    {
+      "bytes": 82522,
+      "original_sha256": "f271051a6d2ea0d2e4f5dc94c9fcf2c6c450c31a743af8e40de8f90137db3fb5",
+      "path": "docs/contracts/0.2.0/laip.schema.json",
+      "sha256": "f271051a6d2ea0d2e4f5dc94c9fcf2c6c450c31a743af8e40de8f90137db3fb5",
+      "transformed": false
+    },
+    {
+      "bytes": 890999,
+      "original_sha256": "e323bac8f30902304ec9e59e0e85424fd7354021361d493d56008dd3b43c0ecd",
+      "path": "docs/contracts/0.2.0/read-tools.json",
+      "sha256": "e323bac8f30902304ec9e59e0e85424fd7354021361d493d56008dd3b43c0ecd",
+      "transformed": false
+    },
+    {
+      "bytes": 1253,
+      "original_sha256": "2a4c3214fcf0203001cada2047877055fef0086c35788fc58e669ad2f1e7dda6",
+      "path": "docs/demo.md",
+      "sha256": "2a4c3214fcf0203001cada2047877055fef0086c35788fc58e669ad2f1e7dda6",
+      "transformed": false
+    },
+    {
+      "bytes": 8161,
+      "original_sha256": "b5f444709d916d51fdad5135b7eb73f0dedc4520115e9c8e853f1fe0bf5dae78",
+      "path": "docs/dependency-notices.md",
+      "sha256": "b5f444709d916d51fdad5135b7eb73f0dedc4520115e9c8e853f1fe0bf5dae78",
+      "transformed": false
+    },
+    {
+      "bytes": 5036,
+      "original_sha256": "58fc897857d37b9ab5e21eaeccb9f52743e959321e16e388e1f1c88159548d66",
+      "path": "docs/development.md",
+      "sha256": "58fc897857d37b9ab5e21eaeccb9f52743e959321e16e388e1f1c88159548d66",
+      "transformed": false
+    },
+    {
+      "bytes": 1875,
+      "original_sha256": "de0abafb67ede69d0c27d337e9aa2f46c8dacdd7401543a88222ad1d360c717b",
+      "path": "docs/examples/README.md",
+      "sha256": "de0abafb67ede69d0c27d337e9aa2f46c8dacdd7401543a88222ad1d360c717b",
+      "transformed": false
+    },
+    {
+      "bytes": 88,
+      "original_sha256": "0fc01da8f1789dd52126b13349dd9b30f27abc8e364ebe53e6dfddd0a4d1370e",
+      "path": "docs/examples/SHA256SUMS",
+      "sha256": "0fc01da8f1789dd52126b13349dd9b30f27abc8e364ebe53e6dfddd0a4d1370e",
+      "transformed": false
+    },
+    {
+      "bytes": 1374316,
+      "original_sha256": "21b7b04299c10b3ac848564030201ab6fa872fd29f1da5d1befba81434b749ca",
+      "path": "docs/examples/synthetic-context.zip",
+      "sha256": "21b7b04299c10b3ac848564030201ab6fa872fd29f1da5d1befba81434b749ca",
+      "transformed": false
+    },
+    {
+      "bytes": 66173,
+      "original_sha256": "2ce205cb004026bf08f316f66d0bdbba2c699216c615f9bbd6efaed28ad687c6",
+      "path": "docs/laip-architecture.md",
+      "sha256": "2ce205cb004026bf08f316f66d0bdbba2c699216c615f9bbd6efaed28ad687c6",
+      "transformed": false
+    },
+    {
+      "bytes": 41844,
+      "original_sha256": "68bd85fb0eae9d3c78044b4acb1969b3affb5e04e1a12638679b2a85b2c6656c",
+      "path": "docs/laip-backlog.md",
+      "sha256": "68bd85fb0eae9d3c78044b4acb1969b3affb5e04e1a12638679b2a85b2c6656c",
+      "transformed": false
+    },
+    {
+      "bytes": 6273,
+      "original_sha256": "09c67cd5b9a07fd24573e26e11ddb605ca448d472a07d8eae027a31e10ee543f",
+      "path": "docs/laip-delivery-status.md",
+      "sha256": "09c67cd5b9a07fd24573e26e11ddb605ca448d472a07d8eae027a31e10ee543f",
+      "transformed": false
+    },
+    {
+      "bytes": 4614,
+      "original_sha256": "c20db312cdc8b830370583227ed666049f3ef2a2863302022f07cbf53a018306",
+      "path": "docs/laip-step-10-validation.md",
+      "sha256": "c20db312cdc8b830370583227ed666049f3ef2a2863302022f07cbf53a018306",
+      "transformed": false
+    },
+    {
+      "bytes": 4899,
+      "original_sha256": "3bf72bae43733484765992424acd26ed92e5088ef8e3cd7744fd0702462d09bb",
+      "path": "docs/laip-step-11-validation.md",
+      "sha256": "3bf72bae43733484765992424acd26ed92e5088ef8e3cd7744fd0702462d09bb",
+      "transformed": false
+    },
+    {
+      "bytes": 4783,
+      "original_sha256": "8b75c6d42fc06f245d77907d38dd2c076e59626cb3052c59f4507cf42795b1c7",
+      "path": "docs/laip-step-12-validation.md",
+      "sha256": "8b75c6d42fc06f245d77907d38dd2c076e59626cb3052c59f4507cf42795b1c7",
+      "transformed": false
+    },
+    {
+      "bytes": 7693,
+      "original_sha256": "ae8a8d00bd49813a7a4b450316d851afd39707b3121a407229fa84b9a67aa84e",
+      "path": "docs/laip-step-13-validation.md",
+      "sha256": "ae8a8d00bd49813a7a4b450316d851afd39707b3121a407229fa84b9a67aa84e",
+      "transformed": false
+    },
+    {
+      "bytes": 4302,
+      "original_sha256": "6631a88a5add44d83b2a3a6883ff99bcd49e7c9d48588bc3aa9b251da7f1ce5c",
+      "path": "docs/laip-step-14-browser-validation.md",
+      "sha256": "6631a88a5add44d83b2a3a6883ff99bcd49e7c9d48588bc3aa9b251da7f1ce5c",
+      "transformed": false
+    },
+    {
+      "bytes": 4491,
+      "original_sha256": "127e2cbc97aeda643d499c8d28b1689ce645a5e2cbb070354d55ebeb9253ce10",
+      "path": "docs/laip-step-14-implementation.md",
+      "sha256": "127e2cbc97aeda643d499c8d28b1689ce645a5e2cbb070354d55ebeb9253ce10",
+      "transformed": false
+    },
+    {
+      "bytes": 6617,
+      "original_sha256": "bbbc4bf11e77dca3862f6f4924720bfc07c693c2b1891b31d040db92fdc4c853",
+      "path": "docs/laip-step-15-browser-validation.md",
+      "sha256": "bbbc4bf11e77dca3862f6f4924720bfc07c693c2b1891b31d040db92fdc4c853",
+      "transformed": false
+    },
+    {
+      "bytes": 7892,
+      "original_sha256": "a039f5c353f780a87fa69e6b52042853713397fe94fdc765706e04ee42a9d488",
+      "path": "docs/laip-step-15-validation.md",
+      "sha256": "a039f5c353f780a87fa69e6b52042853713397fe94fdc765706e04ee42a9d488",
+      "transformed": false
+    },
+    {
+      "bytes": 29696,
+      "original_sha256": "988ec3b33dce4ad09658ce732f0e8d79496fe9180048faf4b1526b1d9d80401f",
+      "path": "docs/laip-step-16-connector-milestone.md",
+      "sha256": "988ec3b33dce4ad09658ce732f0e8d79496fe9180048faf4b1526b1d9d80401f",
+      "transformed": false
+    },
+    {
+      "bytes": 17921,
+      "original_sha256": "f608f28439143a2ba968dfbb2e99468a08bc5cf16199c4d353689aab0b3425ee",
+      "path": "docs/laip-step-17-language-roadmap.md",
+      "sha256": "f608f28439143a2ba968dfbb2e99468a08bc5cf16199c4d353689aab0b3425ee",
+      "transformed": false
+    },
+    {
+      "bytes": 19539,
+      "original_sha256": "3a763c84d3fa860a8454d3680f86d0584c286368299173897d9ad567a3f5d90a",
+      "path": "docs/laip-step-18-enterprise-milestone.md",
+      "sha256": "3a763c84d3fa860a8454d3680f86d0584c286368299173897d9ad567a3f5d90a",
+      "transformed": false
+    },
+    {
+      "bytes": 19523,
+      "original_sha256": "6e6bfaa05d1ca716454895132bc56f949237cd9923421a033866df2139ef61bd",
+      "path": "docs/laip-step-19-provider-extensions.md",
+      "sha256": "6e6bfaa05d1ca716454895132bc56f949237cd9923421a033866df2139ef61bd",
+      "transformed": false
+    },
+    {
+      "bytes": 3967,
+      "original_sha256": "2dffc60b3954a6e7b8d3399a4d5fdc4eb7e8c6a9bdf54287145245bd85273f00",
+      "path": "docs/laip-step-2-validation.md",
+      "sha256": "2dffc60b3954a6e7b8d3399a4d5fdc4eb7e8c6a9bdf54287145245bd85273f00",
+      "transformed": false
+    },
+    {
+      "bytes": 4114,
+      "original_sha256": "74e35d3c4c3e4131b79b295a3c6a3ef998d534086939da468351f6f8ca360e63",
+      "path": "docs/laip-step-3-validation.md",
+      "sha256": "74e35d3c4c3e4131b79b295a3c6a3ef998d534086939da468351f6f8ca360e63",
+      "transformed": false
+    },
+    {
+      "bytes": 6979,
+      "original_sha256": "4fe5530ea55c3dc95b8686cba1b914881dbb2a8748adf9b9e49a4c08a01568d9",
+      "path": "docs/laip-step-4-validation.md",
+      "sha256": "4fe5530ea55c3dc95b8686cba1b914881dbb2a8748adf9b9e49a4c08a01568d9",
+      "transformed": false
+    },
+    {
+      "bytes": 9194,
+      "original_sha256": "966d9c45d8c0a8e8dc28eec5ec5eec9273281cb3040d87cb78fdad1afee31c5f",
+      "path": "docs/laip-step-5-validation.md",
+      "sha256": "966d9c45d8c0a8e8dc28eec5ec5eec9273281cb3040d87cb78fdad1afee31c5f",
+      "transformed": false
+    },
+    {
+      "bytes": 8897,
+      "original_sha256": "b9c38b835628c8232d47ade59fff6933a2c94c95b0e003cd905e75bd652c925d",
+      "path": "docs/laip-step-6-validation.md",
+      "sha256": "b9c38b835628c8232d47ade59fff6933a2c94c95b0e003cd905e75bd652c925d",
+      "transformed": false
+    },
+    {
+      "bytes": 5608,
+      "original_sha256": "a8e0078e7d227f79123fbce3bab819d537e5ee91b04ff66af95b2d8d5dce63dc",
+      "path": "docs/laip-step-7-validation.md",
+      "sha256": "a8e0078e7d227f79123fbce3bab819d537e5ee91b04ff66af95b2d8d5dce63dc",
+      "transformed": false
+    },
+    {
+      "bytes": 5669,
+      "original_sha256": "1c2d9f9238e59e4991c82e5f063eec98d341e25531f88560661f631f10f7cdc5",
+      "path": "docs/laip-step-8-validation.md",
+      "sha256": "1c2d9f9238e59e4991c82e5f063eec98d341e25531f88560661f631f10f7cdc5",
+      "transformed": false
+    },
+    {
+      "bytes": 6103,
+      "original_sha256": "8ebea2312baf9ce05eb5497ed101f7982bbed22c4160050cb7360d7fd404361f",
+      "path": "docs/laip-step-9-validation.md",
+      "sha256": "8ebea2312baf9ce05eb5497ed101f7982bbed22c4160050cb7360d7fd404361f",
+      "transformed": false
+    },
+    {
+      "bytes": 1055,
+      "original_sha256": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771",
+      "path": "docs/licenses/lark-1.3.1-LICENSE.txt",
+      "sha256": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771",
+      "transformed": false
+    },
+    {
+      "bytes": 808,
+      "original_sha256": "ee60380ebc085d14df50dc9892cd929105089fee07e615a785d55227a310694e",
+      "path": "docs/licenses/runtime/README.md",
+      "sha256": "ee60380ebc085d14df50dc9892cd929105089fee07e615a785d55227a310694e",
+      "transformed": false
+    },
+    {
+      "bytes": 1076,
+      "original_sha256": "2088f55c6731498410b20c95ebd345ed4a4a800bf74c0fba4d282fd2a021daaa",
+      "path": "docs/licenses/runtime/npm/_emnapi_runtime-1.11.3/LICENSE",
+      "sha256": "2088f55c6731498410b20c95ebd345ed4a4a800bf74c0fba4d282fd2a021daaa",
+      "transformed": false
+    },
+    {
+      "bytes": 4433,
+      "original_sha256": "e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8",
+      "path": "docs/licenses/runtime/npm/_img_colour-1.1.0/LICENSE.md",
+      "sha256": "e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8",
+      "transformed": false
+    },
+    {
+      "bytes": 10273,
+      "original_sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "path": "docs/licenses/runtime/npm/_img_sharp-darwin-arm64-0.35.5/LICENSE",
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "transformed": false
+    },
+    {
+      "bytes": 4333,
+      "original_sha256": "5dd6d3c034f925604681d49b7bedc71bd08dcf3d0cfc6d16b9f0569497d700dc",
+      "path": "docs/licenses/runtime/npm/_img_sharp-libvips-darwin-arm64-1.3.4/README.md",
+      "sha256": "5dd6d3c034f925604681d49b7bedc71bd08dcf3d0cfc6d16b9f0569497d700dc",
+      "transformed": false
+    },
+    {
+      "bytes": 596,
+      "original_sha256": "e2611d5d854815a8b33c8a3d2ec649511a9596ccf16844e8eae7cf81e79881c4",
+      "path": "docs/licenses/runtime/npm/_img_sharp-libvips-darwin-arm64-1.3.4/versions.json",
+      "sha256": "e2611d5d854815a8b33c8a3d2ec649511a9596ccf16844e8eae7cf81e79881c4",
+      "transformed": false
+    },
+    {
+      "bytes": 10273,
+      "original_sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "path": "docs/licenses/runtime/npm/_img_sharp-wasm32-0.35.5/LICENSE",
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "transformed": false
+    },
+    {
+      "bytes": 84,
+      "original_sha256": "d9749351b98624c72b1183db9b577a39d7be192f7380e1220c486b30dacdf979",
+      "path": "docs/licenses/runtime/npm/_next_env-16.4.0/README.md",
+      "sha256": "d9749351b98624c72b1183db9b577a39d7be192f7380e1220c486b30dacdf979",
+      "transformed": false
+    },
+    {
+      "bytes": 88,
+      "original_sha256": "147093bfcbd0d2d966965acd83354452e1fa523a0a6f4ab490c9f3ecc58f1663",
+      "path": "docs/licenses/runtime/npm/_next_swc-darwin-arm64-16.4.0/README.md",
+      "sha256": "147093bfcbd0d2d966965acd83354452e1fa523a0a6f4ab490c9f3ecc58f1663",
+      "transformed": false
+    },
+    {
+      "bytes": 10836,
+      "original_sha256": "d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91",
+      "path": "docs/licenses/runtime/npm/_swc_helpers-0.5.23/LICENSE",
+      "sha256": "d96eba1f1881334d50ffc144276dfa98e147a415e7c591ecdfcb81680361dc91",
+      "transformed": false
+    },
+    {
+      "bytes": 11357,
+      "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "path": "docs/licenses/runtime/npm/baseline-browser-mapping-2.11.27/LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "transformed": false
+    },
+    {
+      "bytes": 18651,
+      "original_sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e",
+      "path": "docs/licenses/runtime/npm/caniuse-lite-1.0.30001814/LICENSE",
+      "sha256": "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e",
+      "transformed": false
+    },
+    {
+      "bytes": 11357,
+      "original_sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "path": "docs/licenses/runtime/npm/detect-libc-2.1.2/LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "transformed": false
+    },
+    {
+      "bytes": 1095,
+      "original_sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "path": "docs/licenses/runtime/npm/nanoid-3.3.20/LICENSE",
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "transformed": false
+    },
+    {
+      "bytes": 1106,
+      "original_sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@babel/runtime/LICENSE",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "transformed": false
+    },
+    {
+      "bytes": 1541,
+      "original_sha256": "ff96bbd6a7408c166f16dbed7f2c87a8061e5a21289ec8f2d3069f8d3b15fc0a",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@hapi/accept/LICENSE",
+      "sha256": "ff96bbd6a7408c166f16dbed7f2c87a8061e5a21289ec8f2d3069f8d3b15fc0a",
+      "transformed": false
+    },
+    {
+      "bytes": 1085,
+      "original_sha256": "bb3a5cb8fb224f632970e31425348f556f7a83b165d5384ea5e142575f5c412e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@mswjs/interceptors/ClientRequest/LICENSE",
+      "sha256": "bb3a5cb8fb224f632970e31425348f556f7a83b165d5384ea5e142575f5c412e",
+      "transformed": false
+    },
+    {
+      "bytes": 1066,
+      "original_sha256": "7b34e99bc43641767fded49f7f03563ffd50c689b1f3b0d50700b4727bc4ae24",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@napi-rs/triples/LICENSE",
+      "sha256": "7b34e99bc43641767fded49f7f03563ffd50c689b1f3b0d50700b4727bc4ae24",
+      "transformed": false
+    },
+    {
+      "bytes": 11357,
+      "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@opentelemetry/api/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "transformed": false
+    },
+    {
+      "bytes": 10932,
+      "original_sha256": "2b6fc3f4a995e6ad29f4e2ed8881a32979058b8d6557efaa6d86b7e985849f40",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/blob/LICENSE",
+      "sha256": "2b6fc3f4a995e6ad29f4e2ed8881a32979058b8d6557efaa6d86b7e985849f40",
+      "transformed": false
+    },
+    {
+      "bytes": 11343,
+      "original_sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/detect-agent/LICENSE",
+      "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+      "transformed": false
+    },
+    {
+      "bytes": 1051,
+      "original_sha256": "0b31f3a6ab66b272b7de451df39835f310a309a06b1a8aafb3a2fdab20adc166",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/nft/LICENSE",
+      "sha256": "0b31f3a6ab66b272b7de451df39835f310a309a06b1a8aafb3a2fdab20adc166",
+      "transformed": false
+    },
+    {
+      "bytes": 16725,
+      "original_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/og/LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "transformed": false
+    },
+    {
+      "bytes": 16725,
+      "original_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/og/satori/LICENSE",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "transformed": false
+    },
+    {
+      "bytes": 11343,
+      "original_sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/@vercel/routing-utils/LICENSE",
+      "sha256": "b070d77bfb2c52a1dd6996de0ce5f64c49a0ca55c889b163a963ddf5cb001ee2",
+      "transformed": false
+    },
+    {
+      "bytes": 1099,
+      "original_sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/acorn/LICENSE",
+      "sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7",
+      "transformed": false
+    },
+    {
+      "bytes": 1134,
+      "original_sha256": "6d2abc90a426cf65bbf84f7cedf9487f7ff86a3daf0e130b335a45c112f040d0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/anser/LICENSE",
+      "sha256": "6d2abc90a426cf65bbf84f7cedf9487f7ff86a3daf0e130b335a45c112f040d0",
+      "transformed": false
+    },
+    {
+      "bytes": 1096,
+      "original_sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/assert/LICENSE",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "transformed": false
+    },
+    {
+      "bytes": 1067,
+      "original_sha256": "8cec82f7beeab8459fa6165c973f5cd6f89aceea7a07de0aa8fc30a9dd339a05",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/async-retry/LICENSE",
+      "sha256": "8cec82f7beeab8459fa6165c973f5cd6f89aceea7a07de0aa8fc30a9dd339a05",
+      "transformed": false
+    },
+    {
+      "bytes": 1131,
+      "original_sha256": "291ff3e2bd22891edef553930da53ba64adf79d83f0bd1c5b7f6fe9727526b37",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/async-sema/LICENSE",
+      "sha256": "291ff3e2bd22891edef553930da53ba64adf79d83f0bd1c5b7f6fe9727526b37",
+      "transformed": false
+    },
+    {
+      "bytes": 1106,
+      "original_sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/babel/LICENSE",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+      "transformed": false
+    },
+    {
+      "bytes": 3486,
+      "original_sha256": "ddd770379e07bf0574dfaa4485be80a23b3248b36d09f33ec79276c09b829daf",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/browserify-zlib/LICENSE",
+      "sha256": "ddd770379e07bf0574dfaa4485be80a23b3248b36d09f33ec79276c09b829daf",
+      "transformed": false
+    },
+    {
+      "bytes": 1118,
+      "original_sha256": "f25bf9bf3ae8984bcd43bf7fb8f78e7eec8d577081fb8d0989cfa7c67ecebb8e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/browserslist/LICENSE",
+      "sha256": "f25bf9bf3ae8984bcd43bf7fb8f78e7eec8d577081fb8d0989cfa7c67ecebb8e",
+      "transformed": false
+    },
+    {
+      "bytes": 1106,
+      "original_sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/buffer/LICENSE",
+      "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6",
+      "transformed": false
+    },
+    {
+      "bytes": 1067,
+      "original_sha256": "d06b5d27bbbbe22c36b1fd88406b1208876e2d37d795f5b8eaed951a459a3111",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/busboy/LICENSE",
+      "sha256": "d06b5d27bbbbe22c36b1fd88406b1208876e2d37d795f5b8eaed951a459a3111",
+      "transformed": false
+    },
+    {
+      "bytes": 1153,
+      "original_sha256": "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/bytes/LICENSE",
+      "sha256": "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85",
+      "transformed": false
+    },
+    {
+      "bytes": 1091,
+      "original_sha256": "25bd22427e27b0d3f1c3da2670bb44b622bcced22ebdf4777d5488ac129370a1",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ci-info/LICENSE",
+      "sha256": "25bd22427e27b0d3f1c3da2670bb44b622bcced22ebdf4777d5488ac129370a1",
+      "transformed": false
+    },
+    {
+      "bytes": 1069,
+      "original_sha256": "a8e260b5b60eb27746ff2c5967489e6878c5a6ba99400cbec84c89a9b49a46ca",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/cli-select/LICENSE",
+      "sha256": "a8e260b5b60eb27746ff2c5967489e6878c5a6ba99400cbec84c89a9b49a46ca",
+      "transformed": false
+    },
+    {
+      "bytes": 1098,
+      "original_sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/commander/LICENSE",
+      "sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b",
+      "transformed": false
+    },
+    {
+      "bytes": 1086,
+      "original_sha256": "9dbd86998d3cdafc1d8c298aea636146568d05d429b81386e60cfce11e6cedb6",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/comment-json/LICENSE",
+      "sha256": "9dbd86998d3cdafc1d8c298aea636146568d05d429b81386e60cfce11e6cedb6",
+      "transformed": false
+    },
+    {
+      "bytes": 1172,
+      "original_sha256": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/compression/LICENSE",
+      "sha256": "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/conf/LICENSE",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "transformed": false
+    },
+    {
+      "bytes": 1094,
+      "original_sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/content-disposition/LICENSE",
+      "sha256": "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400",
+      "transformed": false
+    },
+    {
+      "bytes": 1089,
+      "original_sha256": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/content-type/LICENSE",
+      "sha256": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38",
+      "transformed": false
+    },
+    {
+      "bytes": 1175,
+      "original_sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/cookie/LICENSE",
+      "sha256": "c02110eedc16c7114f1a9bdc026c65626ce1d9c7e27fd51a8e0feee8a48a6858",
+      "transformed": false
+    },
+    {
+      "bytes": 1105,
+      "original_sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/cross-spawn/LICENSE",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1",
+      "transformed": false
+    },
+    {
+      "bytes": 1087,
+      "original_sha256": "6134c69bc22c8289252e70de3af20bd67071233459055be74d83acfcc4865e7e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/crypto-browserify/LICENSE",
+      "sha256": "6134c69bc22c8289252e70de3af20bd67071233459055be74d83acfcc4865e7e",
+      "transformed": false
+    },
+    {
+      "bytes": 1107,
+      "original_sha256": "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/debug/LICENSE",
+      "sha256": "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422",
+      "transformed": false
+    },
+    {
+      "bytes": 1121,
+      "original_sha256": "e399db7e952e45cae84f1b53d72ba8dbad2daaa7ab8cd1f0ab72fea5ab73b225",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/devalue/LICENSE",
+      "sha256": "e399db7e952e45cae84f1b53d72ba8dbad2daaa7ab8cd1f0ab72fea5ab73b225",
+      "transformed": false
+    },
+    {
+      "bytes": 1379,
+      "original_sha256": "fc06db8dd5e7840db84ab328d9f58bdb91a56fbbf045bb977c11fcd07e2d8e3e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/domain-browser/LICENSE",
+      "sha256": "fc06db8dd5e7840db84ab328d9f58bdb91a56fbbf045bb977c11fcd07e2d8e3e",
+      "transformed": false
+    },
+    {
+      "bytes": 1079,
+      "original_sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/edge-runtime/LICENSE",
+      "sha256": "e4f76a7a19ef2989dd79339bd3abf8afcf1d6f065e5a10c76c19415ffd727eb3",
+      "transformed": false
+    },
+    {
+      "bytes": 1081,
+      "original_sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/events/LICENSE",
+      "sha256": "631987b7616a325a5b97566c232418481ddf7dbb5ecadefb991e791876cc2599",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/find-up/LICENSE",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "transformed": false
+    },
+    {
+      "bytes": 1174,
+      "original_sha256": "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/fresh/LICENSE",
+      "sha256": "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d",
+      "transformed": false
+    },
+    {
+      "bytes": 976,
+      "original_sha256": "6236fa0b88a4a0cce3dda0367979491b2052b3c8d6b1c10b3668de083e86a7f0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/glob/LICENSE",
+      "sha256": "6236fa0b88a4a0cce3dda0367979491b2052b3c8d6b1c10b3668de083e86a7f0",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/gzip-size/LICENSE",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "transformed": false
+    },
+    {
+      "bytes": 1105,
+      "original_sha256": "7261b3ab93df04c6d8f3398f87275d28f0e87d88cbd0033b788fb50402de03c5",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/hash.js/sha256/LICENSE",
+      "sha256": "7261b3ab93df04c6d8f3398f87275d28f0e87d88cbd0033b788fb50402de03c5",
+      "transformed": false
+    },
+    {
+      "bytes": 1103,
+      "original_sha256": "ff151c00207c908581639851dd8504ce4255be0650b2b236edec2aa90342b0cd",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/https-browserify/LICENSE",
+      "sha256": "ff151c00207c908581639851dd8504ce4255be0650b2b236edec2aa90342b0cd",
+      "transformed": false
+    },
+    {
+      "bytes": 2232,
+      "original_sha256": "4249bd020d1b5c503d20a196c1b686b3bdebcd1c7ac06909c546d9624c64f79b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/httpxy/LICENSE",
+      "sha256": "4249bd020d1b5c503d20a196c1b686b3bdebcd1c7ac06909c546d9624c64f79b",
+      "transformed": false
+    },
+    {
+      "bytes": 744,
+      "original_sha256": "b2b54c738525e98cc42d4a1c239c9d8421507816acce98950e81d0943daae68e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/icss-utils/LICENSE",
+      "sha256": "b2b54c738525e98cc42d4a1c239c9d8421507816acce98950e81d0943daae68e",
+      "transformed": false
+    },
+    {
+      "bytes": 1066,
+      "original_sha256": "62ba766e9b50f9b175b0229f4ea03e93730c9180408acec50dd617e9ae1fa059",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ignore-loader/LICENSE",
+      "sha256": "62ba766e9b50f9b175b0229f4ea03e93730c9180408acec50dd617e9ae1fa059",
+      "transformed": false
+    },
+    {
+      "bytes": 1112,
+      "original_sha256": "3109783dad7527b490aabc49c3cb148573c19b41b843e70cf9388a93f3d7fccd",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/image-size/LICENSE",
+      "sha256": "3109783dad7527b490aabc49c3cb148573c19b41b843e70cf9388a93f3d7fccd",
+      "transformed": false
+    },
+    {
+      "bytes": 1087,
+      "original_sha256": "62568a2d1337b77171ecca9db10579163446de1ba6151678e81f06cdc199971b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ipaddr.js/LICENSE",
+      "sha256": "62568a2d1337b77171ecca9db10579163446de1ba6151678e81f06cdc199971b",
+      "transformed": false
+    },
+    {
+      "bytes": 1137,
+      "original_sha256": "e08c030e1274fadc495c71e0489612f0c74673b69ae8e41460526c233a94a728",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/is-animated/LICENSE",
+      "sha256": "e08c030e1274fadc495c71e0489612f0c74673b69ae8e41460526c233a94a728",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/is-docker/LICENSE",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/is-wsl/LICENSE",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "transformed": false
+    },
+    {
+      "bytes": 1086,
+      "original_sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/jest-worker/LICENSE",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "transformed": false
+    },
+    {
+      "bytes": 1145,
+      "original_sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/json5/LICENSE",
+      "sha256": "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927",
+      "transformed": false
+    },
+    {
+      "bytes": 1121,
+      "original_sha256": "2144eb6894cb440fde6b2b3aaae3b617c8f1dc9bb19813079dcf62ec6c517042",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/jsonwebtoken/LICENSE",
+      "sha256": "2144eb6894cb440fde6b2b3aaae3b617c8f1dc9bb19813079dcf62ec6c517042",
+      "transformed": false
+    },
+    {
+      "bytes": 1077,
+      "original_sha256": "498d39c83164cf8de195090f5564fc0308ab271344ca2f95484a7f1020952d00",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/loader-runner/LICENSE",
+      "sha256": "498d39c83164cf8de195090f5564fc0308ab271344ca2f95484a7f1020952d00",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/loader-utils2/LICENSE",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/loader-utils3/LICENSE",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "transformed": false
+    },
+    {
+      "bytes": 1951,
+      "original_sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/lodash.curry/LICENSE",
+      "sha256": "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272",
+      "transformed": false
+    },
+    {
+      "bytes": 775,
+      "original_sha256": "451ec07eeb9c4e1b86de9abdaa426462a8be48f887ec7421cf0bbb9c769555ab",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/lru-cache/LICENSE",
+      "sha256": "451ec07eeb9c4e1b86de9abdaa426462a8be48f887ec7421cf0bbb9c769555ab",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/mini-css-extract-plugin/LICENSE",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "transformed": false
+    },
+    {
+      "bytes": 1095,
+      "original_sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/nanoid/LICENSE",
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "transformed": false
+    },
+    {
+      "bytes": 11358,
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/native-url/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "transformed": false
+    },
+    {
+      "bytes": 1119,
+      "original_sha256": "811238ba7d85f6fe6b820703a32f92705bcf77bc352ddc3476783491c64a129a",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/neo-async/LICENSE",
+      "sha256": "811238ba7d85f6fe6b820703a32f92705bcf77bc352ddc3476783491c64a129a",
+      "transformed": false
+    },
+    {
+      "bytes": 1050,
+      "original_sha256": "ea75e9321945b7f0bc4644da1e404ad76ce55e9bc05cae3b2f5f2d973aede83b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/node-html-parser/LICENSE",
+      "sha256": "ea75e9321945b7f0bc4644da1e404ad76ce55e9bc05cae3b2f5f2d973aede83b",
+      "transformed": false
+    },
+    {
+      "bytes": 1117,
+      "original_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ora/LICENSE",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "transformed": false
+    },
+    {
+      "bytes": 1077,
+      "original_sha256": "d25d1d6d28c35cb6f358e2833e405c4e53fec2fa24d156323ddea5cd438d3407",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/os-browserify/LICENSE",
+      "sha256": "d25d1d6d28c35cb6f358e2833e405c4e53fec2fa24d156323ddea5cd438d3407",
+      "transformed": false
+    },
+    {
+      "bytes": 1117,
+      "original_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/p-limit/LICENSE",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "transformed": false
+    },
+    {
+      "bytes": 1117,
+      "original_sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/p-queue/LICENSE",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "a22b9d5763f574e5db347c30acc0b33eaf4846767c03d2e27d012e864e79a824",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/path-browserify/LICENSE",
+      "sha256": "a22b9d5763f574e5db347c30acc0b33eaf4846767c03d2e27d012e864e79a824",
+      "transformed": false
+    },
+    {
+      "bytes": 1103,
+      "original_sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/path-to-regexp/LICENSE",
+      "sha256": "4eeb3271453a891df609e5a9f4ee79a68307f730c13417a3bfeffa604ac8cf25",
+      "transformed": false
+    },
+    {
+      "bytes": 1091,
+      "original_sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/picomatch/LICENSE",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "transformed": false
+    },
+    {
+      "bytes": 1094,
+      "original_sha256": "f26c92c1c16e78c6b1f7474792f7195b7abc851caccb4a73dcc5b3c31efc7321",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-flexbugs-fixes/LICENSE",
+      "sha256": "f26c92c1c16e78c6b1f7474792f7195b7abc851caccb4a73dcc5b3c31efc7321",
+      "transformed": false
+    },
+    {
+      "bytes": 726,
+      "original_sha256": "9e534cfb7f7ae1300e16fe1ee7d203fdfe707dc932429c37246f747c3699ee14",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-extract-imports/LICENSE",
+      "sha256": "9e534cfb7f7ae1300e16fe1ee7d203fdfe707dc932429c37246f747c3699ee14",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "dd40f37957ddcb6a6157f40b677d6f43697583f956144fbce25443e35630453e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-local-by-default/LICENSE",
+      "sha256": "dd40f37957ddcb6a6157f40b677d6f43697583f956144fbce25443e35630453e",
+      "transformed": false
+    },
+    {
+      "bytes": 750,
+      "original_sha256": "7774c8c4a3f750b294b416818062201a404fc2d6c8756d8b89a1688e24b5d5a7",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-scope/LICENSE",
+      "sha256": "7774c8c4a3f750b294b416818062201a404fc2d6c8756d8b89a1688e24b5d5a7",
+      "transformed": false
+    },
+    {
+      "bytes": 749,
+      "original_sha256": "655287aefbf8e292057318c385d77767b1dd9819c87709fd26730b7090efe4d9",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-modules-values/LICENSE",
+      "sha256": "655287aefbf8e292057318c385d77767b1dd9819c87709fd26730b7090efe4d9",
+      "transformed": false
+    },
+    {
+      "bytes": 6799,
+      "original_sha256": "597756adcb51f243ef4fb386920377f61d012ace0904364e1a8ee9aaec6afc84",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-preset-env/LICENSE",
+      "sha256": "597756adcb51f243ef4fb386920377f61d012ace0904364e1a8ee9aaec6afc84",
+      "transformed": false
+    },
+    {
+      "bytes": 1095,
+      "original_sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-safe-parser/LICENSE",
+      "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+      "transformed": false
+    },
+    {
+      "bytes": 1095,
+      "original_sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-scss/LICENSE",
+      "sha256": "c4630ac8b89cb317ac5bdd60ac5e4e185eab9bd5151a0c7b3afa41aa83d7ec9b",
+      "transformed": false
+    },
+    {
+      "bytes": 1074,
+      "original_sha256": "3687447039151857a6ba378db062172c7f33d4aa70a615c87a43a9c50e990485",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/postcss-value-parser/LICENSE",
+      "sha256": "3687447039151857a6ba378db062172c7f33d4aa70a615c87a43a9c50e990485",
+      "transformed": false
+    },
+    {
+      "bytes": 1098,
+      "original_sha256": "59a400d04c5078579acc27ddd6452c1bdf763f9506e01364700935fbb1a7c91b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/process/LICENSE",
+      "sha256": "59a400d04c5078579acc27ddd6452c1bdf763f9506e01364700935fbb1a7c91b",
+      "transformed": false
+    },
+    {
+      "bytes": 1081,
+      "original_sha256": "cb72d9714ddc21e758d63f423be0caddf909d23ccbb10a2f5201a870818e4f57",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/querystring-es3/LICENSE",
+      "sha256": "cb72d9714ddc21e758d63f423be0caddf909d23ccbb10a2f5201a870818e4f57",
+      "transformed": false
+    },
+    {
+      "bytes": 1181,
+      "original_sha256": "c8e6bca7230689d536a3bd7158f66e9c4f89f95d0748743a0370ac229e9023ad",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/raw-body/LICENSE",
+      "sha256": "c8e6bca7230689d536a3bd7158f66e9c4f89f95d0748743a0370ac229e9023ad",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-dom/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-dom-experimental/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-experimental/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-is/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1086,
+      "original_sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-refresh/LICENSE",
+      "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-turbopack/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-turbopack-experimental/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-webpack/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/react-server-dom-webpack-experimental/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1080,
+      "original_sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/regenerator-runtime/LICENSE",
+      "sha256": "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd",
+      "transformed": false
+    },
+    {
+      "bytes": 1079,
+      "original_sha256": "3a6d6de49d284a36c5d271ef0e62eca1838cc460dd7630e3f2c347c8f5b2232a",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/safe-stable-stringify/LICENSE",
+      "sha256": "3a6d6de49d284a36c5d271ef0e62eca1838cc460dd7630e3f2c347c8f5b2232a",
+      "transformed": false
+    },
+    {
+      "bytes": 1070,
+      "original_sha256": "2af12ca8b612a22e6659ae68e0e59ee7ac792718c45524a989b512c49c5f5879",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/sass-loader/LICENSE",
+      "sha256": "2af12ca8b612a22e6659ae68e0e59ee7ac792718c45524a989b512c49c5f5879",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/scheduler/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/scheduler-experimental/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/schema-utils2/LICENSE",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/schema-utils3/LICENSE",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "transformed": false
+    },
+    {
+      "bytes": 765,
+      "original_sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/semver/LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "transformed": false
+    },
+    {
+      "bytes": 1128,
+      "original_sha256": "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/send/LICENSE",
+      "sha256": "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9",
+      "transformed": false
+    },
+    {
+      "bytes": 1067,
+      "original_sha256": "be8ba42db3b7c3dbb064bcdc1bbbb191c0a39c8851c2a53564e97c7eea301bca",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/serve-handler/LICENSE",
+      "sha256": "be8ba42db3b7c3dbb064bcdc1bbbb191c0a39c8851c2a53564e97c7eea301bca",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/shell-quote/LICENSE",
+      "sha256": "8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe",
+      "transformed": false
+    },
+    {
+      "bytes": 1526,
+      "original_sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/source-map/LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "transformed": false
+    },
+    {
+      "bytes": 1526,
+      "original_sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/source-map08/LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "transformed": false
+    },
+    {
+      "bytes": 1076,
+      "original_sha256": "e1898814043cb5500483d9c8517edda824b352f696d35e5043fcfb537c221531",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/stacktrace-parser/LICENSE",
+      "sha256": "e1898814043cb5500483d9c8517edda824b352f696d35e5043fcfb537c221531",
+      "transformed": false
+    },
+    {
+      "bytes": 1066,
+      "original_sha256": "96e5193183476a03da6667d217ce14110191d26ee105338086e94339edf40d5a",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/stream-browserify/LICENSE",
+      "sha256": "96e5193183476a03da6667d217ce14110191d26ee105338086e94339edf40d5a",
+      "transformed": false
+    },
+    {
+      "bytes": 1086,
+      "original_sha256": "a0e6357a5e8ea65827addeb383e0948a1874d2f46bc7feaf6349b7a376ed6e98",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/stream-http/LICENSE",
+      "sha256": "a0e6357a5e8ea65827addeb383e0948a1874d2f46bc7feaf6349b7a376ed6e98",
+      "transformed": false
+    },
+    {
+      "bytes": 2338,
+      "original_sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/string_decoder/LICENSE",
+      "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/strip-ansi/LICENSE",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "transformed": false
+    },
+    {
+      "bytes": 1111,
+      "original_sha256": "0f644bc01d85e4b1958bdfe5a851704bd886404c78188d4d6fba43dc8293bc91",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/superstruct/LICENSE",
+      "sha256": "0f644bc01d85e4b1958bdfe5a851704bd886404c78188d4d6fba43dc8293bc91",
+      "transformed": false
+    },
+    {
+      "bytes": 1552,
+      "original_sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/tar/LICENSE",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "transformed": false
+    },
+    {
+      "bytes": 1303,
+      "original_sha256": "901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/terser/LICENSE",
+      "sha256": "901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da",
+      "transformed": false
+    },
+    {
+      "bytes": 1073,
+      "original_sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/text-table/LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "transformed": false
+    },
+    {
+      "bytes": 2505,
+      "original_sha256": "d5f14c3258420dfe5a3b641a143d6e6dd90eabb5962244d937e25699c3a45ec9",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/timers-browserify/LICENSE",
+      "sha256": "d5f14c3258420dfe5a3b641a143d6e6dd90eabb5962244d937e25699c3a45ec9",
+      "transformed": false
+    },
+    {
+      "bytes": 1073,
+      "original_sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/tty-browserify/LICENSE",
+      "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+      "transformed": false
+    },
+    {
+      "bytes": 1095,
+      "original_sha256": "fb9548e36708f09ae0cc1047ebd8153928bfe5bed67e4051f0ace552bdcbf0b3",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ua-parser-js/LICENSE",
+      "sha256": "fb9548e36708f09ae0cc1047ebd8153928bfe5bed67e4051f0ace552bdcbf0b3",
+      "transformed": false
+    },
+    {
+      "bytes": 1096,
+      "original_sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/util/LICENSE",
+      "sha256": "6239c6144c31e58cf925c34483606969c555574d64ffa96518ab5d7f45c75d43",
+      "transformed": false
+    },
+    {
+      "bytes": 1036,
+      "original_sha256": "3a62887f73cd035ac1068bc0127ce94291f7a03843391f56df3520e2ca2037f8",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/vm-browserify/LICENSE",
+      "sha256": "3a62887f73cd035ac1068bc0127ce94291f7a03843391f56df3520e2ca2037f8",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/watchpack/LICENSE",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "transformed": false
+    },
+    {
+      "bytes": 11342,
+      "original_sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/web-vitals/LICENSE",
+      "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+      "transformed": false
+    },
+    {
+      "bytes": 11342,
+      "original_sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/web-vitals-attribution/LICENSE",
+      "sha256": "bfdeded4040e05da31ca9b6239dc83bd23fa26ac8db87342a7ca4363f68916ff",
+      "transformed": false
+    },
+    {
+      "bytes": 1071,
+      "original_sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/webpack/LICENSE",
+      "sha256": "9068a8782d2fb4c6e432cfa25334efa56f722822180570802bf86e71b6003b1e",
+      "transformed": false
+    },
+    {
+      "bytes": 1093,
+      "original_sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/webpack-sources1/LICENSE",
+      "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+      "transformed": false
+    },
+    {
+      "bytes": 1093,
+      "original_sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/webpack-sources3/LICENSE",
+      "sha256": "214d0ac13edb475ec426df1979d96fd46b443debc466c0fb592e32152ae5a940",
+      "transformed": false
+    },
+    {
+      "bytes": 734,
+      "original_sha256": "ea7f376fe7a1fc28572b83ac8f806d92effb31852b9981bc9ba9d5266caa6b28",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/write-file-atomic/LICENSE",
+      "sha256": "ea7f376fe7a1fc28572b83ac8f806d92effb31852b9981bc9ba9d5266caa6b28",
+      "transformed": false
+    },
+    {
+      "bytes": 1083,
+      "original_sha256": "dcd0a622a3a2c94fe3aa6238b76363f87df442afe788cbad966afe943ed62281",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/ws/LICENSE",
+      "sha256": "dcd0a622a3a2c94fe3aa6238b76363f87df442afe788cbad966afe943ed62281",
+      "transformed": false
+    },
+    {
+      "bytes": 1072,
+      "original_sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/zod/LICENSE",
+      "sha256": "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8",
+      "transformed": false
+    },
+    {
+      "bytes": 1095,
+      "original_sha256": "03cc9a630489a2544b799548a0e8b134f382fe09fa06dc22b339091b28b8f4a8",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/dist/compiled/zod-validation-error/LICENSE",
+      "sha256": "03cc9a630489a2544b799548a0e8b134f382fe09fa06dc22b339091b28b8f4a8",
+      "transformed": false
+    },
+    {
+      "bytes": 1079,
+      "original_sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
+      "path": "docs/licenses/runtime/npm/next-16.4.0/license.md",
+      "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
+      "transformed": false
+    },
+    {
+      "bytes": 787,
+      "original_sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "path": "docs/licenses/runtime/npm/picocolors-1.1.1/LICENSE",
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "transformed": false
+    },
+    {
+      "bytes": 1095,
+      "original_sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "path": "docs/licenses/runtime/npm/postcss-8.5.23/LICENSE",
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/react-19.3.0/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/react-dom-19.3.0/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 1088,
+      "original_sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "path": "docs/licenses/runtime/npm/scheduler-0.28.0/LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "transformed": false
+    },
+    {
+      "bytes": 765,
+      "original_sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "path": "docs/licenses/runtime/npm/semver-7.8.5/LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "transformed": false
+    },
+    {
+      "bytes": 10273,
+      "original_sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "path": "docs/licenses/runtime/npm/sharp-0.35.5/LICENSE",
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "transformed": false
+    },
+    {
+      "bytes": 1526,
+      "original_sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "path": "docs/licenses/runtime/npm/source-map-js-1.2.2/LICENSE",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "transformed": false
+    },
+    {
+      "bytes": 1077,
+      "original_sha256": "24d4a4580df855c345705b3016404f0c9da7e7674dc3b21a3ce7d0e5d0c37e2d",
+      "path": "docs/licenses/runtime/npm/styled-jsx-5.1.6/license.md",
+      "sha256": "24d4a4580df855c345705b3016404f0c9da7e7674dc3b21a3ce7d0e5d0c37e2d",
+      "transformed": false
+    },
+    {
+      "bytes": 655,
+      "original_sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "path": "docs/licenses/runtime/npm/tslib-2.8.1/LICENSE.txt",
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "transformed": false
+    },
+    {
+      "bytes": 1086,
+      "original_sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+      "path": "docs/licenses/runtime/python/annotated-doc-0.0.5/annotated_doc-0.0.5.dist-info_licenses_LICENSE",
+      "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+      "transformed": false
+    },
+    {
+      "bytes": 1083,
+      "original_sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+      "path": "docs/licenses/runtime/python/annotated-types-0.8.0/annotated_types-0.8.0.dist-info_licenses_LICENSE",
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+      "transformed": false
+    },
+    {
+      "bytes": 1081,
+      "original_sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "path": "docs/licenses/runtime/python/anyio-4.15.1/anyio-4.15.1.dist-info_licenses_LICENSE",
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "transformed": false
+    },
+    {
+      "bytes": 1109,
+      "original_sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+      "path": "docs/licenses/runtime/python/attrs-26.1.0/attrs-26.1.0.dist-info_licenses_LICENSE",
+      "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+      "transformed": false
+    },
+    {
+      "bytes": 1475,
+      "original_sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "path": "docs/licenses/runtime/python/click-8.5.0/click-8.5.0.dist-info_licenses_LICENSE.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "transformed": false
+    },
+    {
+      "bytes": 1086,
+      "original_sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+      "path": "docs/licenses/runtime/python/fastapi-0.142.2/fastapi-0.142.2.dist-info_licenses_LICENSE",
+      "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+      "transformed": false
+    },
+    {
+      "bytes": 1124,
+      "original_sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "path": "docs/licenses/runtime/python/h11-0.16.0/h11-0.16.0.dist-info_licenses_LICENSE.txt",
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "transformed": false
+    },
+    {
+      "bytes": 1541,
+      "original_sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "path": "docs/licenses/runtime/python/idna-3.20/idna-3.20.dist-info_licenses_LICENSE.md",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "transformed": false
+    },
+    {
+      "bytes": 1057,
+      "original_sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+      "path": "docs/licenses/runtime/python/jsonschema-4.26.0/jsonschema-4.26.0.dist-info_licenses_COPYING",
+      "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+      "transformed": false
+    },
+    {
+      "bytes": 1057,
+      "original_sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "path": "docs/licenses/runtime/python/jsonschema-specifications-2025.9.1/jsonschema_specifications-2025.9.1.dist-info_licenses_COPYING",
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "transformed": false
+    },
+    {
+      "bytes": 1055,
+      "original_sha256": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771",
+      "path": "docs/licenses/runtime/python/lark-1.3.1/lark-1.3.1.dist-info_licenses_LICENSE",
+      "sha256": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771",
+      "transformed": false
+    },
+    {
+      "bytes": 11357,
+      "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "path": "docs/licenses/runtime/python/opentelemetry-api-1.45.1/opentelemetry_api-1.45.1.dist-info_licenses_LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "transformed": false
+    },
+    {
+      "bytes": 7652,
+      "original_sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "path": "docs/licenses/runtime/python/psycopg-3.3.6/psycopg-3.3.6.dist-info_licenses_LICENSE.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "transformed": false
+    },
+    {
+      "bytes": 7652,
+      "original_sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "path": "docs/licenses/runtime/python/psycopg-binary-3.3.6/psycopg_binary-3.3.6.dist-info_licenses_LICENSE.txt",
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118",
+      "transformed": false
+    },
+    {
+      "bytes": 1129,
+      "original_sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "path": "docs/licenses/runtime/python/pydantic-2.13.5/pydantic-2.13.5.dist-info_licenses_LICENSE",
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "transformed": false
+    },
+    {
+      "bytes": 1080,
+      "original_sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+      "path": "docs/licenses/runtime/python/pydantic-core-2.46.5/pydantic_core-2.46.5.dist-info_licenses_LICENSE",
+      "sha256": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a",
+      "transformed": false
+    },
+    {
+      "bytes": 1103,
+      "original_sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998",
+      "path": "docs/licenses/runtime/python/pydantic-settings-2.15.0/pydantic_settings-2.15.0.dist-info_licenses_LICENSE",
+      "sha256": "eb355a753e020346d33d83bf9769135b89fc610568ac531a01c295bcee7fd998",
+      "transformed": false
+    },
+    {
+      "bytes": 1556,
+      "original_sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "path": "docs/licenses/runtime/python/python-dotenv-1.2.4/python_dotenv-1.2.4.dist-info_licenses_LICENSE",
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "transformed": false
+    },
+    {
+      "bytes": 1057,
+      "original_sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "path": "docs/licenses/runtime/python/referencing-0.37.0/referencing-0.37.0.dist-info_licenses_COPYING",
+      "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+      "transformed": false
+    },
+    {
+      "bytes": 1057,
+      "original_sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+      "path": "docs/licenses/runtime/python/rpds-py-2026.9.1/rpds_py-2026.9.1.dist-info_licenses_LICENSE",
+      "sha256": "314e4e91be3baa93c0fb4bccc9e4e97cd643eb839b065af921782c2175fe9909",
+      "transformed": false
+    },
+    {
+      "bytes": 1518,
+      "original_sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+      "path": "docs/licenses/runtime/python/starlette-1.7.0/starlette-1.7.0.dist-info_licenses_LICENSE.md",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+      "transformed": false
+    },
+    {
+      "bytes": 13936,
+      "original_sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "path": "docs/licenses/runtime/python/typing-extensions-4.16.0/typing_extensions-4.16.0.dist-info_licenses_LICENSE",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "transformed": false
+    },
+    {
+      "bytes": 1090,
+      "original_sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+      "path": "docs/licenses/runtime/python/typing-inspection-0.4.4/typing_inspection-0.4.4.dist-info_licenses_LICENSE",
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+      "transformed": false
+    },
+    {
+      "bytes": 1526,
+      "original_sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+      "path": "docs/licenses/runtime/python/uvicorn-0.54.0/uvicorn-0.54.0.dist-info_licenses_LICENSE.md",
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+      "transformed": false
+    },
+    {
+      "bytes": 113154,
+      "original_sha256": "a0cafdeb3cc643780d93e2083f77bcbb41e7a3cbe40387078c0dde11332f3137",
+      "path": "docs/packaging/dependencies.json",
+      "sha256": "a0cafdeb3cc643780d93e2083f77bcbb41e7a3cbe40387078c0dde11332f3137",
+      "transformed": false
+    },
+    {
+      "bytes": 1307,
+      "original_sha256": "0dc8a5c7156090574c3c84831a8a13d053e66dc81a68f9c04fb5723bfc6109af",
+      "path": "docs/packaging/policy.json",
+      "sha256": "0dc8a5c7156090574c3c84831a8a13d053e66dc81a68f9c04fb5723bfc6109af",
+      "transformed": false
+    },
+    {
+      "bytes": 6891,
+      "original_sha256": "66f79dba0cd927acc59da05dab87d5dce5584449fabe10174ecb511acc946826",
+      "path": "docs/packaging/release.md",
+      "sha256": "66f79dba0cd927acc59da05dab87d5dce5584449fabe10174ecb511acc946826",
+      "transformed": false
+    },
+    {
+      "bytes": 23510,
+      "original_sha256": "71cd96bd551b6c37d987b5a69b7af0eb2271a5dcae87d81658c13d71c4929a57",
+      "path": "docs/plans/laip-execution.md",
+      "sha256": "71cd96bd551b6c37d987b5a69b7af0eb2271a5dcae87d81658c13d71c4929a57",
+      "transformed": false
+    },
+    {
+      "bytes": 10698,
+      "original_sha256": "4c8ac8b456eb0fe1405a362f28cf40912fe12adeb792e79106833dda8c08df0f",
+      "path": "docs/plans/laip-product-packaging.md",
+      "sha256": "4c8ac8b456eb0fe1405a362f28cf40912fe12adeb792e79106833dda8c08df0f",
+      "transformed": false
+    },
+    {
+      "bytes": 915,
+      "original_sha256": "84c22a152ec3049f7b0eb3b7954cbc221fc47db95176cbe23ce58c26ba704405",
+      "path": "docs/private-validation.md",
+      "sha256": "84c22a152ec3049f7b0eb3b7954cbc221fc47db95176cbe23ce58c26ba704405",
+      "transformed": false
+    },
+    {
+      "bytes": 15846,
+      "original_sha256": "991e69ad8cc707948de3969c90f19e1c7110ccfa724641a6f3b00c5ecec79acf",
+      "path": "docs/rea-assessment.md",
+      "sha256": "991e69ad8cc707948de3969c90f19e1c7110ccfa724641a6f3b00c5ecec79acf",
+      "transformed": false
+    },
+    {
+      "bytes": 1834,
+      "original_sha256": "7e8e127faf969aaae7ada4618070e0422e7541557ea78115cde717708a26e42a",
+      "path": "docs/rpgle-parser-decision.md",
+      "sha256": "7e8e127faf969aaae7ada4618070e0422e7541557ea78115cde717708a26e42a",
+      "transformed": false
+    },
+    {
+      "bytes": 2543,
+      "original_sha256": "ac053a064fb0f5951476880e91be344f780bc81b68801d4eda7a8dc137fc554c",
+      "path": "docs/validation/README.md",
+      "sha256": "ac053a064fb0f5951476880e91be344f780bc81b68801d4eda7a8dc137fc554c",
+      "transformed": false
+    },
+    {
+      "bytes": 1991,
+      "original_sha256": "f759fc6138f3124139c93c6c5df6733bacef553115f3eea57bbbac07d57d2795",
+      "path": "docs/validation/ui-refresh/README.md",
+      "sha256": "f759fc6138f3124139c93c6c5df6733bacef553115f3eea57bbbac07d57d2795",
+      "transformed": false
+    },
+    {
+      "bytes": 69260,
+      "original_sha256": "4fcca1c082763985653b47ece45564901e6da3f999c8144da092b0b73d43e57f",
+      "path": "docs/validation/ui-refresh/evidence-desktop.jpg",
+      "sha256": "4fcca1c082763985653b47ece45564901e6da3f999c8144da092b0b73d43e57f",
+      "transformed": false
+    },
+    {
+      "bytes": 67837,
+      "original_sha256": "29e01fef2620af8f0526a7987ef07c99dacc22d4681cec8c5c5db3f8de0747f2",
+      "path": "docs/validation/ui-refresh/inventory-desktop.jpg",
+      "sha256": "29e01fef2620af8f0526a7987ef07c99dacc22d4681cec8c5c5db3f8de0747f2",
+      "transformed": false
+    },
+    {
+      "bytes": 63731,
+      "original_sha256": "fdae0017412be3e6f4861c65407a81a130c5d72c6faa130a4e5de451ed65827d",
+      "path": "docs/validation/ui-refresh/overview-desktop.jpg",
+      "sha256": "fdae0017412be3e6f4861c65407a81a130c5d72c6faa130a4e5de451ed65827d",
+      "transformed": false
+    },
+    {
+      "bytes": 33522,
+      "original_sha256": "44f2fc57b5c9b0ee96a02f303991a0fb864a711c619f15477cacf5063736aa30",
+      "path": "docs/validation/ui-refresh/overview-mobile.jpg",
+      "sha256": "44f2fc57b5c9b0ee96a02f303991a0fb864a711c619f15477cacf5063736aa30",
+      "transformed": false
+    },
+    {
+      "bytes": 56683,
+      "original_sha256": "a3cd73ab6ded59b82d33e0272befa01d9f43c87fa72dce52c385c269e2cb46d3",
+      "path": "docs/validation/ui-refresh/rules-desktop.jpg",
+      "sha256": "a3cd73ab6ded59b82d33e0272befa01d9f43c87fa72dce52c385c269e2cb46d3",
+      "transformed": false
+    },
+    {
+      "bytes": 63356,
+      "original_sha256": "b6c14eafaab1e45d4e0b970ae6f3dba4c942b64c87bc61b90ab387c6aea095cf",
+      "path": "docs/validation/ui-refresh/source-desktop.jpg",
+      "sha256": "b6c14eafaab1e45d4e0b970ae6f3dba4c942b64c87bc61b90ab387c6aea095cf",
+      "transformed": false
+    },
+    {
+      "bytes": 5062,
+      "original_sha256": "66ad4cc06196767f6aefccd21b82552005850b6c015f9dfe8e2c61ed56bc226f",
+      "path": "scripts/analyst_smoke.py",
+      "sha256": "66ad4cc06196767f6aefccd21b82552005850b6c015f9dfe8e2c61ed56bc226f",
+      "transformed": false
+    },
+    {
+      "bytes": 3155,
+      "original_sha256": "ba7d1be0ed4cec1bc7566919bed88747a0da29cfa07fe0e6d77cdb3cfb42af9b",
+      "path": "scripts/check_docs.py",
+      "sha256": "ba7d1be0ed4cec1bc7566919bed88747a0da29cfa07fe0e6d77cdb3cfb42af9b",
+      "transformed": false
+    },
+    {
+      "bytes": 5431,
+      "original_sha256": "33c9926fdda25077fc2be57c1177b5a1ecbb1d191dee2faf4e83cc9f9e8c679a",
+      "path": "scripts/generate_api_types.py",
+      "sha256": "33c9926fdda25077fc2be57c1177b5a1ecbb1d191dee2faf4e83cc9f9e8c679a",
+      "transformed": false
+    },
+    {
+      "bytes": 1312,
+      "original_sha256": "ed7e79cb058dab243df5e0deca43f3ed423f363b8f4ea26acb167f5a783fc32c",
+      "path": "scripts/init_local.py",
+      "sha256": "ed7e79cb058dab243df5e0deca43f3ed423f363b8f4ea26acb167f5a783fc32c",
+      "transformed": false
+    },
+    {
+      "bytes": 7822,
+      "original_sha256": "f00bb62ca1559241873bcc6fae281344ac0c2bf07c8c0e210f9b839ee3c6fd48",
+      "path": "scripts/package_release.py",
+      "sha256": "f00bb62ca1559241873bcc6fae281344ac0c2bf07c8c0e210f9b839ee3c6fd48",
+      "transformed": false
+    },
+    {
+      "bytes": 1484,
+      "original_sha256": "c0b9b5183c53af97a82047ff8a0d180c66497aa7a549fbdba25bfca0e684ff9c",
+      "path": "scripts/smoke.py",
+      "sha256": "c0b9b5183c53af97a82047ff8a0d180c66497aa7a549fbdba25bfca0e684ff9c",
+      "transformed": false
+    },
+    {
+      "bytes": 9324,
+      "original_sha256": "13618f0d311d31ce815a2bc5d58214885a7afae8fa4a36d46c3c9e0866ef2ff9",
+      "path": "scripts/test_banking.py",
+      "sha256": "13618f0d311d31ce815a2bc5d58214885a7afae8fa4a36d46c3c9e0866ef2ff9",
+      "transformed": false
+    },
+    {
+      "bytes": 7869,
+      "original_sha256": "6137542368755ceac2f7f71beb565ef0c140b25883981561fd4d21576f7def14",
+      "path": "scripts/test_import.py",
+      "sha256": "6137542368755ceac2f7f71beb565ef0c140b25883981561fd4d21576f7def14",
+      "transformed": false
+    },
+    {
+      "bytes": 6440,
+      "original_sha256": "b48c4174ef12f2a3be04f9bf53e39eb4ed91cdfb477982998d5fb8a97c29e2c3",
+      "path": "scripts/test_rea.py",
+      "sha256": "b48c4174ef12f2a3be04f9bf53e39eb4ed91cdfb477982998d5fb8a97c29e2c3",
+      "transformed": false
+    },
+    {
+      "bytes": 8979,
+      "original_sha256": "3a449507bb2d73a17764fe1da200b84331be11d011026a1c8ae234b2294a8ff4",
+      "path": "scripts/test_restart.py",
+      "sha256": "3a449507bb2d73a17764fe1da200b84331be11d011026a1c8ae234b2294a8ff4",
+      "transformed": false
+    },
+    {
+      "bytes": 1402,
+      "original_sha256": "0e453b79bb199bbc92ca33e04595e613c64a62c3f601df4eff9a36acd05f8437",
+      "path": "scripts/verify_compose.py",
+      "sha256": "0e453b79bb199bbc92ca33e04595e613c64a62c3f601df4eff9a36acd05f8437",
+      "transformed": false
+    },
+    {
+      "bytes": 55,
+      "original_sha256": "1f14a18942d63d6d8331167695d076e65e968eb5375e63631719fc312ea5711a",
+      "path": "web/.dockerignore",
+      "sha256": "1f14a18942d63d6d8331167695d076e65e968eb5375e63631719fc312ea5711a",
+      "transformed": false
+    },
+    {
+      "bytes": 641,
+      "original_sha256": "32176236caf984ee1b641418462e725d896d7b60a99cb90ddcd2502d7609b61a",
+      "path": "web/Dockerfile",
+      "sha256": "32176236caf984ee1b641418462e725d896d7b60a99cb90ddcd2502d7609b61a",
+      "transformed": false
+    },
+    {
+      "bytes": 288,
+      "original_sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+      "path": "web/next-env.d.ts",
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+      "transformed": false
+    },
+    {
+      "bytes": 608,
+      "original_sha256": "f743cdd33589009098e0add4c843e3ce2f3b76ffc3f23101d3069c4e75d0c2ad",
+      "path": "web/next.config.ts",
+      "sha256": "f743cdd33589009098e0add4c843e3ce2f3b76ffc3f23101d3069c4e75d0c2ad",
+      "transformed": false
+    },
+    {
+      "bytes": 67966,
+      "original_sha256": "0e35f0e5a2fc7fc45d449d9a05223f2f497717bec7a388c56304b396ddf437e4",
+      "path": "web/package-lock.json",
+      "sha256": "0e35f0e5a2fc7fc45d449d9a05223f2f497717bec7a388c56304b396ddf437e4",
+      "transformed": false
+    },
+    {
+      "bytes": 694,
+      "original_sha256": "7f60f935e370a11c9ef0d940882c3bb9255542a6fafec065c9cc41bc5ff87f59",
+      "path": "web/package.json",
+      "sha256": "7f60f935e370a11c9ef0d940882c3bb9255542a6fafec065c9cc41bc5ff87f59",
+      "transformed": false
+    },
+    {
+      "bytes": 60,
+      "original_sha256": "a1a188221f064d964dd9958c3d48b0c23252fabbeb6099d95ee8e15c764718b0",
+      "path": "web/postcss.config.mjs",
+      "sha256": "a1a188221f064d964dd9958c3d48b0c23252fabbeb6099d95ee8e15c764718b0",
+      "transformed": false
+    },
+    {
+      "bytes": 25380,
+      "original_sha256": "9f792f0383cbd8343624af036dd72d61117c95456742e52da5b56f5c59e8c25e",
+      "path": "web/src/app/analyst.tsx",
+      "sha256": "9f792f0383cbd8343624af036dd72d61117c95456742e52da5b56f5c59e8c25e",
+      "transformed": false
+    },
+    {
+      "bytes": 3790,
+      "original_sha256": "6798096953dd9ef2f98d7fd85541f20b5a34a27b8fdff09d567b2c0694ca5e7d",
+      "path": "web/src/app/api/analyst/[...path]/route.ts",
+      "sha256": "6798096953dd9ef2f98d7fd85541f20b5a34a27b8fdff09d567b2c0694ca5e7d",
+      "transformed": false
+    },
+    {
+      "bytes": 131,
+      "original_sha256": "d350e47b97619d84a712bdbc721beda4df0c235ed6de32ff8fc7bd5a174f4be0",
+      "path": "web/src/app/api/health/live/route.ts",
+      "sha256": "d350e47b97619d84a712bdbc721beda4df0c235ed6de32ff8fc7bd5a174f4be0",
+      "transformed": false
+    },
+    {
+      "bytes": 294,
+      "original_sha256": "c37c60832fa8dfbb315a23535d6729e49ab26175d73886f4e00ef5cb6cb104e5",
+      "path": "web/src/app/api/health/ready/route.ts",
+      "sha256": "c37c60832fa8dfbb315a23535d6729e49ab26175d73886f4e00ef5cb6cb104e5",
+      "transformed": false
+    },
+    {
+      "bytes": 13330,
+      "original_sha256": "005e4c5ca96f4deb147181506360d134e749448ea17d204ee72e537677dc70a8",
+      "path": "web/src/app/globals.css",
+      "sha256": "005e4c5ca96f4deb147181506360d134e749448ea17d204ee72e537677dc70a8",
+      "transformed": false
+    },
+    {
+      "bytes": 410,
+      "original_sha256": "9fdb8cf4a837c94255fa033e2daf84ccb88a58340d96865854e32d26ee31d565",
+      "path": "web/src/app/layout.tsx",
+      "sha256": "9fdb8cf4a837c94255fa033e2daf84ccb88a58340d96865854e32d26ee31d565",
+      "transformed": false
+    },
+    {
+      "bytes": 84,
+      "original_sha256": "83c4c935703f378c970df161655670b43305e7d2b460ecf92eaa4cfb23525c11",
+      "path": "web/src/app/page.tsx",
+      "sha256": "83c4c935703f378c970df161655670b43305e7d2b460ecf92eaa4cfb23525c11",
+      "transformed": false
+    },
+    {
+      "bytes": 2432,
+      "original_sha256": "d48b18d5214dc4f6d3c2142abce1e7e2296e25de7df86c6bd4e571d46107f1c7",
+      "path": "web/src/lib/analyst-policy.ts",
+      "sha256": "d48b18d5214dc4f6d3c2142abce1e7e2296e25de7df86c6bd4e571d46107f1c7",
+      "transformed": false
+    },
+    {
+      "bytes": 1012,
+      "original_sha256": "9af4cce9f545f69d4bba31081fc8d8f94ebfb722940dedaf59a32ee02ac5e284",
+      "path": "web/src/lib/backend.ts",
+      "sha256": "9af4cce9f545f69d4bba31081fc8d8f94ebfb722940dedaf59a32ee02ac5e284",
+      "transformed": false
+    },
+    {
+      "bytes": 26058,
+      "original_sha256": "10eae9c16b4a3ceaccf8c5163de433f7aec6c066cba5a6b1b18f99f35d4499e5",
+      "path": "web/src/lib/generated-api.ts",
+      "sha256": "10eae9c16b4a3ceaccf8c5163de433f7aec6c066cba5a6b1b18f99f35d4499e5",
+      "transformed": false
+    },
+    {
+      "bytes": 1526,
+      "original_sha256": "48a8b1ebe1cddea8a7cf785f666356731c6dd2517ae7029a7bfe1011c72cd66c",
+      "path": "web/src/lib/runtime.ts",
+      "sha256": "48a8b1ebe1cddea8a7cf785f666356731c6dd2517ae7029a7bfe1011c72cd66c",
+      "transformed": false
+    },
+    {
+      "bytes": 2476,
+      "original_sha256": "eb2c7bf1ad18bf1101a68d14a0bfa1730a0eda0d0163e741e907fedc268862fb",
+      "path": "web/tests/analyst.test.mjs",
+      "sha256": "eb2c7bf1ad18bf1101a68d14a0bfa1730a0eda0d0163e741e907fedc268862fb",
+      "transformed": false
+    },
+    {
+      "bytes": 1201,
+      "original_sha256": "53668c0c9c149693ee87a087bda9e8a9981f982b610374fe01f39f4e44b8fbcd",
+      "path": "web/tests/runtime.test.mjs",
+      "sha256": "53668c0c9c149693ee87a087bda9e8a9981f982b610374fe01f39f4e44b8fbcd",
+      "transformed": false
+    },
+    {
+      "bytes": 639,
+      "original_sha256": "45fd26769ac1a8f0b8741099674b71e00846b9f97ce1b7cb7afb98c7922ce7f0",
+      "path": "web/tsconfig.json",
+      "sha256": "45fd26769ac1a8f0b8741099674b71e00846b9f97ce1b7cb7afb98c7922ce7f0",
+      "transformed": false
+    }
+  ],
+  "format": "LAIP public source candidate",
+  "policy_sha256": "0dc8a5c7156090574c3c84831a8a13d053e66dc81a68f9c04fb5723bfc6109af",
+  "projection": "Markdown local links normalized; optional media links redirected to demo.md; withheld links redirected to private-validation.md; home paths replaced by /path/to/user.",
+  "schema_version": "1.0.0"
+}

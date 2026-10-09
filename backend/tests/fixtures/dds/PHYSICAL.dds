@@ -1,0 +1,5 @@
+     A                                      UNIQUE                              
+     A          R CUSTOMER                                                      
+     A            ID             5P         RANGE(1 99999)                      
+     A            NAME          20A         TEXT('Customer''s name')            
+     A          K ID                                                            

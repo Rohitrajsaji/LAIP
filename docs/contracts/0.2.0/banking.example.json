@@ -1,0 +1,162 @@
+{
+  "record_format": {
+    "schema_version": "0.2.0",
+    "entity_id": "ent_10650d04856e55aaf9c895bbba337c2db683d02a44f32e2f3937d678d13131e5",
+    "identity": {
+      "system_namespace": "synthetic:customer-demo",
+      "kind": "RecordFormat",
+      "qualified_identity": [
+        "UPLOAD",
+        "*FILE",
+        "ACCT_DSPF",
+        "SFLRCD"
+      ]
+    },
+    "display_name": "SFLRCD",
+    "original_names": [
+      "Synthetic customer demo"
+    ],
+    "aliases": [],
+    "parent_id": null,
+    "source_availability": "not_applicable",
+    "analysis_status": "not_analyzed",
+    "attributes": {},
+    "evidence_ids": [
+      "ev_dc144c151695627f58d31445314390d5723dd96467dd71d1879cc3acaaee3aac"
+    ]
+  },
+  "source_rule": {
+    "schema_version": "0.2.0",
+    "rule_entity_id": "ent_4c3bd53614d2a7753bab62dc6c8a7eff4f4d86f8837332cd52ee3417d2f948d3",
+    "previous_revision_id": null,
+    "run_id": "run_fixture_001",
+    "application_entity_ids": [
+      "ent_13462a5b5df2ec29225945134f9b1a6e15fc75ae3854d2e789c73e6f2586399c"
+    ],
+    "program_entity_ids": [],
+    "procedure_entity_ids": [
+      "ent_f550caed4561dcf0114e06bd60b96b851c7e76995e7075917e90be612cd748c3"
+    ],
+    "name": "Account status determination",
+    "description": "The supplied source assigns INACTIVE when CustomerBalance is below 1000.",
+    "conditions": [
+      {
+        "node": "operator",
+        "value": {
+          "operator": "<",
+          "operands": [
+            {
+              "reference": "CustomerBalance"
+            },
+            {
+              "literal": 1000
+            }
+          ]
+        },
+        "source_locations": [
+          {
+            "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+            "start_line": 2,
+            "start_column": 1,
+            "end_line": 4,
+            "end_column": 7,
+            "byte_start": 8,
+            "byte_end": 71,
+            "coordinate_space": "decoded_unicode_codepoints",
+            "origin_map_id": "map_fixture_utf8"
+          }
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "node": "operator",
+        "value": {
+          "operator": "assign",
+          "target": "AccountStatus",
+          "literal": "INACTIVE"
+        },
+        "source_locations": [
+          {
+            "artifact_id": "art_385e43cd7fc6069d51e59f2cdaad3149aab4d380e468e397708677f5d5764ff9",
+            "start_line": 2,
+            "start_column": 1,
+            "end_line": 4,
+            "end_column": 7,
+            "byte_start": 8,
+            "byte_end": 71,
+            "coordinate_space": "decoded_unicode_codepoints",
+            "origin_map_id": "map_fixture_utf8"
+          }
+        ]
+      }
+    ],
+    "classification": "inferred",
+    "interpretation_method": "deterministic",
+    "evidence_ids": [
+      "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250"
+    ],
+    "support_fingerprint": "92385be3003b15b14628674b72480e55f52f5e3179ba3e4b5bf50014c8caf249",
+    "limitations": [
+      "No source-to-live-object equivalence or runtime execution verified."
+    ],
+    "created_at": "2026-10-07T10:00:00Z",
+    "revision_id": "rev_42da81c4be05a5fc540fcb766c1116b49fe4ab5851c2d3403daa5647f9fb31e0",
+    "subject_entity_ids": [
+      "ent_10650d04856e55aaf9c895bbba337c2db683d02a44f32e2f3937d678d13131e5"
+    ],
+    "claim_support": {
+      "support_schema_version": "0.2.0",
+      "state": "supported_within_profile",
+      "profile_id": "ibmi-dds-bounded",
+      "profile_version": "0.2.0",
+      "subject_entity_ids": [
+        "ent_10650d04856e55aaf9c895bbba337c2db683d02a44f32e2f3937d678d13131e5"
+      ],
+      "evidence_ids": [
+        "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250"
+      ],
+      "controlling_predicates": [],
+      "symbol_dependencies": [],
+      "effect_dependencies": [],
+      "resolution_decisions": [],
+      "barriers": [],
+      "limitations": []
+    }
+  },
+  "fact_bundle": {
+    "fact_schema_version": "0.2.0",
+    "system_namespace": "synthetic:customer-demo",
+    "run_id": "run_fixture_001",
+    "artifact_id": "test-artifact",
+    "provider": {
+      "id": "fixture.rpgle",
+      "version": "0.1.0",
+      "source_revision": null
+    },
+    "profile_id": "ibmi-dds-bounded",
+    "profile_version": "0.2.0",
+    "facts": [
+      {
+        "fact_id": "fact_8d9ab3e85bed9cc69df7d08e13c67da58bdc3dec1e00ec2c4b16c7950aae51da",
+        "kind": "declaration",
+        "scope_id": "SFLRCD",
+        "evidence_ids": [
+          "ev_df3bf87bf115b68f22f726a5b836688fff429ae6fe3b3183a2b82854b7eb0250"
+        ],
+        "source_locations": [],
+        "data": {
+          "name": "SFLRCD"
+        }
+      }
+    ],
+    "accounting": {
+      "supplied": 1,
+      "analyzed": 1,
+      "supported": 1,
+      "unsupported": 0,
+      "unresolved": 0,
+      "failed": 0
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "audit_inventory_sha256": "42845e43ba35d27296f8bd9b01132ec5182a2641742cb4510c53585b87b53f60",
+  "exclude_private_subset": [
+    "backend/tests/test_banking_acceptance.py",
+    "backend/tests/test_banking_dds.py",
+    "backend/tests/test_banking_rpgle.py",
+    "backend/tests/test_banking_publication.py",
+    "backend/tests/test_banking_rules.py",
+    "backend/tests/test_banking_projections.py",
+    "backend/tests/test_banking_workflow_security.py",
+    "backend/tests/test_banking_recovery.py",
+    "backend/tests/test_banking_negative_jobs.py",
+    "backend/tests/fixtures/banking/manifest.json",
+    "backend/tests/fixtures/banking/oracle.json",
+    "scripts/test_banking.py",
+    "backend/src/laip/banking_corpus.py",
+    "docs/validation/banking/coverage.jpg",
+    "docs/validation/banking/export.jpg",
+    "docs/laip-banking-browser-validation.md",
+    "docs/laip-banking-extraction-validation.md",
+    "docs/laip-banking-semantics-sources.md",
+    "docs/plans/laip-banking-extraction-fix.md",
+    "docs/plans/laip-banking-extraction-orchestration.md"
+  ],
+  "purpose": "Public source packaging only; preserve excluded material in the local development workspace.",
+  "retain_helpers": [
+    "backend/src/laip/banking_corpus.py",
+    "scripts/test_banking.py"
+  ],
+  "schema_version": "1.0.0"
+}
